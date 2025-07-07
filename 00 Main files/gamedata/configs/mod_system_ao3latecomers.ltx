@@ -379,8 +379,111 @@ visual			= dynamics\weapons\wpn_ak12\wpn_ak12_eot.ogf
 
 [wpn_ak15_eot_hud]:wpn_ak12_eot_hud
 
+
 ;------------------------------------------------------------------------------------------------
-;--------------------------------------Beretta 96---------------------------------------------
+;--------------------------------------------AR-15-----------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_snd_shoot]
+snd_1_layer                                        = weapons\m16\ar15_fire
+
+[wpn_ar15]:wpn_m16
+$spawn                                   = "weapons\wpn_ar15"
+parent_section                           = wpn_ar15
+
+inv_name                                 = st_wpn_ar15
+inv_name_short                           = st_wpn_ar15
+description                              = st_wpn_ar15_descr
+
+inv_weight                               = 2.88
+cost                                     = 6400
+
+hud                                      = wpn_ar15_hud
+
+fire_modes                               = 1
+
+hit_impulse                              = 22
+hit_power                                = 0.45, 0.45, 0.45, 0.45
+fire_distance                            = 500
+rpm                                      = 400
+
+; control_inertion_factor                  = 1.2f
+; crosshair_inertion                       = 5.25
+; fire_dispersion_base                     = 0.14
+; fire_dispersion_condition_factor         = 2
+
+; cam_return                               = 0
+; cam_relax_speed                          = 5
+; cam_dispersion                           = 0.706
+; cam_dispersion_frac                      = 0.7
+; cam_dispersion_inc                       = 0.85
+; cam_max_angle                            = 50.0
+; cam_max_angle_horz                       = 10.0
+; cam_step_angle_horz                      = 3.0
+; zoom_cam_relax_speed                     = 5
+; zoom_cam_dispersion                      = 0.6
+; zoom_cam_dispersion_frac                 = 1.0
+; zoom_cam_dispersion_inc                  = 0.2
+; zoom_cam_max_angle                       = 50.0
+; zoom_cam_max_angle_horz                  = 10.0
+; zoom_cam_step_angle_horz                 = 2
+
+; PDM_disp_accel_factor                    = 2.0
+; PDM_disp_base                            = 0.5
+; PDM_disp_crouch                          = 1.0
+; PDM_disp_crouch_no_acc                   = 1.0
+; PDM_disp_vel_factor                      = 2.0
+
+snd_shoot                                = wpn_ar15_snd_shoot
+
+[wpn_ar15_hud]:wpn_m16_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_ac10632]:wpn_ar15
+1icon_layer                              = ac10632
+1icon_layer_x                            = 75
+1icon_layer_y                            = -7
+
+inv_weight                               = 3.13
+
+hud                                      = wpn_ar15_ac10632_hud
+visual                                   = dynamics\weapons\wpn_m16\wpn_m16_ac10632.ogf
+
+[wpn_ar15_ac10632_hud]:wpn_m16_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_acog]:wpn_ar15
+1icon_layer                              = acog
+1icon_layer_x                            = 70
+1icon_layer_y                            = -4
+
+inv_weight                               = 3.23
+
+hud                                      = wpn_ar15_acog_hud
+visual                                   = dynamics\weapons\wpn_m16\wpn_m16_acog.ogf
+
+scope_status                             = 0
+scope_zoom_factor                        = 20
+
+zoom_rotate_time                         = 0.25
+
+[wpn_ar15_acog_hud]:wpn_m16_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_eot]:wpn_ar15
+1icon_layer                              = eot
+1icon_layer_x                            = 72
+1icon_layer_y                            = -2
+
+inv_weight                               = 3.18
+
+hud                                      = wpn_ar15_eot_hud
+visual                                   = dynamics\weapons\wpn_m16\wpn_m16_eot.ogf
+
+[wpn_ar15_eot_hud]:wpn_m16_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Beretta 96-----------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_beretta96]:wpn_beretta
 $spawn			= "weapons\wpn_beretta96"
@@ -763,7 +866,6 @@ fire_distance                    = 800
 bullet_speed                     = 810
 rpm                              = 800
 
-time_to_aim                      = 2.0
 control_inertion_factor          = 1.2f
 crosshair_inertion               = 5.25
 fire_dispersion_base             = 0.18

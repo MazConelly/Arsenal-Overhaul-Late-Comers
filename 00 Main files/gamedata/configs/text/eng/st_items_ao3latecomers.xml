@@ -92,11 +92,21 @@
 		</text>
 	</string>
 
+    <string id="st_wpn_ar15">
+        <text>AR-15</text>
+    </string>
+    <string id="st_wpn_ar15_descr">
+        <text>The AR-15 is a 5.56x45 semi-automatic version of the M4 assault rifle marketed to civilians. Can mount a suppressor and optics, but not a grenade launcher.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] NATO suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
+    </string>
+
     <string id="st_wpn_beretta96">
         <text>Beretta 96</text>
     </string>
     <string id="st_wpn_beretta96_descr">
-        <text>The Beretta 96 pistol is a variant of the popular 9x19mm Beretta 92 pistol, with this variant chambered in .40 S&amp;W. It features the same large magazine capacity and performs similar to its 9mm cousin, making it a popular sidearm among stalkers.\n
+        <text>The Beretta 96 pistol is a variant of the popular 9x19mm Beretta 92 pistol, chambered in .40 S&amp;W. It features the same large magazine capacity and performs similar to its 9mm cousin, making it a popular sidearm among stalkers.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
@@ -189,7 +199,7 @@
         <text>Barrett REC7</text>
     </string>
     <string id="st_wpn_m4_brec7_descr">
-        <text>An M16 rifle rechambered for the more powerful 6.8x43 SPC round and fires in semi-automatic and full automatic firemodes, boosting higher firepower then its 5.56x45mm variant but higher recoil due to its larger round.\n
+        <text>Based on the M16 rifle, this weapon fires the more powerful 6.8x43 SPC round and fires in semi-automatic and full automatic firemodes, boosting higher firepower then its 5.56x45mm variant but higher recoil due to its larger round.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
@@ -224,7 +234,7 @@
         <text>MP5/10</text>
     </string>
     <string id="st_wpn_mp5_10_descr">
-        <text>MP5 chambered in 10mm Auto. The MP5/10 was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this arrived to the zone.\n
+        <text>MP5 chambered in 10mm Auto. The MP5/10 was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
@@ -245,7 +255,7 @@
     </string>
 
     <string id="st_wpn_ump40">
-        <text>H&amp;K UMP-40</text>
+        <text>UMP40</text>
     </string>
     <string id="st_wpn_ump40_descr">
         <text>The H&amp;K UMP (Universal Machine Pistol) .40 is a variant of the UMP-45 chambered in .40 S&amp;W, with less weight and higher magazine capacity but doing less damage than its predecessor due to its smaller round.\n
