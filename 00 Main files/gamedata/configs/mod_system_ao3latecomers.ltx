@@ -395,7 +395,7 @@ inv_name_short                           = st_wpn_ar15
 description                              = st_wpn_ar15_descr
 
 inv_weight                               = 2.88
-cost                                     = 6400
+cost                                     = 29690
 
 hud                                      = wpn_ar15_hud
 
@@ -480,7 +480,6 @@ hud                                      = wpn_ar15_eot_hud
 visual                                   = dynamics\weapons\wpn_m16\wpn_m16_eot.ogf
 
 [wpn_ar15_eot_hud]:wpn_m16_eot_hud
-
 
 ;------------------------------------------------------------------------------------------------
 ;--------------------------------------Beretta 96-----------------------------------------------
@@ -596,9 +595,55 @@ rpm				= 248
 snd_shoot		= wpn_cz75_40_snd_shoot
 snd_silncer_shot= wpn_cz75_40_snd_silncer_shot
 
+;------------------------------------------------------------------------------------------------
+;--------------------------------------FNP 40---------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_fnp40_snd_shoot]
+snd_1_layer				= weapons\fnp\fnp40_fire
+[wpn_fnp40_snd_silncer_shot]
+snd_1_layer				= weapons\fnp\fnp40_suppressed
+
+[wpn_fnp40]:wpn_fnp45
+$spawn					= "weapons\fnp40"
+parent_section			= wpn_fnp40
+
+inv_name				= st_wpn_fnp40
+inv_name_short			= st_wpn_fnp40
+description				= st_wpn_fnp40_descr
+
+inv_weight				= 0.757
+cost					= 14460
+
+ammo_class				= ammo_10x22_fmj, ammo_10x22_hp
+ammo_elapsed			= 14
+ammo_mag_size			= 14
+
+silencer_name			= wpn_sil_gemtech ; wpn_sil_10
+
+hit_impulse				= 95
+hit_power				= 0.8
+fire_distance			= 50
+bullet_speed			= 360
+rpm						= 328
+
+fire_dispersion_base	= 0.36
+
+; cam_return			= 0
+; cam_relax_speed		= 8
+; cam_dispersion		= 1.5
+; cam_dispersion_frac	= 1.0
+; cam_dispersion_inc	= 1.2
+; cam_max_angle			= 5.0
+; cam_max_angle_horz	= 5.0
+; cam_step_angle_horz	= 1.0
+zoom_cam_dispersion		= 1
+
+snd_shoot				= wpn_fnp40_snd_shoot
+snd_silncer_shot		= wpn_fnp40_snd_silncer_shot
+
 
 ;------------------------------------------------------------------------------------------------
-;--------------------------------------GLOCK 20, 35---------------------------------------------
+;--------------------------------------GLOCK 20-------------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_glock20]:wpn_glock
 parent_section              = wpn_glock20
@@ -628,6 +673,10 @@ fire_dispersion_base        = 0.31
 cam_dispersion              = 1.4
 zoom_cam_dispersion         = 1.1
 
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 21--------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
 [wpn_glock21]:wpn_glock
 parent_section              = wpn_glock21
 $spawn						= "weapons\wpn_glock21"
@@ -656,6 +705,10 @@ fire_dispersion_base        = 0.5
 
 cam_dispersion              = 2.4
 zoom_cam_dispersion         = 1.8
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 35-------------------------------------------------
+;------------------------------------------------------------------------------------------------
 
 [wpn_glock35]:wpn_glock
 parent_section              = wpn_glock35
@@ -1156,6 +1209,7 @@ ammo_class			= ammo_10x25_fmj, ammo_10x25_hp
 
 hit_impulse			= 24
 hit_power			= 0.57, 0.57, 0.57, 0.57
+fire_distance		= 195
 bullet_speed		= 427
 
 snd_shoot			= wpn_mp5_10_snd_shoot
@@ -1327,7 +1381,7 @@ silencer_name	= wpn_sil_gemtech ; wpn_addon_silencer10
 
 hit_impulse		= 40
 hit_power		= 0.51, 0.51, 0.51, 0.51
-fire_distance	= 75
+fire_distance	= 125
 bullet_speed	= 350
 rpm				= 650
 
@@ -1397,3 +1451,152 @@ hud				= wpn_ump40_eot_hud
 visual			= dynamics\weapons\wpn_ump45\wpn_ump45_eot.ogf
 
 [wpn_ump40_eot_hud]:wpn_ump45_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------USP 10------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_usp10_snd_shoot]
+snd_1_layer					= weapons\usp\usp10_shoot
+[wpn_usp10_snd_silncer_shot]
+snd_1_layer					= weapons\usp\usp10_suppressed
+
+[wpn_usp10]:wpn_usp
+parent_section              = wpn_usp10
+$spawn                      = "weapons\usp10"
+
+inv_name                    = st_wpn_usp10
+inv_name_short              = st_wpn_usp10
+description                 = st_wpn_usp10_descr
+
+cost                        = 10960
+
+ammo_class                  = ammo_10x25_fmj, ammo_10x25_hp
+ammo_mag_size               = 12
+
+silencer_name               = wpn_sil_gemtech ; wpn_sil_10
+
+hit_impulse                 = 35
+hit_power                   = 0.50, 0.50, 0.50, 0.50
+fire_distance               = 90
+bullet_speed                = 110
+rpm                         = 250
+rpm_empty_click             = 280
+
+fire_dispersion_base        = 0.40
+
+snd_shoot                   = wpn_usp10_snd_shoot
+snd_silncer_shot            = wpn_usp10_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------USP 40------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_usp40_snd_shoot]
+snd_1_layer					= weapons\usp\usp40_shoot
+[wpn_usp40_snd_silncer_shot]
+snd_1_layer					= weapons\usp\usp40_suppressed
+
+[wpn_usp40]:wpn_usp
+parent_section              = wpn_usp40
+$spawn                      = "weapons\usp40"
+
+inv_name                    = st_wpn_usp40
+inv_name_short              = st_wpn_usp40
+description                 = st_wpn_usp40_descr
+
+inv_weight                  = 0.748
+cost                        = 10160
+
+ammo_class                  = ammo_10x22_fmj, ammo_10x22_hp
+ammo_elapsed                = 13
+ammo_mag_size               = 13
+
+silencer_name               = wpn_sil_gemtech ; wpn_sil_10
+
+hit_impulse                 = 30
+hit_power                   = 0.45, 0.45, 0.45, 0.45
+fire_distance               = 125
+bullet_speed                = 320
+rpm                         = 300
+
+fire_dispersion_base        = 0.35
+
+cam_dispersion              = 1.4
+cam_dispersion_frac         = 1.0
+cam_dispersion_inc          = 1.1
+cam_max_angle               = 5.0
+cam_max_angle_horz          = 5.0
+cam_relax_speed             = 8
+cam_return                  = 0
+cam_step_angle_horz         = 1.0
+zoom_cam_dispersion         = 1.1
+zoom_cam_dispersion_frac    = 0.7
+zoom_cam_dispersion_inc     = 0.8
+zoom_cam_max_angle          = 5.0
+zoom_cam_max_angle_horz     = 10.0
+zoom_cam_relax_speed        = 10
+zoom_cam_step_angle_horz    = 1.5
+
+snd_shoot                   = wpn_usp40_snd_shoot
+snd_silncer_shot            = wpn_usp40_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+;---------------------------------------------Walther P99 40-------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_walther40_snd_shoot]
+snd_1_layer				= weapons\walther\walther40_fire
+[wpn_walther40_snd_silncer_shot]
+snd_1_layer				= weapons\usp\usp40_suppressed
+
+[wpn_walther40]:wpn_walther
+parent_section			= wpn_walther40
+$spawn					= "weapons\walther40"
+
+inv_name				= st_wpn_walther40
+inv_name_short			= st_wpn_walther40
+description				= st_wpn_walther40_descr
+
+cost					= 5890
+inv_weight				= 0.655
+
+shell_particles			= weapons\45acp
+
+ammo_class				= ammo_10x22_fmj, ammo_10x22_hp
+ammo_elapsed			= 12
+ammo_mag_size			= 12
+
+silencer_name			= wpn_sil_gemtech ; wpn_sil_10
+
+hit_impulse				= 30
+hit_power				= 0.51, 0.51, 0.51, 0.51
+fire_distance			= 100
+bullet_speed			= 350
+rpm						= 220
+
+; cam_dispersion			= 1.5
+; cam_dispersion_frac		= 1.0
+; cam_dispersion_inc		= 1.8
+; cam_max_angle				= 10.0
+; cam_max_angle_horz		= 10.0
+; cam_relax_speed			= 7
+; cam_relax_speed_ai		= 360
+; cam_return				= 0
+; cam_step_angle_horz		= 1.2
+
+; PDM_disp_accel_factor		= 1.1
+; PDM_disp_base				= 0.5
+; PDM_disp_crouch			= 1.0
+; PDM_disp_crouch_no_acc	= 1.0
+; PDM_disp_vel_factor		= 1.1
+
+; zoom_cam_dispersion		= 1.1
+; zoom_cam_dispersion_frac	= 0.7
+; zoom_cam_dispersion_inc	= 0.5
+; zoom_cam_max_angle		= 5.0
+; zoom_cam_max_angle_horz	= 10.0
+; zoom_cam_relax_speed		= 10
+; zoom_cam_relax_speed_ai	= 120.75
+; zoom_cam_step_angle_horz	= 1.5
+
+snd_shoot				= wpn_walther40_snd_shoot
+snd_silncer_shot		= wpn_walther40_snd_silncer_shot

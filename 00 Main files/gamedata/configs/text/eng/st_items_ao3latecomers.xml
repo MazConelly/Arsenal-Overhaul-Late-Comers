@@ -117,7 +117,8 @@
         <text>CZ 75 .40 S&amp;W</text>
     </string>
     <string id="st_wpn_cz75_40_descr">
-        <text>This variant of the CZ 75 is chambered in .40S&amp;W, and features an increased in stopping power and lighter weight, but its main drawbacks are an increase in recoil, and lower magazine capacity.\n
+        <text>The CZ-75 was developed in the Czech Republic by the Koucky brothers. This semi-automatic pistol first appeared in 1975, entered production in 1976 and was intended for the export market. The CZ-75 accumulated the best features from many preceding designs and the resulting pistol was aesthetically attractive, comfortable to handle, shoot, accurate and reliable in operation. Made by CZ arms in various versions and modifications, the CZ-75 was also widely copied and cloned.\n
+		This variant of the CZ 75 is chambered in .40S&amp;W, and features an increased in stopping power and lighter weight, but its main drawbacks are an increase in recoil, and lower magazine capacity.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
@@ -128,7 +129,8 @@
         <text>Colt Delta Elite</text>
     </string>
     <string id="st_wpn_coltde_descr">
-        <text>The Colt Delta Elite is a modified M1911 pistol, chambered for 10mm Auto and considered to be the first firearm to be chambered in 10mm Auto by a well-known manufacturer. It performs similar to the popular M1911 in terms of design and operation but feeds from eight-round magazines.\n
+        <text>The M1911 was the standard-issue side arm for the US military from 1911 to 1985. An extremely reliable and robust weapon, it's been adopted for military, police and civilian use around the world and remains a very popular firearm to this day.\n
+		The Colt Delta Elite is a modified M1911 pistol, chambered for 10mm Auto and considered to be the first firearm to be chambered in 10mm Auto by a well-known manufacturer. It performs similar to the popular M1911 in terms of design and operation but feeds from eight-round magazines.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
@@ -164,6 +166,19 @@
     </string>
     <string id="st_wpn_glock35_descr">
         <text>The Glock 35 is the .40 S&amp;W model of the Glock pistol series first introduced in 1990, beginning with the Glock 22. It features a slighty lower capacity compared to the Glock 19, but improves upon the accuracy and fire rate.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor \n -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
+		</text>
+    </string>
+
+    <string id="st_wpn_fnp40">
+        <text>FNP-40</text>
+    </string>
+    <string id="st_wpn_fnp40_descr">
+        <text>The FN FNP pistol is a series of semi-automatic, polymer framed pistols manufactured in Columbia, South Carolina by FNH USA, a division of Fabrique Nationale de Herstal. Debuted in early 2006, the FNP series weapons are hammer fired weapons utilizing a Browning cam system with an external extractor. The trigger module is housed inside the polymer frame as an individual unit connected to the hammer. The magazine release button is held in place by a retention pin which can be removed to allow the button to be reversed.\n 
+		The FN FNP-40 pistol is a variant of the FNP-45 chambered in .40 S&amp;W. It is notablly more accurate but features a lower damage output compared to its .45 variant.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor \n -->
@@ -234,7 +249,8 @@
         <text>MP5/10</text>
     </string>
     <string id="st_wpn_mp5_10_descr">
-        <text>MP5 chambered in 10mm Auto. The MP5/10 was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
+        <text>The MP5 is one of the most famous and wide spread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favourite of numerous military, law enforcement, intelligence and security organisations the world over. The MP5A3 is fitted with a retractable metal stock. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.\n
+		The MP5/10 us a variant chambered in 10mm Auto. It was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
@@ -258,7 +274,8 @@
         <text>UMP40</text>
     </string>
     <string id="st_wpn_ump40_descr">
-        <text>The H&amp;K UMP (Universal Machine Pistol) .40 is a variant of the UMP-45 chambered in .40 S&amp;W, with less weight and higher magazine capacity but doing less damage than its predecessor due to its smaller round.\n
+        <text>The UMP was developed by H&amp;K in the 1990s, first appearing on the market in 1999. The idea behind the UMP was to create lightweight and powerful submachine gun, that was also cheaper than the MP5. The UMP, being targeted primarily for US law enforcement, appeared in .45ACP and .40SW chamberings, and later in 9mm. Providing greater stopping power than the MP5, the UMP45 also produces more recoil. This makes controlling full automatic fire more difficult. The UMP45's cyclic rate of fire was lowered significantly to combat this problem.\n
+		The UMP-40 is a variant chambered in .40 S&amp;W, with less weight and higher magazine capacity but doing less damage than its predecessor due to its smaller round.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
@@ -266,5 +283,43 @@
 		</text>
     </string>
 
+    <string id="st_wpn_usp10">
+        <text>H&amp;K USP-10</text>
+    </string>
+    <string id="st_wpn_usp10_descr">
+        <text>Originally designed for the American market, the USP, Universal Self loading Pistol, is known as an accurate and reliable handgun. U.S. law enforcement and military provided much of the design criteria for the USP. The controls are uniquely American, influenced by famous designs like the Government Model 1911 pistol. All USPs use a fibre-reinforced polymer frame stiffened by stainless steel inserts at areas subject to stress and friction. Incorporating several successful handgun design elements, the USP Compact .45 is a part of the USP family of handguns designed by H&amp;K. Able to withstand extreme punishment and adverse conditions, it is used by several countries' police and special forces units.\n
+		A variant of the popular USP pistol series, this particular model is chambered in 10mm Auto. Similar to its .45 ACP variant, reliability and durability combined with excellent accuracy are the main features of this weapon.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
+		</text>
+    </string>
+
+    <string id="st_wpn_usp40">
+        <text>H&amp;K USP-40</text>
+    </string>
+    <string id="st_wpn_usp40_descr">
+        <text>Originally designed for the American market, the USP, Universal Self loading Pistol, is known as an accurate and reliable handgun. U.S. law enforcement and military provided much of the design criteria for the USP. The controls are uniquely American, influenced by famous designs like the Government Model 1911 pistol. All USPs use a fibre-reinforced polymer frame stiffened by stainless steel inserts at areas subject to stress and friction. Incorporating several successful handgun design elements, the USP Compact .45 is a part of the USP family of handguns designed by H&amp;K. Able to withstand extreme punishment and adverse conditions, it is used by several countries' police and special forces units.\n
+		Developed around the same time as its .45 variant, the USP-40 is chambered .40 S&amp;W rounds. Compared to its .45 ACP and 10mm Auto cousins, it features considerably lower recoil and lighter weight. Its drawbacks include its still considerable size, and lower damage output.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
+		</text>
+    </string>
+
+    <string id="st_wpn_walther40">
+        <text>Walther P99 .40 S&amp;W</text>
+    </string>
+    <string id="st_wpn_walther40_descr">
+        <text>Ergonomics being a key focus in its design, the Walther P99 is a recoil-operated pistol with a fibreglass polymer frame. Developed for law enforcement and the civilian shooting market, it's employed by police units in a number of countries.\n 
+		This is a variant chambered for the .40S&amp;W round, featuring lower recoil and slighty lower weight.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
+		</text>
+    </string>
 
 </string_table>
