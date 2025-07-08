@@ -15,6 +15,13 @@
         <text>Jacketed Hollow point .40 S&amp;W (10x22mm) rounds. The bullet fragments on impact with soft tissue maximizing tissue damage, blood loss and shock. The .40 S&amp;W round has been popular with law enforcement agencies in the United States, Canada, and Australia. While possessing nearly identical accuracy, drift and drop it is much more powerful than the 9x19 round and with more manageable recoil than the 10mm Auto.</text>
     </string>
 
+    <string id="ammo-10x22_ap">
+        <text>.40 S&amp;W AP</text>
+    </string>
+    <string id="ammo-10x22_ap_descr">
+        <text>Armor piercing .40 S&amp;W rounds.</text>
+    </string>
+
     <string id="ammo-10x25_fmj">
         <text>10mm Auto FMJ</text>
     </string>
@@ -27,6 +34,13 @@
     </string>
     <string id="ammo-10x25_hp_descr">
         <text>Jacketed hollow point 10mm Auto rounds. Provides greater stopping power than the .45 ACP round without a loss in muzzle velocity. The bullet expands on impact with soft tissue maximizing tissue damage, blood loss and shock.</text>
+    </string>
+
+    <string id="ammo-10x25_ap">
+        <text>10mm Auto JHP</text>
+    </string>
+    <string id="ammo-10x25_ap_descr">
+        <text>Armor piercing 10mm Auto rounds. It is faded, but you'd swear there's a 'FBI Property' mark on the box.</text>
     </string>
 
     <string id="ammo-6.8x43_fmj">
@@ -43,6 +57,13 @@
         <text>Short for "Super Shock Tip" the SST round is designed to deliver tremendous shock on impact while expanding quickly and reliably.</text>
     </string>
 
+    <string id="ammo-6.8x43_ap">
+        <text>6.8x43 AP</text>
+    </string>
+    <string id="ammo-6.8x43_ap_descr">
+        <text>6.8x43 armor piercing round designed for optimal body armor penetration.</text>
+    </string>
+
 	<string id="ammo-50_beowulf_jfp">
 		<text>.50 Beowulf JFP</text>
 	</string>
@@ -57,13 +78,20 @@
 		<text>Hollow point .50 Beowulf (12.7x42) rounds. The bullet framents on impact causing tremendous damage to soft tissue.</text>
 	</string>
 
+	<string id="ammo-50_beowulf_ap">
+		<text>.50 Beowulf AP</text>
+	</string>
+	<string id="ammo-50_beowulf_ap_descr">
+		<text>Armor piercing .50 Beowulf (12.7x42) rounds. Designed to kick through the plating of armored light vehicles.</text>
+	</string>
 
-<!--     <string id="st_sil_10">
+
+    <string id="st_sil_10">
         <text>10mm Suppressor</text>
     </string>
     <string id="st_sil_10_descr">
         <text>Suppressor for 10mm Auto and .40 S&amp;W pistols and sub-machine guns</text>
-    </string> -->
+    </string>
 
     <string id="st_sil_68">
         <text>6.8 Suppressor</text>
