@@ -43,6 +43,27 @@
         <text>Armor piercing 10mm Auto rounds. It is faded, but you'd swear there's a 'FBI Property' mark on the box.</text>
     </string>
 
+    <string id="ammo-50ae_fmj">
+        <text>.50 AE FMJ</text>
+    </string>
+    <string id="ammo-50ae_fmj_descr">
+        <text>The .50 Action Express (12.7x33mm) is a large caliber handgun round. It was developed in 1988 by Evan Whildin of Action Arms. It is one of the most powerful pistol rounds in production. It's primary uses are silhouette shooting and medium/big game hunting.</text>
+    </string>
+
+    <string id="ammo-50ae_hp">
+        <text>.50 AE JHP</text>
+    </string>
+    <string id="ammo-50ae_hp_descr">
+        <text>Jacketed hollow point .50 Action Express (12.7x33mm) rounds. The bullet framents on impact causing heavy damage to soft tissue.</text>
+    </string>
+
+    <string id="ammo-50ae_ap">
+        <text>.50 AE AP</text>
+    </string>
+    <string id="ammo-50ae_ap_descr">
+        <text>Armor piercing .50 Action Express (12.7x33mm) rounds. Big mean plate eatin' beans.</text>
+    </string>
+
     <string id="ammo-6.8x43_fmj">
         <text>6.8x43 FMJ</text>
     </string>
@@ -165,7 +186,17 @@
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
 		</text>
     </string>
-	
+
+    <string id="st_wpn_desert_eagle_50ae">
+        <text>Desert Eagle .50</text>
+    </string>
+    <string id="st_wpn_desert_eagle_50ae_descr">
+        <text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols. This particular model is chambered for the hefty .50 AE Magnum round.
+		<!-- \n%c[ui_gray_2]ATTACHMENTS: \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		</text>
+    </string>
+
     <string id="st_wpn_glock20">
         <text>Glock 20</text>
     </string>
@@ -250,10 +281,10 @@
 		</text>
     </string>
 
-	<string id="st_wpn_m4a1_50">
+	<string id="st_wpn_m4_beowulf">
 		<text>Beowulf M4</text>
 	</string>
-	<string id="st_wpn_m4a1_50_descr">
+	<string id="st_wpn_m4_beowulf_descr">
 		<text>The Beowulf M4 is a fully automatic variant of the M4 carbine chambered in .50 Beowulf. The round is intended to improve stopping power greatly at short- to medium-range as compared to the standard 5.56x45mm NATO round. One of its advertised uses is at vehicle checkpoints, since the heavy bullet's flight path is not easily deflected by auto glass or standard vehicle body panels. Although much has been written about its tactical uses, the .50 Beowulf is gaining recognition as a sporting cartridge. It is becoming more widely recognized as being usable by stalkers for hunting against the Zone's creatures. \n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] .50 Suppressor\n
