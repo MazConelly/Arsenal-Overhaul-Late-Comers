@@ -1,0 +1,1218 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------.40 S&W AMMO------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_10x22_fmj]:ammo_base
+GroupControlSection = spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_10x22_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_1143x23_fmj.ogf
+description		= ammo-10x22_fmj_descr
+$prefetch		= 64
+
+cost			= 733
+
+box_size		= 15
+
+inv_name		= ammo-10x22_fmj
+inv_name_short	= ammo-10x22_fmj
+inv_weight		= 0.21
+
+icons_texture	= ui\ui_icon_a03latecomers
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 0
+
+impair			= 1.1
+k_disp			= 0.66
+k_impulse		= 0.48
+k_ap			= 0.2
+tracer_color_ID	= 2
+wm_size			= 0.056
+k_air_resistance= 0.8
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_10x22_hp]:ammo_10x22_fmj
+description		= ammo-10x22_hp_descr
+
+cost			= 1290
+
+inv_name		= ammo-10x22_hp
+inv_name_short	= ammo-10x22_hp
+inv_weight		= 0.20
+
+inv_grid_x		= 0
+inv_grid_y		= 1
+
+impair			= 1.1
+k_impulse		= 0.68
+k_ap			= 0.2
+wm_size			= 0.076
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_10x22_ap]:ammo_10x22_fmj
+description		= ammo-10x22_ap_descr
+
+cost			= 1570
+
+inv_name		= ammo-10x22_ap
+inv_name_short	= ammo-10x22_ap
+inv_weight		= 0.19
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+impair			= 1
+k_impulse		= 0.43
+k_ap			= 0.4
+wm_size			= 0.046
+
+tier			= 2
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------.50 AE AMMO------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_50ae_fmj]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_11.43x23_fmj"
+class			= AMMO
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae
+description		= ammo-50ae_fmj_descr
+$prefetch		= 64
+
+cost			= 1100
+
+box_size		= 10
+
+inv_name		= ammo-50ae_fmj
+inv_name_short	= ammo-50ae_fmj
+inv_weight		= 0.35
+
+icons_texture	= ui\ui_icon_a03latecomers
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 8
+inv_grid_y		= 0
+
+impair			= 1
+k_disp			= 0.7
+k_impulse		= 0.7
+k_ap			= 0.6
+tracer_color_ID	= 2
+wm_size			= 0.085
+k_air_resistance= 0.8
+
+tier			= 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50ae_hp]:ammo_50ae_fmj
+description		= ammo-50ae_hp_descr
+
+cost			= 1600
+
+inv_name		= ammo-50ae_hp
+inv_name_short	= ammo-50ae_hp
+inv_weight		= 0.35
+
+inv_grid_x		= 8
+inv_grid_y		= 1
+
+impair			= 1.1
+k_impulse		= 0.9
+k_ap			= 0.5
+wm_size			= 1
+
+tier			= 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50ae_ap]:ammo_50ae_fmj
+description		= ammo-50ae_ap_descr
+
+cost			= 2100
+
+inv_name		= ammo-50ae_ap
+inv_name_short	= ammo-50ae_ap
+inv_weight		= 0.35
+
+inv_grid_x		= 8
+inv_grid_y		= 2
+
+k_impulse		= 0.65
+k_ap			= 0.8
+wm_size			= 0.75
+
+tier			= 3
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------6.8x43 AMMO------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_6.8x43_fmj]:ammo_base
+GroupControlSection = spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_6.8x43_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_68_spc.ogf
+description		= ammo-6.8x43_fmj_descr
+$prefetch		= 64
+
+cost			= 1800
+
+box_size		= 15
+
+inv_name		= ammo-6.8x43_fmj
+inv_name_short	= ammo-6.8x43_fmj
+inv_weight		= 0.20
+
+icons_texture	= ui\ui_icon_a03latecomers
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 4
+inv_grid_y		= 0
+
+impair			= 1.1
+k_disp			= 0.66
+k_hit			= 1.0
+k_impulse		= 0.60
+k_ap			= 0.38
+tracer_color_ID	= 2
+wm_size			= 0.058
+k_air_resistance= 0.20
+k_bullet_speed	= 1.10
+tier			= 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_6.8x43_sst]:ammo_6.8x43_fmj
+description		= ammo-6.8x43_sst_descr
+
+cost			= 2200
+
+inv_name		= ammo-6.8x43_sst
+inv_name_short	= ammo-6.8x43_sst
+inv_weight		= 0.21
+
+inv_grid_x		= 4
+inv_grid_y		= 1
+
+impair			= 1.1
+k_impulse		= 0.60
+k_ap			= 0.38
+wm_size			= 0.050
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_6.8x43_ap]:ammo_6.8x43_fmj
+description		= ammo-6.8x43_ap_descr
+
+cost			= 3500
+
+inv_name		= ammo-6.8x43_ap
+inv_name_short	= ammo-6.8x43_ap
+inv_weight		= 0.21
+
+inv_grid_x		= 4
+inv_grid_y		= 2
+
+impair			= 1
+k_impulse		= 0.58
+k_ap			= 0.58
+wm_size			= 0.063
+k_bullet_speed	= 1.13
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------.50 BEOWULF AMMO--------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_50_beowulf_jfp]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_beowulf"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_m33
+description		= ammo-50_beowulf_jfp_descr
+$prefetch		= 64
+
+cost			= 2500
+
+box_size		= 20
+
+inv_name		= ammo-50_beowulf_jfp
+inv_name_short	= ammo-50_beowulf_jfp
+inv_weight		= .36
+
+icons_texture	= ui\ui_icon_a03latecomers
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 6
+inv_grid_y		= 0
+
+impair			= 1.1
+k_disp			= 0.66
+k_hit			= 0.70
+k_impulse		= 2.0
+k_ap			= 0.4
+tracer_color_ID	= 2
+wm_size			= 0.063
+k_air_resistance= 0.60
+tier			= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_beowulf_hp]:ammo_50_beowulf_jfp
+description		= ammo-50_beowulf_hp_descr
+
+cost			= 3200
+
+inv_name		= ammo-50_beowulf_hp
+inv_name_short	= ammo-50_beowulf_hp
+inv_weight		= .37
+
+inv_grid_x		= 6
+inv_grid_y		= 1
+
+impair			= 1.1
+k_impulse		= 3
+k_ap			= 0.4
+wm_size			= 0.063
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_beowulf_ap]:ammo_50_beowulf_jfp
+description		= ammo-50_beowulf_ap_descr
+
+cost			= 3700
+
+inv_name		= ammo-50_beowulf_ap
+inv_name_short	= ammo-50_beowulf_ap
+inv_weight		= .37
+
+inv_grid_x		= 6
+inv_grid_y		= 2
+
+impair			= 1
+k_impulse		= 2
+k_ap			= 0.6
+wm_size			= 0.053
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------6.8 silencer-----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_sil_68]:wpn_addon_silencer
+description				= st_sil_68_descr
+visual					= dynamics\weapons\wpn_upgrade\wpn_silencer.ogf
+$prefetch				= 32
+slot					= -1
+cost					= 6000
+inv_name				= st_sil_68
+inv_name_short			= st_sil_68
+inv_weight				= 0.4
+
+icons_texture			= ui\ui_icon_a03latecomers
+inv_grid_width			= 2
+inv_grid_height			= 1
+inv_grid_x				= 1
+inv_grid_y				= 3
+
+bullet_hit_power_k		= 0.8
+bullet_hit_impulse_k	= 0.7
+fire_dispersion_base_k	= 1.25
+bullet_speed_k			= 0.8
+cam_dispersion_k		= 0.8
+cam_dispersion_inc_k	= 0.9
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------.50 Beowulf silencer-----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_sil_50]:wpn_addon_silencer
+description				= st_sil_50_descr
+visual					= dynamics\weapons\wpn_upgrade\wpn_silencer.ogf
+$prefetch				= 32
+slot					= -1
+cost					= 8000
+inv_name				= st_sil_50
+inv_name_short			= st_sil_50
+inv_weight				= 0.45
+
+icons_texture			= ui\ui_icon_a03latecomers
+inv_grid_width			= 2
+inv_grid_height			= 1
+inv_grid_x				= 0
+inv_grid_y				= 4
+
+bullet_hit_power_k		= 0.8
+bullet_hit_impulse_k	= 0.7
+fire_dispersion_base_k	= 1.25
+bullet_speed_k			= 0.8
+cam_dispersion_k		= 0.8
+cam_dispersion_inc_k	= 0.9
+
+;------------------------------------------------------------------------------------------------
+;-------------------------------------AK-15------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ak15]:wpn_ak12,wpn_ak103_sounds
+parent_section	= wpn_ak15
+
+inv_name		= st_wpn_ak15
+inv_name_short	= st_wpn_ak15
+description		= st_wpn_ak15_descr
+
+inv_weight		= 3.5
+cost			= 38880
+
+hud				= wpn_ak15_hud
+shell_particles	= weapons\762x39
+
+ammo_class		= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+
+hit_power		= 0.6, 0.6, 0.6, 0.6
+fire_distance	= 800
+bullet_speed	= 715
+rpm				= 700
+
+; fire_dispersion_base = 
+
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak15_hud]:wpn_ak12_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak15_ac10632]:wpn_ak15
+1icon_layer		= ac10632
+1icon_layer_x	= 78
+1icon_layer_y	= -6
+
+inv_weight		= 3.75
+
+hud				= wpn_ak15_ac10632_hud
+visual			= dynamics\weapons\wpn_ak12\wpn_ak12_ac10632.ogf
+
+[wpn_ak15_ac10632_hud]:wpn_ak12_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak15_acog]:wpn_ak15
+1icon_layer			= acog
+1icon_layer_x		= 82
+1icon_layer_y		= -4
+
+inv_weight			= 3.85
+
+hud					= wpn_ak15_acog_hud
+visual				= dynamics\weapons\wpn_ak12\wpn_ak12_acog.ogf
+
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.25
+
+[wpn_ak15_acog_hud]:wpn_ak12_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak15_eot]:wpn_ak15
+1icon_layer		= eot
+1icon_layer_x	= 81
+1icon_layer_y	= -3
+
+inv_weight		= 3.8
+
+hud				= wpn_ak15_eot_hud
+visual			= dynamics\weapons\wpn_ak12\wpn_ak12_eot.ogf
+
+[wpn_ak15_eot_hud]:wpn_ak12_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------------AR-15-----------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_snd_shoot]
+snd_1_layer		= weapons\m16\ar15_fire
+
+[wpn_ar15]:wpn_m16
+$spawn			= "weapons\wpn_ar15"
+parent_section	= wpn_ar15
+
+inv_name		= st_wpn_ar15
+inv_name_short	= st_wpn_ar15
+description		= st_wpn_ar15_descr
+
+inv_weight		= 2.88
+cost			= 29690
+
+hud				= wpn_ar15_hud
+
+fire_modes		= 1
+
+hit_impulse		= 25
+hit_power		= 0.485, 0.485, 0.485, 0.485
+fire_distance	= 500
+rpm				= 400
+
+cam_dispersion	= 0.45
+
+snd_shoot		= wpn_ar15_snd_shoot
+
+[wpn_ar15_hud]:wpn_m16_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_ac10632]:wpn_ar15
+1icon_layer		= ac10632
+1icon_layer_x	= 75
+1icon_layer_y	= -7
+
+inv_weight		= 3.13
+
+hud				= wpn_ar15_ac10632_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_ac10632.ogf
+
+[wpn_ar15_ac10632_hud]:wpn_m16_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_acog]:wpn_ar15
+1icon_layer		= acog
+1icon_layer_x	= 70
+1icon_layer_y	= -4
+
+inv_weight		= 3.23
+
+hud				= wpn_ar15_acog_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_acog.ogf
+
+scope_status	= 0
+scope_zoom_factor= 20
+
+zoom_rotate_time= 0.25
+
+[wpn_ar15_acog_hud]:wpn_m16_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_eot]:wpn_ar15
+1icon_layer		= eot
+1icon_layer_x	= 72
+1icon_layer_y	= -2
+
+inv_weight		= 3.18
+
+hud				= wpn_ar15_eot_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_eot.ogf
+
+[wpn_ar15_eot_hud]:wpn_m16_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Beretta 96-----------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_beretta96]:wpn_beretta
+$spawn			= "weapons\wpn_beretta96"
+inv_name		= st_wpn_beretta96
+inv_name_short	= st_wpn_beretta96
+description		= st_wpn_beretta96_descr
+
+cost			= 7820
+
+hud				= wpn_beretta96_hud
+visual			= dynamics\weapons\wpn_beretta92fs\wpn_beretta96.ogf
+
+shell_particles	= weapons\45acp
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+
+silencer_name	= wpn_sil_gemtech
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 100
+rpm				= 350
+bullet_speed	= 475
+
+cam_dispersion	= 2.2
+
+[wpn_beretta96_hud]:wpn_beretta_hud
+item_visual		= dynamics\weapons\wpn_beretta92fs\wpn_beretta96_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------CZ 75 .40---------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_cz75_40_snd_shoot]
+snd_1_layer		= weapons\cz75\cz40_fire
+[wpn_cz75_40_snd_silncer_shot]
+snd_1_layer		= weapons\usp\usp40_suppressed
+
+[wpn_cz75_40]:wpn_cz75
+$spawn			= "weapons\wpn_cz75_40"
+parent_section	= wpn_cz75_40
+
+inv_name		= st_wpn_cz75_40
+inv_name_short	= st_wpn_cz75_40
+description		= st_wpn_cz75_40_descr
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_elapsed	= 12
+ammo_mag_size	= 12
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 100
+bullet_speed	= 359
+rpm				= 248
+
+cam_dispersion	= 2.2
+
+snd_shoot		= wpn_cz75_40_snd_shoot
+snd_silncer_shot= wpn_cz75_40_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Desert Eagle .50 AE---------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_desert_eagle_50ae]:wpn_desert_eagle
+$spawn                      = "weapons\wpn_desert_eagle_50ae"
+inv_name                    = st_wpn_desert_eagle_50ae
+inv_name_short              = st_wpn_desert_eagle_50ae
+description                 = st_wpn_desert_eagle_50ae_descr
+
+inv_weight                  = 2.1
+cost                        = 20680
+
+shell_particles             = weapons\45acp
+
+ammo_class                  = ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
+ammo_elapsed                = 7
+ammo_mag_size               = 7
+
+hit_impulse                 = 50
+hit_power                   = 0.65, 0.65, 0.65, 0.65
+fire_distance               = 200
+bullet_speed                = 470
+rpm                         = 145
+rpm_empty_click             = 120
+
+cam_dispersion              = 8.0
+
+[wpn_desert_eagle_50ae_hud]:wpn_desert_eagle_hud
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------FNP 40---------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_fnp40_snd_shoot]
+snd_1_layer		= weapons\fnp\fnp40_fire
+[wpn_fnp40_snd_silncer_shot]
+snd_1_layer		= weapons\fnp\fnp40_suppressed
+
+[wpn_fnp40]:wpn_fnp45
+$spawn			= "weapons\fnp40"
+parent_section	= wpn_fnp40
+
+inv_name		= st_wpn_fnp40
+inv_name_short	= st_wpn_fnp40
+description		= st_wpn_fnp40_descr
+
+inv_weight		= 0.757
+cost			= 14460
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_elapsed	= 14
+ammo_mag_size	= 14
+
+silencer_name	= wpn_sil_gemtech
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 100
+bullet_speed	= 360
+rpm				= 328
+
+cam_dispersion	= 2.2
+
+snd_shoot		= wpn_fnp40_snd_shoot
+snd_silncer_shot= wpn_fnp40_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 21--------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_glock21]:wpn_glock
+parent_section	= wpn_glock21
+$spawn			= "weapons\wpn_glock21"
+
+inv_name		= st_wpn_glock21
+inv_name_short	= st_wpn_glock21
+description		= st_wpn_glock21_descr
+
+inv_weight		= 0.77
+cost			= 11760
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_mag_size	= 13
+
+hit_impulse		= 40
+hit_power		= 0.55, 0.55, 0.55, 0.55
+bullet_speed	= 270
+fire_distance	= 100
+rpm				= 210
+
+cam_dispersion	= 2.5
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 35-------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_glock35]:wpn_glock
+parent_section	= wpn_glock35
+$spawn			= "weapons\wpn_glock35"
+
+inv_name		= st_wpn_glock35
+inv_name_short	= st_wpn_glock35
+description		= st_wpn_glock35_descr
+
+inv_weight		= 0.77
+cost			= 11560
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_mag_size	= 15
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+bullet_speed	= 355
+rpm				= 250
+
+cam_dispersion	= 2.2
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------LR680---------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_lr680_snd_shoot]
+snd_1_layer		= weapons\lr300\lr680_fire
+[wpn_lr680_snd_silncer_shot]
+snd_1_layer		= weapons\lr300\lr680_suppressed
+
+[wpn_lr680]:wpn_lr300
+$spawn				= "weapons\wpn_lr680"
+parent_section		= wpn_lr680
+
+inv_name			= st_wpn_lr680
+inv_name_short		= st_wpn_lr680
+description			= st_wpn_lr680_descr
+
+cost				= 35235
+hud					= wpn_lr680_hud
+
+silencer_name		= wpn_sil_68
+
+ammo_class			= ammo_6.8x43_fmj, ammo_6.8x43_sst, ammo_6.8x43_ap
+ammo_mag_size		= 26
+
+hit_impulse			= 30
+hit_power			= 0.55, 0.55, 0.55, 0.55
+fire_distance		= 750
+bullet_speed		= 810
+rpm					= 750
+
+cam_dispersion		= 0.6
+
+snd_shoot			= wpn_lr680_snd_shoot
+snd_silncer_shot	= wpn_lr680_snd_silncer_shot
+
+[wpn_lr680_hud]:wpn_lr300_hud
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_ac10632]:wpn_lr680
+1icon_layer		= ac10632
+1icon_layer_x	= 88
+1icon_layer_y	= -10
+
+inv_weight		= 2.75
+
+hud				= wpn_lr680_ac10632_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_ac10632.ogf
+
+[wpn_lr680_ac10632_hud]:wpn_lr300_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_acog]:wpn_lr680
+1icon_layer		= acog
+1icon_layer_x	= 74
+1icon_layer_y	= -7
+
+inv_weight		= 2.85
+
+hud				= wpn_lr680_acog_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_acog.ogf
+
+[wpn_lr680_acog_hud]:wpn_lr300_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_eot]:wpn_lr680
+1icon_layer		= eot
+1icon_layer_x	= 100
+1icon_layer_y	= -3
+
+inv_weight		= 2.8
+
+hud				= wpn_lr680_eot_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_eot.ogf
+
+[wpn_lr680_eot_hud]:wpn_lr300_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Barrett REC7----------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_m4_brec7_snd_shoot]
+snd_1_layer		= weapons\m4a1\m4brec7_fire
+[wpn_m4_brec7_snd_silncer_shot]
+snd_1_layer		= weapons\m4a1\m4bm_suppressed
+
+[wpn_m4_brec7]:wpn_m4
+$spawn			= "weapons\wpn_m4_brec7"
+parent_section	= wpn_m4_brec7
+
+inv_name		= st_wpn_m4_brec7
+inv_name_short	= st_wpn_m4_brec7
+description		= st_wpn_m4_brec7_descr
+
+inv_weight		= 3.5
+cost			= 40560
+
+silencer_name	= wpn_sil_68
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_sst, ammo_6.8x43_ap
+ammo_mag_size	= 26
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+fire_distance	= 800
+bullet_speed	= 810
+rpm				= 750
+
+cam_dispersion		= 0.6
+
+snd_shoot		= wpn_m4_brec7_snd_shoot
+snd_silncer_shot= wpn_m4_brec7_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_ac10632]:wpn_m4_brec7
+1icon_layer		= ac10632
+1icon_layer_x	= 90
+1icon_layer_y	= -7
+
+inv_weight		= 3.71
+
+hud				= wpn_m4_brec7_ac10632_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_ac10632.ogf
+
+[wpn_m4_brec7_ac10632_hud]:wpn_m4_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_acog]:wpn_m4_brec7
+1icon_layer		= acog
+1icon_layer_x	= 87
+1icon_layer_y	= -6
+
+inv_weight		= 3.81
+
+hud				= wpn_m4_brec7_acog_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_acog.ogf
+
+
+[wpn_m4_brec7_acog_hud]:wpn_m4_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_eot]:wpn_m4_brec7
+1icon_layer		= eot
+1icon_layer_x	= 86
+1icon_layer_y	= -3
+
+inv_weight		= 3.76
+
+hud				= wpn_m4_brec7_eot_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_eot.ogf
+
+[wpn_m4_brec7_eot_hud]:wpn_m4_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Bushmaster M4---------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_m4bm_snd_shoot]
+snd_1_layer		= weapons\m4a1\m4bm_fire
+[wpn_m4bm_snd_silncer_shot]
+snd_1_layer		= weapons\m4a1\m4bm_suppressed
+
+[wpn_m4bm]:wpn_m4
+$spawn			= "weapons\m4bm"
+parent_section	= wpn_m4bm
+
+inv_name		= st_wpn_m4bm
+inv_name_short	= st_wpn_m4bm
+description		= st_wpn_m4bm_descr
+
+inv_weight		= 2.82
+cost			= 40560
+
+silencer_name	= wpn_sil_68
+
+fire_modes		= 1, 3, -1
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_sst, ammo_6.8x43_ap
+ammo_elapsed	= 26
+ammo_mag_size	= 26
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+fire_distance	= 800
+bullet_speed	= 810
+rpm				= 800
+
+control_inertion_factor	= 1.2f
+crosshair_inertion		= 5.25
+fire_dispersion_base	= 0.18
+
+cam_dispersion		= 0.6
+
+snd_reload			= weapons\m4a1\m4bm_reload_short
+snd_reload_empty	= weapons\m4a1\m4bm_reload
+snd_shoot			= wpn_m4bm_snd_shoot
+snd_silncer_shot	= wpn_m4bm_snd_silncer_shot
+
+[wpn_m4bm_hud]:wpn_m4_hud
+;------------------------------------------------------------------------------------------------
+[wpn_m4bm_ac10632]:wpn_m4bm
+1icon_layer			= ac10632
+1icon_layer_x		= 90
+1icon_layer_y		= -7
+
+inv_weight			= 3.13
+
+hud					= wpn_m4bm_ac10632_hud
+visual				= dynamics\weapons\wpn_m4\wpn_m4_ac10632.ogf
+
+[wpn_m4bm_ac10632_hud]:wpn_m4_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4bm_acog]:wpn_m4bm
+1icon_layer			= acog
+1icon_layer_x		= 87
+1icon_layer_y		= -6
+
+inv_weight			= 3.23
+
+hud					= wpn_m4bm_acog_hud
+visual				= dynamics\weapons\wpn_m4\wpn_m4_acog.ogf
+
+[wpn_m4bm_acog_hud]:wpn_m4_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4bm_eot]:wpn_m4bm
+1icon_layer			= eot
+1icon_layer_x		= 86
+1icon_layer_y		= -3
+
+inv_weight			= 3.18
+
+hud					= wpn_m4bm_eot_hud
+visual				= anomaly_weapons\wpn_m4\wpn_m4_eot_hud.ogf
+
+[wpn_m4bm_eot_hud]:wpn_m4_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------M4 BEOWULF-----------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_m4_beowulf_snd_shoot]
+snd_1_layer			= weapons\m4a1\m4a1_fire_50
+[wpn_m4_beowulf_snd_silncer_shot]
+snd_1_layer			= weapons\m4a1\m4a1_suppressed_50
+
+[wpn_m4_beowulf]:wpn_m4a1
+$spawn				= "weapons\wpn_m4_beowulf"
+parent_section		= wpn_m4_beowulf
+
+inv_name			= st_wpn_m4_beowulf
+inv_name_short		= st_wpn_m4_beowulf
+description			= st_wpn_m4_beowulf_descr
+
+inv_weight			= 2.600
+cost				= 56000
+
+shell_particles		= weapons\9x39
+
+silencer_name		= wpn_sil_50
+
+fire_modes			= 1, 3, -1
+ammo_class			= ammo_50_beowulf_jfp, ammo_50_beowulf_hp, ammo_50_beowulf_ap
+ammo_elapsed		= 10
+ammo_mag_size		= 10
+
+hit_impulse			= 70
+hit_power			= 0.95, 0.95, 0.95, 0.95
+fire_distance		= 150
+bullet_speed		= 500
+rpm					= 520
+
+crosshair_inertion		= 2
+fire_dispersion_base	= 0.24
+
+misfire_end_condition	= 0.11
+
+cam_dispersion			= 7
+
+snd_shoot			= wpn_m4_beowulf_snd_shoot
+snd_silncer_shot	= wpn_m4_beowulf_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_m4_beowulf_ac10632]:wpn_m4_beowulf
+1icon_layer			= ac10632
+1icon_layer_x		= 85
+1icon_layer_y		= -3
+
+inv_weight			= 3.13
+
+hud					= wpn_m4_beowulf_ac10632_hud
+visual				= dynamics\weapons\wpn_m4\wpn_m4_ac11090.ogf
+
+[wpn_m4_beowulf_ac10632_hud]:wpn_m4a1_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_beowulf_acog]:wpn_m4_beowulf
+1icon_layer			= acog
+1icon_layer_x		= 82
+1icon_layer_y		= -1
+
+inv_weight			= 3.23
+
+hud					= wpn_m4_beowulf_acog_hud
+visual				= dynamics\weapons\wpn_m4\wpn_m4_acog.ogf
+
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.25
+
+[wpn_m4_beowulf_acog_hud]:wpn_m4a1_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_beowulf_eot]:wpn_m4_beowulf
+1icon_layer			= eot
+1icon_layer_x		= 82
+1icon_layer_y		= 3
+
+inv_weight			= 3.18
+
+hud					= wpn_m4_beowulf_eot_hud
+visual				= dynamics\weapons\wpn_m4\wpn_m4_eot.ogf
+
+[wpn_m4_beowulf_eot_hud]:wpn_m4a1_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------M68---------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_m249_nimble_snd_shoot]
+snd_1_layer		= weapons\m249\m249_nimble_fire
+[wpn_m249_nimble_snd_silncer_shot]
+snd_1_layer		= weapons\m249\m249_nimble_suppressed
+
+[wpn_m249_nimble]:wpn_m249
+$spawn			= "weapons\wpn_m249_nimble"
+parent_section	= wpn_m249_nimble
+
+inv_name		= st_wpn_m249_nimble
+inv_name_short	= st_wpn_m249_nimble
+description		= st_wpn_m249_nimble_descr
+
+cost			= 61580
+
+silencer_name	= wpn_sil_68
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_sst, ammo_6.8x43_ap
+ammo_elapsed	= 80
+ammo_mag_size	= 80
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+
+snd_shoot		= wpn_m249_nimble_snd_shoot
+snd_silncer_shot= wpn_m249_nimble_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_hud]:wpn_m249_hud
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_ac10632]:wpn_m249_nimble
+1icon_layer		= ac10632
+1icon_layer_x	= 84
+1icon_layer_y	= -3
+
+inv_weight		= 7.795
+
+hud				= wpn_m249_nimble_ac10632_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_ac10632.ogf
+
+[wpn_m249_nimble_ac10632_hud]:wpn_m249_ac10632_hud
+
+;--------------------------------------------------------------------------------------
+[wpn_m249_nimble_acog]:wpn_m249_nimble
+1icon_layer		= acog
+1icon_layer_x	= 81
+1icon_layer_y	= 0
+
+inv_weight		= 8.08
+
+hud				= wpn_m249_nimble_acog_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_acog.ogf
+
+[wpn_m249_nimble_acog_hud]:wpn_m249_acog_hud
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_eot]:wpn_m249_nimble
+1icon_layer		= eot
+1icon_layer_x	= 85
+1icon_layer_y	= 2
+
+inv_weight		= 7.99
+
+hud				= wpn_m249_nimble_eot_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_eot.ogf
+
+[wpn_m249_nimble_eot_hud]:wpn_m249_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------UMP 40------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_snd_shoot]
+snd_1_layer		= weapons\ump\ump40_fire
+[wpn_ump40_snd_silncer_shot]
+snd_1_layer		= weapons\ump\ump40_suppressed
+
+
+[wpn_ump40]:wpn_ump45
+$spawn			= "weapons\wpn_ump40"
+parent_section	= wpn_ump40
+
+inv_name		= st_wpn_ump40
+inv_name_short	= st_wpn_ump40
+description		= st_wpn_ump40_descr
+
+inv_weight		= 2.3
+cost			= 20980
+
+hud				= wpn_ump40_hud
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_elapsed	= 30
+ammo_mag_size	= 30
+
+silencer_name	= wpn_sil_gemtech ; wpn_addon_silencer10
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 125
+bullet_speed	= 350
+rpm				= 650
+
+cam_dispersion           = 0.85
+
+snd_shoot			= wpn_ump40_snd_shoot
+snd_silncer_shot	= wpn_ump40_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_hud]:wpn_ump45_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_ac10632]:wpn_ump40
+1icon_layer		= ac10632
+1icon_layer_x	= 83
+1icon_layer_y	= -13
+
+inv_weight		= 2.55
+
+hud				= wpn_ump40_ac10632_hud
+visual			= dynamics\weapons\wpn_ump45\wpn_ump45_ac10632.ogf
+
+[wpn_ump40_ac10632_hud]:wpn_ump45_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_acog]:wpn_ump40
+1icon_layer			= acog
+1icon_layer_x		= 80
+1icon_layer_y		= -10
+
+inv_weight			= 2.65
+
+hud					= wpn_ump40_acog_hud
+; visual				= anomaly_weapons\wpn_ump45\wpn_ump45_acog.ogf
+
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.25
+
+[wpn_ump40_acog_hud]:wpn_ump45_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_eot]:wpn_ump40
+1icon_layer		= eot
+1icon_layer_x	= 83
+1icon_layer_y	= -8
+
+inv_weight		= 2.6
+
+hud				= wpn_ump40_eot_hud
+visual			= dynamics\weapons\wpn_ump45\wpn_ump45_eot.ogf
+
+[wpn_ump40_eot_hud]:wpn_ump45_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;---------------------------------------------Walther P99 40-------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_walther40_snd_shoot]
+snd_1_layer		= weapons\walther\walther40_fire
+[wpn_walther40_snd_silncer_shot]
+snd_1_layer		= weapons\usp\usp40_suppressed
+
+[wpn_walther40]:wpn_walther
+parent_section	= wpn_walther40
+$spawn			= "weapons\walther40"
+
+inv_name		= st_wpn_walther40
+inv_name_short	= st_wpn_walther40
+description		= st_wpn_walther40_descr
+
+cost			= 5890
+inv_weight		= 0.655
+
+shell_particles	= weapons\45acp
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_elapsed	= 12
+ammo_mag_size	= 12
+
+silencer_name	= wpn_sil_gemtech
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 100
+bullet_speed	= 350
+rpm				= 220
+
+cam_dispersion	= 2.2
+
+snd_shoot		= wpn_walther40_snd_shoot
+snd_silncer_shot= wpn_walther40_snd_silncer_shot

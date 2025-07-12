@@ -1,0 +1,167 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 21--------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+@[wpn_glock21]:wpn_glock17
+parent_section	= wpn_glock21
+$spawn			= "weapons\wpn_glock21"
+
+inv_name		= st_wpn_glock21
+inv_name_short	= st_wpn_glock21
+description		= st_wpn_glock21_descr
+
+inv_weight		= 0.77
+cost			= 11760
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_mag_size	= 13
+
+hit_impulse		= 40
+hit_power		= 0.55, 0.55, 0.55, 0.55
+bullet_speed	= 270
+fire_distance	= 100
+rpm				= 210
+
+cam_dispersion	= 2.5
+
+
+[wpn_glock21_d0cter]:wpn_glock21
+inv_weight				= 0.773
+hud						= wpn_glock21_d0cter_hud
+
+[wpn_glock21_d0cter_hud]:wpn_glock17_m1_d0cter_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_aim_low]:wpn_glock21
+inv_weight				= 0.875
+hud						= wpn_glock21_aim_low_hud
+
+[wpn_glock21_aim_low_hud]:wpn_glock17_m1_aim_low_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_rmr]:wpn_glock21
+inv_weight				= 0.804
+hud						= wpn_glock21_rmr_hud
+
+[wpn_glock21_rmr_hud]:wpn_glock17_m1_rmr_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_deltapoint]:wpn_glock21
+inv_weight				= 0.811
+hud						= wpn_glock21_deltapoint_hud
+
+[wpn_glock21_deltapoint_hud]:wpn_glock17_m1_deltapoint_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 35-------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+@[wpn_glock35]:wpn_glock17
+parent_section	= wpn_glock35
+$spawn			= "weapons\wpn_glock35"
+
+inv_name		= st_wpn_glock35
+inv_name_short	= st_wpn_glock35
+description		= st_wpn_glock35_descr
+
+inv_weight		= 0.77
+cost			= 11560
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_mag_size	= 15
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+bullet_speed	= 355
+rpm				= 250
+
+cam_dispersion	= 2.2
+
+
+[wpn_glock35_d0cter]:wpn_glock35
+inv_weight				= 0.703
+hud						= wpn_glock35_d0cter_hud
+
+[wpn_glock35_d0cter_hud]:wpn_glock17_m1_d0cter_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock35_aim_low]:wpn_glock35
+inv_weight				= 0.805
+hud						= wpn_glock35_aim_low_hud
+
+[wpn_glock35_aim_low_hud]:wpn_glock17_m1_aim_low_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock35_rmr]:wpn_glock35
+inv_weight				= 0.734
+hud						= wpn_glock35_rmr_hud
+
+[wpn_glock35_rmr_hud]:wpn_glock17_m1_rmr_hud
+;---------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock35_deltapoint]:wpn_glock35
+inv_weight				= 0.741
+hud						= wpn_glock35_deltapoint_hud
+
+[wpn_glock35_deltapoint_hud]:wpn_glock17_m1_deltapoint_hud
+
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------USP 40------------------------------------------
+;------------------------------------------------------------------------------------------------
+@[wpn_usp40]:wpn_usp_tac
+parent_section	= wpn_usp40
+$spawn			= "weapons\usp40"
+
+inv_name		= st_wpn_usp40
+inv_name_short	= st_wpn_usp40
+description		= st_wpn_usp40_descr
+
+inv_weight		= 0.748
+cost			= 10160
+
+ammo_class		= ammo_10x22_fmj, ammo_10x22_hp, ammo_10x22_ap
+ammo_elapsed	= 13
+ammo_mag_size	= 13
+
+silencer_name	= wpn_sil_gemtech
+
+hit_impulse		= 30
+hit_power		= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 100
+bullet_speed	= 320
+rpm				= 300
+
+cam_dispersion	= 2.2
+
+snd_shoot			= wpn_usp40_snd_shoot
+snd_silncer_shot	= wpn_usp40_snd_silncer_shot
+
+[wpn_usp40_d0cter]:wpn_usp40
+inv_weight			= 1.2
+hud				= wpn_usp40_d0cter_hud
+
+[wpn_usp40_d0cter_hud]:wpn_usp_tac_d0cter_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_usp40_aim_low]:wpn_usp40
+inv_weight			= 1.305
+hud				= wpn_usp40_aim_low_hud
+
+[wpn_usp40_aim_low_hud]:wpn_usp_tac_aim_low_hud
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_usp40_rmr]:wpn_usp40
+inv_weight			= 0.994
+hud				= wpn_usp40_rmr_hud
+
+[wpn_usp40_rmr_hud]:wpn_usp_tac_rmr_hud
+;---------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_usp40_deltapoint]:wpn_usp40
+inv_weight			= 1.001
+hud				= wpn_usp40_deltapoint_hud
+
+[wpn_usp40_deltapoint_hud]:wpn_usp_tac_deltapoint_hud

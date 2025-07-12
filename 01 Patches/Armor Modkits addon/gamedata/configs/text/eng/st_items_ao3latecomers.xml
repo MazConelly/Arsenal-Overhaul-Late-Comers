@@ -174,10 +174,10 @@
 		</text>
     </string>
 
-    <string id="st_wpn_coltde">
+    <string id="st_wpn_deltaelite">
         <text>Colt Delta Elite</text>
     </string>
-    <string id="st_wpn_coltde_descr">
+    <string id="st_wpn_deltaelite_descr">
         <text>The M1911 was the standard-issue side arm for the US military from 1911 to 1985. An extremely reliable and robust weapon, it's been adopted for military, police and civilian use around the world and remains a very popular firearm to this day.\n
 		The Colt Delta Elite is a modified M1911 pistol, chambered for 10mm Auto and considered to be the first firearm to be chambered in 10mm Auto by a well-known manufacturer. It performs similar to the popular M1911 in terms of design and operation but feeds from eight-round magazines.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
@@ -304,10 +304,10 @@
 		</text>
     </string>
 
-    <string id="st_wpn_mp5_10">
+    <string id="st_wpn_mp510">
         <text>MP5/10</text>
     </string>
-    <string id="st_wpn_mp5_10_descr">
+    <string id="st_wpn_mp510_descr">
         <text>The MP5 is one of the most famous and wide spread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favourite of numerous military, law enforcement, intelligence and security organisations the world over. The MP5A3 is fitted with a retractable metal stock. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.\n
 		The MP5/10 us a variant chambered in 10mm Auto. It was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
