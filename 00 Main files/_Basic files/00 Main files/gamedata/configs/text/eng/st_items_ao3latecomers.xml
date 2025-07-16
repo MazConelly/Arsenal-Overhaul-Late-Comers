@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_wpn_ak15">
+		<text>AK-15</text>
+	</string>
+	<string id="st_wpn_ak15_descr">
+		<text>The AK-15 is a variant of the AK-12 chambered in 7.62x39, allowing for the use of standard AK-47 and AKM magazines. Like the base AK-12, the rifle comes standard with Picatinny rails, an adjustable telescoping stock and the rear sight has been moved to the back of the receiver. The rifle has a new muzzle brake and improved rifling, making it more accurate than other AK-47 variants. Its main drawbacks are the higher recoil and heavier weight compared to its 5.45x39 cousin.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher
+		</text>
+	</string>
+
+    <string id="st_wpn_ar15">
+        <text>AR-15</text>
+    </string>
+    <string id="st_wpn_ar15_descr">
+        <text>The AR-15 is a 5.56x45 semi-automatic version of the M4 assault rifle marketed to civilians. Can mount a suppressor and optics, but not a grenade launcher.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] NATO suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
+    </string>
+
+    <string id="st_wpn_glock21">
+        <text>Glock 21</text>
+    </string>
+    <string id="st_wpn_glock21_descr">
+        <text>The Glock 21 is the .45 ACP variant of the Glock pistol series, featuring the same magazine capacity as the Glock 19 but higher damage output.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
+		</text>
+    </string>
+
+</string_table>

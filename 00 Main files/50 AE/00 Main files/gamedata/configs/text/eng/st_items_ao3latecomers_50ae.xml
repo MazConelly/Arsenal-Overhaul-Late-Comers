@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+    <string id="ammo-50ae_fmj">
+        <text>.50 AE FMJ</text>
+    </string>
+    <string id="ammo-50ae_fmj_descr">
+        <text>The .50 Action Express (12.7x33mm) is a large caliber handgun round. It was developed in 1988 by Evan Whildin of Action Arms. It is one of the most powerful pistol rounds in production. It's primary uses are silhouette shooting and medium/big game hunting.</text>
+    </string>
+
+    <string id="ammo-50ae_hp">
+        <text>.50 AE JHP</text>
+    </string>
+    <string id="ammo-50ae_hp_descr">
+        <text>Jacketed hollow point .50 Action Express (12.7x33mm) rounds. The bullet framents on impact causing heavy damage to soft tissue.</text>
+    </string>
+
+    <string id="ammo-50ae_ap">
+        <text>.50 AE AP</text>
+    </string>
+    <string id="ammo-50ae_ap_descr">
+        <text>Armor piercing .50 Action Express (12.7x33mm) rounds. Big mean plate eatin' beans.</text>
+    </string>
+
+
+    <string id="st_wpn_desert_eagle_50ae">
+        <text>Desert Eagle .50</text>
+    </string>
+    <string id="st_wpn_desert_eagle_50ae_descr">
+        <text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols. This particular model is chambered for the hefty .50 AE Magnum round.
+		<!-- \n%c[ui_gray_2]ATTACHMENTS: \n -->
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+		</text>
+    </string>
+
+</string_table>

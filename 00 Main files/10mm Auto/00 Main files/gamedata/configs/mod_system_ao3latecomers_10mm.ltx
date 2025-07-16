@@ -1,0 +1,355 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------10mm Auto AMMO --------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_10x25_fmj]:ammo_base
+GroupControlSection = spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_10x25_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_10_auto.ogf
+description		= ammo-10x25_fmj_descr
+$prefetch		= 64
+
+cost			= 1050
+tier            = 2
+box_size		= 15
+
+inv_name		= ammo-10x25_fmj
+inv_name_short	= ammo-10x25_fmj
+inv_weight		= .285
+
+icons_texture	= ui\ui_icon_a03latecomers
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 2
+inv_grid_y		= 0
+
+impair          = 1
+k_disp			= 0.55 ;
+k_impulse		= 0.6 ;
+k_ap			= 0.15 ;
+tracer_color_ID	= 2 ; seems to be default in vanilla Anomaly
+wm_size         = 0.069 
+k_air_resistance = 0.8 ;leave as standard
+k_bullet_speed	= 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_10x25_hydrashok]:ammo_10x25_fmj
+description		= ammo-10x25_hp_descr
+
+cost			= 1420
+
+inv_name		= ammo-10x25_hp
+inv_name_short	= ammo-10x25_hp
+inv_weight		= .315
+
+inv_grid_x		= 2
+inv_grid_y		= 1
+
+impair          = 1.1
+k_disp			= 0.55 ; 
+k_impulse		= 0.45 ; 
+k_ap			= 0.3 ; 
+tracer_color_ID	= 2 ; 
+wm_size         = 0.081 ;
+k_air_resistance = 0.8 ;leave as standard
+k_bullet_speed	= 0.9
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_10x25_ap]:ammo_10x25_fmj
+description		= ammo-10x25_ap_descr
+
+cost			= 1650
+
+inv_name		= ammo-10x25_ap
+inv_name_short	= ammo-10x25_ap
+inv_weight		= .270
+
+inv_grid_x		= 2
+inv_grid_y		= 2
+
+impair          = 1.1
+k_disp			= 0.55 ; 
+k_impulse		= 0.73 ; 
+k_ap			= 0.2 ; 
+tracer_color_ID	= 2 ; 
+wm_size         = 0.081 ; 
+k_air_resistance = 0.8 ;
+k_bullet_speed	= 1.1
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------.40 & 10mm silencer-----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_sil_10mm]:wpn_addon_silencer
+description				= st_sil_10_descr
+visual					= dynamics\weapons\wpn_upgrade\wpn_silencer.ogf
+$prefetch				= 32
+slot					= -1
+cost					= 3000
+inv_name				= st_sil_10
+inv_name_short			= st_sil_10
+inv_weight				= 0.24
+
+icons_texture			= ui\ui_icon_a03latecomers
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 0
+inv_grid_y				= 3
+
+bullet_hit_power_k		= 0.8
+bullet_hit_impulse_k	= 0.7
+fire_dispersion_base_k	= 1.25
+bullet_speed_k			= 0.8
+cam_dispersion_k		= 0.8
+cam_dispersion_inc_k	= 0.9
+
+;------------------------------------------------------------------------------------------------
+;-----------------------------------Colt Delta Elite---------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_deltaelite_snd_shoot]
+snd_1_layer		= weapons\colt\coltde_fire
+[wpn_deltaelite_snd_silncer_shot]
+snd_1_layer		= weapons\colt\coltde_suppressed
+
+[wpn_deltaelite]:wpn_colt1911
+parent_section	= wpn_deltaelite
+$spawn			= "weapons\wpn_deltaelite"
+inv_name		= st_wpn_deltaelite
+inv_name_short	= st_wpn_deltaelite
+description		= st_wpn_deltaelite_descr
+
+cost			= 5500
+
+hud				= wpn_deltaelite_hud
+; visual		= dynamics\weapons\wpn_colt1911\wpn_colt1912.ogf
+visual			= dynamics\weapons\wpn_colt1911\wpn_colt1911_sk4.ogf
+
+ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_elapsed	= 8
+ammo_mag_size	= 8
+
+silencer_name	= wpn_addon_silencer10
+
+hit_impulse		= 42
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 200
+bullet_speed	= 405
+rpm				= 270
+rpm_empty_click	= 240
+
+cam_dispersion	= 2.6
+
+snd_shoot		= wpn_deltaelite_snd_shoot
+snd_silncer_shot= wpn_deltaelite_snd_silncer_shot
+
+[wpn_deltaelite_hud]:wpn_colt1911_hud
+; item_visual	= dynamics\weapons\wpn_colt1911\wpn_colt1912_hud.ogf
+item_visual		= anomaly_weapons\wpn_colt1911\wpn_colt1911_sk4_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 20-------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_glock20]:wpn_glock
+parent_section	= wpn_glock20
+$spawn			= "weapons\wpn_glock20"
+
+inv_name		= st_wpn_glock20
+inv_name_short	= st_wpn_glock20
+description		= st_wpn_glock20_descr
+
+inv_weight		= 0.77
+cost			= 12560
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_10mm
+
+ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_mag_size	= 15
+
+hit_impulse		= 42
+hit_power		= 0.58, 0.58, 0.58, 0.58
+bullet_speed	= 365
+rpm				= 230
+
+cam_dispersion	= 2.6
+
+;------------------------------------------------------------------------------------------------
+;----------------------------------------10mm MP5SD and Whisperer--------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_mp510_snd_shoot]
+snd_1_layer		= weapons\mp5\mp510_fire
+
+[wpn_mp510_snd_silncer_shot]
+snd_1_layer		= weapons\mp5\mp510_suppressed
+
+[wpn_mp510]:wpn_mp5
+parent_section	= wpn_mp510
+$spawn			= "weapons\wpn_mp510"
+
+inv_name		= st_wpn_mp510
+inv_name_short	= st_wpn_mp510
+description	= st_wpn_mp510_descr
+
+cost			= 24380
+
+hud				= wpn_mp510_hud
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_10mm
+
+ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+
+hit_impulse		= 44
+hit_power		= 0.63, 0.63, 0.63, 0.63
+fire_distance	= 300
+bullet_speed	= 427
+
+snd_shoot		= wpn_mp510_snd_shoot
+snd_silncer_shot= wpn_mp510_snd_silncer_shot
+
+cam_dispersion	= 5.4
+
+[wpn_mp510_hud]:wpn_mp5_hud
+
+[wpn_mp510_ac10632]:wpn_mp510
+1icon_layer		= ac10632
+1icon_layer_x	= 88
+1icon_layer_y	= -10
+
+inv_weight		= 3.35
+
+hud				= wpn_mp510_ac10632_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5_ac10632.ogf
+
+[wpn_mp510_ac10632_hud]:wpn_mp5_ac10632_hud
+
+[wpn_mp510_acog]:wpn_mp510
+1icon_layer		= acog
+1icon_layer_x	= 87
+1icon_layer_y	= -8
+
+inv_weight		= 3.45
+
+hud				= wpn_mp510_acog_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5_acog.ogf
+
+[wpn_mp510_acog_hud]:wpn_mp5_acog_hud
+
+[wpn_mp510_eot]:wpn_mp510
+1icon_layer		= eot
+1icon_layer_x	= 88
+1icon_layer_y	= -4
+
+inv_weight		= 3.4
+
+hud				= wpn_mp510_eot_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5_eot.ogf
+
+[wpn_mp510_eot_hud]:wpn_mp5_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+; [wpn_mp5sd_nimble]:wpn_mp5sd
+; parent_section	= wpn_mp5sd_nimble
+; $spawn			= "weapons\mp5sd_nimble"
+
+; inv_name			= st_wpn_mp5sd_nimble
+; inv_name_short	= st_wpn_mp5sd_nimble
+; description		= st_wpn_mp5sd_nimble_descr
+
+; inv_weight		= 2.86
+; cost				= 26880
+
+; hud				= wpn_mp5sd_nimble_hud
+
+; ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+; ammo_elapsed		= 30
+; ammo_mag_size		= 30
+
+; hit_impulse		= 42
+; hit_power			= 0.58, 0.58, 0.58, 0.58
+; fire_distance		= 350
+; bullet_speed		= 365
+
+; ; snd_silncer_shot= wpn_mp510_snd_silncer_shot
+
+
+; [wpn_mp5sd_nimble_hud]:wpn_mp5sd_hud
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_mp5sd_nimble_ac10632]:wpn_mp5sd_nimble
+; 1icon_layer		= ac10632
+; 1icon_layer_x	= 74
+; 1icon_layer_y	= -5
+
+; inv_weight		= 3.11
+
+; hud				= wpn_mp5sd_nimble_ac10632_hud
+; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_ac10632.ogf
+
+; [wpn_mp5sd_nimble_ac10632_hud]:wpn_mp5sd_ac10632_hud
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_mp5sd_nimble_acog]:wpn_mp5sd_nimble
+; 1icon_layer		= acog
+; 1icon_layer_x	= 74
+; 1icon_layer_y	= -2
+
+; inv_weight		= 3.21
+
+; hud				= wpn_mp5sd_nimble_acog_hud
+; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_acog.ogf
+
+; [wpn_mp5sd_nimble_acog_hud]:wpn_mp5sd_acog_hud
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_mp5sd_nimble_eot]:wpn_mp5sd_nimble
+; 1icon_layer		= eot
+; 1icon_layer_x	= 81
+; 1icon_layer_y	= 1
+
+; inv_weight		= 3.16
+
+; hud				= wpn_mp5sd_nimble_eot_hud
+; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_eot.ogf
+
+; [wpn_mp5sd_nimble_eot_hud]:wpn_mp5sd_eot_hud
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------USP 10------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_usp10_snd_shoot]
+snd_1_layer		= weapons\usp\usp10_shoot
+[wpn_usp10_snd_silncer_shot]
+snd_1_layer		= weapons\usp\usp10_suppressed
+
+[wpn_usp10]:wpn_usp
+parent_section	= wpn_usp10
+$spawn			= "weapons\usp10"
+
+inv_name		= st_wpn_usp10
+inv_name_short	= st_wpn_usp10
+description		= st_wpn_usp10_descr
+
+cost			= 10960
+
+ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_mag_size	= 12
+
+silencer_name	= wpn_sil_10mm
+
+hit_impulse		= 42
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 200
+bullet_speed	= 110
+rpm				= 250
+rpm_empty_click	= 280
+
+cam_dispersion	= 2.6
+
+snd_shoot		= wpn_usp10_snd_shoot
+snd_silncer_shot= wpn_usp10_snd_silncer_shot

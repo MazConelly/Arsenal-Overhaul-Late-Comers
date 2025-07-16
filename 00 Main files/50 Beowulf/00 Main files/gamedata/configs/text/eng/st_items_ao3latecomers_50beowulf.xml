@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="ammo-50_beowulf_jfp">
+		<text>.50 Beowulf JFP</text>
+	</string>
+	<string id="ammo-50_beowulf_jfp_descr">
+		<text>Jacketed flat point  .50 Beowulf (12.7x42) rounds. The bullet expands on impact, crushing through body armor and causing tremendous tissue damage.</text>
+	</string>
+
+	<string id="ammo-50_beowulf_hp">
+		<text>.50 Beowulf HP</text>
+	</string>
+	<string id="ammo-50_beowulf_hp_descr">
+		<text>Hollow point .50 Beowulf (12.7x42) rounds. The bullet framents on impact causing tremendous damage to soft tissue.</text>
+	</string>
+
+	<string id="ammo-50_beowulf_ap">
+		<text>.50 Beowulf AP</text>
+	</string>
+	<string id="ammo-50_beowulf_ap_descr">
+		<text>Armor piercing .50 Beowulf (12.7x42) rounds. Designed to kick through the plating of armored light vehicles.</text>
+	</string>
+
+
+    <string id="st_sil_50">
+        <text>.50 Suppressor</text>
+    </string>
+    <string id="st_sil_50_descr">
+        <text>Suppressor for .50 caliber rifles</text>
+    </string>
+
+
+	<string id="st_wpn_m4_beowulf">
+		<text>Beowulf M4</text>
+	</string>
+	<string id="st_wpn_m4_beowulf_descr">
+		<text>The Beowulf M4 is a fully automatic variant of the M4 carbine chambered in .50 Beowulf. The round is intended to improve stopping power greatly at short- to medium-range as compared to the standard 5.56x45mm NATO round. One of its advertised uses is at vehicle checkpoints, since the heavy bullet's flight path is not easily deflected by auto glass or standard vehicle body panels. Although much has been written about its tactical uses, the .50 Beowulf is gaining recognition as a sporting cartridge. It is becoming more widely recognized as being usable by stalkers for hunting against the Zone's creatures. \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)
+		</text>
+	</string>
+
+</string_table>

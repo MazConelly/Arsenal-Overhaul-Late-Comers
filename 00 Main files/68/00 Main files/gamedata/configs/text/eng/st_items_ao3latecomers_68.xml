@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+    <string id="ammo-6.8x43_fmj">
+        <text>6.8x43 FMJ</text>
+    </string>
+    <string id="ammo-6.8x43_fmj_descr">
+        <text>The 6.8 Remington Special Purpose round is a rifle round that was developed by Remington Arms in collaboration with members of the U.S. Army to possibly replace the 5.56 NATO round. It is midway between the 5.56x45mm NATO and 7.62x51mm NATO in diameter and muzzle energy, slightly more powerful than the 7.62x39 round.</text>
+    </string>
+
+    <string id="ammo-6.8x43_sst">
+        <text>6.8x43 SST</text>
+    </string>
+    <string id="ammo-6.8x43_sst_descr">
+        <text>Short for "Super Shock Tip" the SST round is designed to deliver tremendous shock on impact while expanding quickly and reliably.</text>
+    </string>
+
+    <string id="ammo-6.8x43_ap">
+        <text>6.8x43 AP</text>
+    </string>
+    <string id="ammo-6.8x43_ap_descr">
+        <text>6.8x43 armor piercing round designed for optimal body armor penetration.</text>
+    </string>
+
+
+    <string id="st_sil_68">
+        <text>6.8 Suppressor</text>
+    </string>
+    <string id="st_sil_68_descr">
+        <text>Suppressor for 6.8x43 assault rifles</text>
+    </string>
+
+
+    <string id="st_wpn_lr680">
+        <text>LR-680</text>
+    </string>
+    <string id="st_wpn_lr680_descr">
+        <text>A variant of the 5.56x45mm LR-300 assault rifle chambered for the larger 6.8mm SPC round. Due to its larger round, its fire rate is noticeably lower compared to the standard LR-300, but features a higher damage output.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher
+		</text>
+    </string>
+
+    <string id="st_wpn_m4bm">
+        <text>Bushmaster M4</text>
+    </string>
+    <string id="st_wpn_m4bm_descr">
+        <text>The Bushmaster M4 is a copy of the popular M4 carbine manufactured by Bushmaster Firearms International, modeled on the AR-15 platform and chambered in 6.8 SPC.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher
+		</text>
+    </string>
+
+    <string id="st_wpn_m4_brec7">
+        <text>Barrett REC7</text>
+    </string>
+    <string id="st_wpn_m4_brec7_descr">
+        <text>Based on the M16 rifle, this weapon fires the more powerful 6.8x43 SPC round and fires in semi-automatic and full automatic firemodes, boosting higher firepower then its 5.56x45mm variant but higher recoil due to its larger round.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)
+		</text>
+    </string>
+
+    <string id="st_wpn_m249_nimble">
+        <text>M68</text>
+    </string>
+    <string id="st_wpn_m249_nimble_descr">
+        <text>The M68 is a customized M249 machine gun rechambered in 6.8 SPC.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes
+		</text>
+    </string>
+
+</string_table>

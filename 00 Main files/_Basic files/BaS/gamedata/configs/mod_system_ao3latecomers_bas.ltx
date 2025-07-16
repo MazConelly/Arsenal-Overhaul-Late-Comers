@@ -1,0 +1,55 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------GLOCK 21--------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+@[wpn_glock21]:wpn_glock17_m1
+parent_section	= wpn_glock21
+$spawn			= "weapons\wpn_glock21"
+
+inv_name		= st_wpn_glock21
+inv_name_short	= st_wpn_glock21
+description		= st_wpn_glock21_descr
+
+inv_weight		= 0.77
+cost			= 11760
+
+shell_particles	= weapons\45acp
+
+silencer_name	= wpn_sil_gemtech
+
+ammo_class		= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_mag_size	= 13
+
+hit_impulse		= 40
+hit_power		= 0.55, 0.55, 0.55, 0.55
+bullet_speed	= 270
+fire_distance	= 100
+rpm				= 210
+
+cam_dispersion	= 2.5
+
+
+[wpn_glock21_d0cter]:wpn_glock21
+inv_weight				= 0.773
+hud						= wpn_glock21_d0cter_hud
+
+[wpn_glock21_d0cter_hud]:wpn_glock17_m1_d0cter_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_aim_low]:wpn_glock21
+inv_weight				= 0.875
+hud						= wpn_glock21_aim_low_hud
+
+[wpn_glock21_aim_low_hud]:wpn_glock17_m1_aim_low_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_rmr]:wpn_glock21
+inv_weight				= 0.804
+hud						= wpn_glock21_rmr_hud
+
+[wpn_glock21_rmr_hud]:wpn_glock17_m1_rmr_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_glock21_deltapoint]:wpn_glock21
+inv_weight				= 0.811
+hud						= wpn_glock21_deltapoint_hud
+
+[wpn_glock21_deltapoint_hud]:wpn_glock17_m1_deltapoint_hud
+;-------------------------------------------------------------------------------------------------------------------------------------------------------

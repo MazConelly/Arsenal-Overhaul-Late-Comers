@@ -1,0 +1,30 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------10mm Auto AMMO --------------------------------------------
+;------------------------------------------------------------------------------------------------
+[ammo_10x25_fmj]:ammo_base
+k_hit       = 1.35
+k_ap		= 1.50
+k_imp       = 0.55
+k_hp        = 1.1
+cost        = 1100
+
+[ammo_10x25_hydrashok]:ammo_base
+handler     = arti_handlers.disruptor
+k_hit       = 1.25
+k_ap		= 0.40
+k_imp       = 0.5
+k_hp        = 1.55
+cost        = 1400
+special     = flinch
+dg_ammo     = ammo_10x25_fmj
+dg_chance   = 0.6
+
+[ammo_10x25_ap]:ammo_base
+k_hit       = 1.15
+k_pen       = 0.5
+k_ap		= 0.175
+k_imp       = 0.6
+impair      = 1.25
+cost        = 1800
+dg_ammo     = ammo_10x25_fmj
+dg_chance   = 0.6
