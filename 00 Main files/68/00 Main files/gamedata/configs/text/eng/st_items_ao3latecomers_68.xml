@@ -78,4 +78,15 @@
 		</text>
     </string>
 
+    <string id="st_wpn_ar15_68">
+        <text>AR-15 - 6.8x43</text>
+    </string>
+    <string id="st_wpn_ar15_68_descr">
+        <text>The AR-15 is a 5.56x45 semi-automatic version of the M4 assault rifle marketed to civilians. Can mount a suppressor and optics, but not a grenade launcher.\n
+		This particular version is chambered in 6.8 SPC, increasing its hitting power in exchange of range.
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
+    </string>
+
 </string_table>

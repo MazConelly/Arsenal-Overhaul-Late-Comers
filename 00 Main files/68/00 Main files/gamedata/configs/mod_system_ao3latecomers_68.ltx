@@ -112,7 +112,7 @@ snd_1_layer		= weapons\lr300\lr680_fire
 snd_1_layer		= weapons\lr300\lr680_suppressed
 
 [wpn_lr680]:wpn_lr300
-$spawn				= "weapons\wpn_lr680"
+$spawn				= "weapons\lr680"
 parent_section		= wpn_lr680
 
 inv_name			= st_wpn_lr680
@@ -188,7 +188,7 @@ snd_1_layer		= weapons\m4a1\m4brec7_fire
 snd_1_layer		= weapons\m4a1\m4bm_suppressed
 
 [wpn_m4_brec7]:wpn_m4
-$spawn			= "weapons\wpn_m4_brec7"
+$spawn			= "weapons\m4_brec7"
 parent_section	= wpn_m4_brec7
 
 inv_name		= st_wpn_m4_brec7
@@ -348,7 +348,7 @@ snd_1_layer		= weapons\m249\m249_nimble_fire
 snd_1_layer		= weapons\m249\m249_nimble_suppressed
 
 [wpn_m249_nimble]:wpn_m249
-$spawn			= "weapons\wpn_m249_nimble"
+$spawn			= "weapons\m249_nimble"
 parent_section	= wpn_m249_nimble
 
 inv_name		= st_wpn_m249_nimble
@@ -409,3 +409,84 @@ hud				= wpn_m249_nimble_eot_hud
 visual			= dynamics\weapons\wpn_m249\wpn_m249_eot.ogf
 
 [wpn_m249_nimble_eot_hud]:wpn_m249_eot_hud
+
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------------AR-15 in 6.8----------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_ar15_68]:wpn_ar15
+$spawn			= "weapons\ar15_68"
+parent_section	= wpn_ar15_68
+
+inv_name		= st_wpn_ar15_68
+inv_name_short	= st_wpn_ar15_68
+description		= st_wpn_ar15_68_descr
+
+inv_weight		= 2.98
+cost			= 35690
+
+hud				= wpn_ar15_68_hud
+
+upgrades		= up_gr_firstab_lr300_alt, up_gr_seconab_lr300_alt, up_gr_thirdab_lr300_alt, up_gr_fourtab_lr300_alt, up_gr_fifthab_lr300_alt
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_sst, ammo_6.8x43_ap
+ammo_mag_size	= 26
+
+fire_modes		= 1
+
+hit_impulse		= 29
+hit_power		= 0.53, 0.53, 0.53, 0.53
+fire_distance	= 500
+rpm				= 400
+
+cam_dispersion		= 0.6
+
+snd_shoot		= wpn_m4_brec7_snd_shoot
+snd_silncer_shot= wpn_m4_brec7_snd_silncer_shot
+
+[wpn_ar15_68_hud]:wpn_m16_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_68_ac10632]:wpn_ar15_68
+1icon_layer		= ac10632
+1icon_layer_x	= 75
+1icon_layer_y	= -7
+
+inv_weight		= 3.13
+
+hud				= wpn_ar15_68_ac10632_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_ac10632.ogf
+
+[wpn_ar15_68_ac10632_hud]:wpn_m16_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_68_acog]:wpn_ar15_68
+1icon_layer		= acog
+1icon_layer_x	= 70
+1icon_layer_y	= -4
+
+inv_weight		= 3.23
+
+hud				= wpn_ar15_68_acog_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_acog.ogf
+
+scope_status	= 0
+scope_zoom_factor= 20
+
+zoom_rotate_time= 0.25
+
+[wpn_ar15_68_acog_hud]:wpn_m16_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ar15_68_eot]:wpn_ar15_68
+1icon_layer		= eot
+1icon_layer_x	= 72
+1icon_layer_y	= -2
+
+inv_weight		= 3.18
+
+hud				= wpn_ar15_68_eot_hud
+visual			= dynamics\weapons\wpn_m16\wpn_m16_eot.ogf
+
+[wpn_ar15_68_eot_hud]:wpn_m16_eot_hud
