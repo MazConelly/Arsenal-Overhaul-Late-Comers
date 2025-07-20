@@ -1,0 +1,36 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------AR Pack .50 Beowulf conversions----------------------------
+;------------------------------------------------------------------------------------------------
+
+;This is so we can see both guns in the debug menu
+![wpn_m16a2_commando]
+parent_section	= wpn_m16a2_commando
+
+[wpn_m16a2_commando_50]:wpn_m16a2_commando
+$spawn			= "weapons\m16a2_commando_50"
+parent_section	= wpn_m16a2_commando_50
+
+inv_name		= st_wpn_m16a2_r_commando_50
+inv_name_short	= st_wpn_m16a2_r_commando_50
+description		= st_wpn_m16a2_r_commando_50_descr
+
+silencer_name	= wpn_sil_50
+
+ammo_class		= ammo_50_beowulf_jfp, ammo_50_beowulf_hp, ammo_50_beowulf_ap
+ammo_elapsed	= 10
+ammo_mag_size	= 10
+
+hit_impulse		= 65
+hit_power		= 0.90, 0.90, 0.90, 0.90
+fire_distance	= 140
+bullet_speed	= 500
+
+crosshair_inertion	= 2
+fire_dispersion_base= 0.24
+
+misfire_end_condition	= 0.11
+
+cam_dispersion	= 6.5
+
+snd_shoot		= wpn_m4_beowulf_snd_shoot
+snd_silncer_shot= wpn_m4_beowulf_snd_silncer_shot

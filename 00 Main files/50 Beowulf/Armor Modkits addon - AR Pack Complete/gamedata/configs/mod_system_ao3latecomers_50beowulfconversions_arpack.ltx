@@ -1,0 +1,131 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------AR Pack .50 Beowulf conversions----------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_ddm4v7_50]:wpn_ddm4v7
+$spawn			= "weapons\ddm4v7_50"
+parent_section	= wpn_ddm4v7_50
+
+inv_name		= st_wpn_ddm4v7_50
+inv_name_short	= st_wpn_ddm4v7_50
+description		= st_wpn_ddm4v7_50_descr
+
+silencer_name	= wpn_sil_50
+
+ammo_class		= ammo_50_beowulf_jfp, ammo_50_beowulf_hp, ammo_50_beowulf_ap
+ammo_elapsed	= 25
+ammo_mag_size	= 25
+
+hit_impulse		= 65
+hit_power		= 0.90, 0.90, 0.90, 0.90
+fire_distance	= 140
+bullet_speed	= 500
+
+crosshair_inertion	= 2
+fire_dispersion_base= 0.24
+
+misfire_end_condition	= 0.11
+
+cam_dispersion	= 6.5
+
+snd_shoot		= wpn_m4_beowulf_snd_shoot
+snd_silncer_shot= wpn_m4_beowulf_snd_silncer_shot
+
+[wpn_m16_m203_50]:wpn_m16a2
+$spawn			= "weapons\m16_m203_50"
+parent_section	= wpn_m16_m203_50
+
+inv_name		= st_wpn_m16_50
+inv_name_short	= st_wpn_m16_m203_50
+description		= st_wpn_m16_m203_50_descr
+
+silencer_name	= wpn_sil_50
+
+ammo_class		= ammo_50_beowulf_jfp, ammo_50_beowulf_hp, ammo_50_beowulf_ap
+ammo_elapsed	= 10
+ammo_mag_size	= 10
+
+hit_impulse		= 65
+hit_power		= 0.90, 0.90, 0.90, 0.90
+fire_distance	= 140
+bullet_speed	= 500
+
+crosshair_inertion	= 2
+fire_dispersion_base= 0.24
+
+misfire_end_condition	= 0.11
+
+cam_dispersion	= 6.5
+
+snd_shoot		= wpn_m4_beowulf_snd_shoot
+snd_silncer_shot= wpn_m4_beowulf_snd_silncer_shot
+
+[wpn_m4_alt_50]:wpn_m4
+$spawn			= "weapons\m4_alt_50"
+parent_section	= wpn_m4_alt_50
+
+inv_name		= st_wpn_m4_50
+inv_name_short	= st_wpn_m4_50
+description		= st_wpn_m4_50_descr
+
+silencer_name	= wpn_sil_50
+
+ammo_class		= ammo_50_beowulf_jfp, ammo_50_beowulf_hp, ammo_50_beowulf_ap
+ammo_elapsed	= 10
+ammo_mag_size	= 10
+
+hit_impulse		= 65
+hit_power		= 0.90, 0.90, 0.90, 0.90
+fire_distance	= 140
+bullet_speed	= 500
+
+crosshair_inertion	= 2
+fire_dispersion_base= 0.24
+
+misfire_end_condition	= 0.11
+
+cam_dispersion	= 6.5
+
+snd_shoot		= wpn_m4_beowulf_snd_shoot
+snd_silncer_shot= wpn_m4_beowulf_snd_silncer_shot
+
+[wpn_m4_alt_50_ac10632]:wpn_m4_alt_50
+1icon_layer       = ac10632
+1icon_layer_x     = 90
+1icon_layer_y     = -7
+
+inv_weight        = 3.175
+
+hud               = wpn_m4_alt_50_ac10632_hud
+visual            = dynamics\weapons\wpn_m4\wpn_m4_ac10632.ogf
+
+[wpn_m4_alt_50_ac10632_hud]:wpn_m4_ac10632_hud
+
+[wpn_m4_alt_50_acog]:wpn_m4_alt_50
+1icon_layer       = acog
+1icon_layer_x     = 87
+1icon_layer_y     = -6
+
+inv_weight        = 3.37
+
+hud               = wpn_m4_alt_50_acog_hud
+visual            = dynamics\weapons\wpn_m4\wpn_m4_acog.ogf
+
+scope_status      = 0
+scope_zoom_factor = 20
+
+zoom_rotate_time  = 0.25
+
+[wpn_m4_alt_50_acog_hud]:wpn_m4_acog_hud
+
+[wpn_m4_alt_50_eot]:wpn_m4_alt_50
+1icon_layer     = eot
+1icon_layer_x   = 86
+1icon_layer_y   = -3
+
+inv_weight      = 3.320
+
+hud             = wpn_m4_alt_50_eot_hud
+visual          = dynamics\weapons\wpn_m4\wpn_m4_eot.ogf
+
+[wpn_m4_alt_50_eot_hud]:wpn_m4_eot_hud
