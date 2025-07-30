@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-    <string id="ammo-6.8x43_fmj">
+    <string id="st_ammo-6.8x43_fmj">
         <text>6.8x43 FMJ</text>
     </string>
-    <string id="ammo-6.8x43_fmj_descr">
+    <string id="st_ammo-6.8x43_fmj_descr">
         <text>The 6.8 Remington Special Purpose round is a rifle round that was developed by Remington Arms in collaboration with members of the U.S. Army to possibly replace the 5.56 NATO round. It is midway between the 5.56x45mm NATO and 7.62x51mm NATO in diameter and muzzle energy, slightly more powerful than the 7.62x39 round.</text>
     </string>
 
-    <string id="ammo-6.8x43_sst">
+    <string id="st_ammo-6.8x43_sst">
         <text>6.8x43 SST</text>
     </string>
-    <string id="ammo-6.8x43_sst_descr">
+    <string id="st_ammo-6.8x43_sst_descr">
         <text>Short for "Super Shock Tip" the SST round is designed to deliver tremendous shock on impact while expanding quickly and reliably.</text>
     </string>
 
-    <string id="ammo-6.8x43_ap">
+    <string id="st_ammo-6.8x43_ap">
         <text>6.8x43 AP</text>
     </string>
-    <string id="ammo-6.8x43_ap_descr">
+    <string id="st_ammo-6.8x43_ap_descr">
         <text>6.8x43 armor piercing round designed for optimal body armor penetration.</text>
     </string>
 
@@ -88,5 +88,17 @@
 		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
+
+	<string id="st_wpn_m4_ru55668">
+		<text>Ruger SR-556/6.8 (BaS)</text>
+	</string>
+	<string id="st_wpn_m4_ru55668_descr">
+		<text>Several of these rifles entered the Zone through scientists. According to legend, Professor Sakharov received 6 small containers with these guns from foreign sponsors, but 5 of them were lost during transportation. Ruger SR-556 is an American self-loading carbine manufactured by the arms company Sturm, Ruger & Company, Inc. became the first Ruger of the AR-10 family. Ruger SR-762 chambered for .308. Belongs to a few samples of AR-15 rifles using the removal of powder gases. Production ceased in January 2016 after the introduction of the Keymod Lightweight option.\n
+		This SR-556/6.8 version was a later variant chambered in 6.8.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
+		%c[d_purple] • %c[ui_gray_2] Scopes:  All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 6.8 suppressor</text>
+	</string>
 
 </string_table>

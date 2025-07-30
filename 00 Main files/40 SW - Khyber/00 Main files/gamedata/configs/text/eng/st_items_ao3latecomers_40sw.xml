@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 <!-- 
-    <string id="ammo-10x22_fmj">
+    <string id="st_ammo-10x22_fmj">
         <text>.40 S&amp;W FMJ</text>
     </string>
-    <string id="ammo-10x22_fmj_descr">
+    <string id="st_ammo-10x22_fmj_descr">
         <text>Full metal jacket .40 S&amp;W (10x22mm) rounds. The .40 S&amp;W round has been popular with law enforcement agencies in the United States, Canada, and Australia. While possessing nearly identical accuracy, drift and drop it is much more powerful than the 9x19 round and with more manageable recoil than the 10mm Auto.</text>
     </string>
 
-    <string id="ammo-10x22_hp">
+    <string id="st_ammo-10x22_hp">
         <text>.40 S&amp;W JHP</text>
     </string>
-    <string id="ammo-10x22_hp_descr">
+    <string id="st_ammo-10x22_hp_descr">
         <text>Jacketed Hollow point .40 S&amp;W (10x22mm) rounds. The bullet fragments on impact with soft tissue maximizing tissue damage, blood loss and shock. The .40 S&amp;W round has been popular with law enforcement agencies in the United States, Canada, and Australia. While possessing nearly identical accuracy, drift and drop it is much more powerful than the 9x19 round and with more manageable recoil than the 10mm Auto.</text>
     </string>
 
-    <string id="ammo-10x22_ap">
+    <string id="st_ammo-10x22_ap">
         <text>.40 S&amp;W AP</text>
     </string>
-    <string id="ammo-10x22_ap_descr">
+    <string id="st_ammo-10x22_ap_descr">
         <text>Armor piercing .40 S&amp;W rounds.</text>
     </string>
  -->

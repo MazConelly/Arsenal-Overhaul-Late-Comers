@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-    <string id="ammo-10x25_fmj">
+    <string id="st_ammo-10x25_fmj">
         <text>10mm Auto FMJ</text>
     </string>
-    <string id="ammo-10x25_fmj_descr">
+    <string id="st_ammo-10x25_fmj_descr">
         <text>Full metal jacket 10mm Auto rounds. Provides greater stopping power than the .45 ACP round without a loss in muzzle velocity.</text>
     </string>
 
-    <string id="ammo-10x25_hp">
+    <string id="st_ammo-10x25_hp">
         <text>10mm Auto JHP</text>
     </string>
-    <string id="ammo-10x25_hp_descr">
+    <string id="st_ammo-10x25_hp_descr">
         <text>Jacketed hollow point 10mm Auto rounds. Provides greater stopping power than the .45 ACP round without a loss in muzzle velocity. The bullet expands on impact with soft tissue maximizing tissue damage, blood loss and shock.</text>
     </string>
 
-    <string id="ammo-10x25_ap">
+    <string id="st_ammo-10x25_ap">
         <text>10mm Auto JHP</text>
     </string>
-    <string id="ammo-10x25_ap_descr">
+    <string id="st_ammo-10x25_ap_descr">
         <text>Armor piercing 10mm Auto rounds. It is faded, but you'd swear there's a 'FBI Property' mark on the box.</text>
     </string>
 

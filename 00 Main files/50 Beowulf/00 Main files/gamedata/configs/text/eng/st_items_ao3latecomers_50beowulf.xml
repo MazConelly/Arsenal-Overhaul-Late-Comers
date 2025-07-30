@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-	<string id="ammo-50_beowulf_jfp">
+	<string id="st_ammo-50_beowulf_jfp">
 		<text>.50 Beowulf JFP</text>
 	</string>
-	<string id="ammo-50_beowulf_jfp_descr">
+	<string id="st_ammo-50_beowulf_jfp_descr">
 		<text>Jacketed flat point  .50 Beowulf (12.7x42) rounds. The bullet expands on impact, crushing through body armor and causing tremendous tissue damage.</text>
 	</string>
 
-	<string id="ammo-50_beowulf_hp">
+	<string id="st_ammo-50_beowulf_hp">
 		<text>.50 Beowulf HP</text>
 	</string>
-	<string id="ammo-50_beowulf_hp_descr">
+	<string id="st_ammo-50_beowulf_hp_descr">
 		<text>Hollow point .50 Beowulf (12.7x42) rounds. The bullet framents on impact causing tremendous damage to soft tissue.</text>
 	</string>
 
-	<string id="ammo-50_beowulf_ap">
+	<string id="st_ammo-50_beowulf_ap">
 		<text>.50 Beowulf AP</text>
 	</string>
-	<string id="ammo-50_beowulf_ap_descr">
+	<string id="st_ammo-50_beowulf_ap_descr">
 		<text>Armor piercing .50 Beowulf (12.7x42) rounds. Designed to kick through the plating of armored light vehicles.</text>
 	</string>
 
