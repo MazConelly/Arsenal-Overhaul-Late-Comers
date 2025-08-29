@@ -30,6 +30,17 @@
         <text>Suppressor for 6.8x43 assault rifles</text>
     </string>
 
+	<string id="st_wpn_hk416d">
+		<text>HK416D</text>
+	</string>
+	<string id="st_wpn_hk416d_descr">
+		<text>The HK416 is a rifle designed and manufactured by Heckler &amp; Koch to improve the M4. It is available as a complete firearm, or as an upper receiver that fits on any AR-15 type lower receiver. The US Army's Delta Force collaborated with the German arms makers to develop the new rifle. Testing the H&amp;K 416 in 2004 revealed that the piston operating system significantly reduces malfunctions while increasing the life of parts. The project was originally called the H&amp;K M4, but was changed in response to a trademark infringement suit filed by Colt Defence. Currently, it is only available to government and military organisations, hence why this assault rifle is usually carried by Mercenaries.\n
+		While looking exactly like the HK416, this HK416D model is chambered for 6.8 SPC, and only fabricated by H&K under private contract; you can only guess how this gun came into the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
 
     <string id="st_wpn_lr680">
         <text>LR-680</text>

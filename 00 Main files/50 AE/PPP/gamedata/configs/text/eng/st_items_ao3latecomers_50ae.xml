@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="st_ammo-50ae_fmj">
+        <text>.50 AE FMJ</text>
+    </string>
+    <string id="st_ammo-50ae_fmj_descr">
+        <text>The .50 Action Express (12.7x33mm) is a large caliber handgun round. It was developed in 1988 by Evan Whildin of Action Arms. It is one of the most powerful pistol rounds in production. It's primary uses are silhouette shooting and medium/big game hunting.</text>
+    </string>
+
+    <string id="st_ammo-50ae_hp">
+        <text>.50 AE JHP</text>
+    </string>
+    <string id="st_ammo-50ae_hp_descr">
+        <text>Jacketed hollow point .50 Action Express (12.7x33mm) rounds. The bullet framents on impact causing heavy damage to soft tissue.</text>
+    </string>
+
+    <string id="st_ammo-50ae_ap">
+        <text>.50 AE AP</text>
+    </string>
+    <string id="st_ammo-50ae_ap_descr">
+        <text>Armor piercing .50 Action Express (12.7x33mm) rounds. Big mean plate eatin' beans.</text>
+    </string>
+
+	<string id="st_wpn_desert_eagle_descr">
+		<text>The IMI Desert Eagle is a semi-automatic handgun notable for chambering the largest centrefire cartridge of any magazine fed, self-loading pistol and also being the heaviest and blockiest gun of its type. No one knows why IMI thought shooting a calibre of this size out of a handgun was a good idea, even though there are plenty of rounds out there that can do the job without breaking your wrist; this one assumes because of a pissing contest between the .44 and .50 AE. Not only is it heavy and harsh in recoil, you can also use it to bludgeon your enemies to death because of its blockiness and weight. Although militaries and law enforcement around the world, in their moment of sanity, never adopted this brick; Hollywood did, mostly because of its "cool factor" and now is the poster child for gangsters and pimps and a status symbol for those who reached a certain rank in a certain console shooter. Rumour is that there's a stalker with a crowbar wandering around the Zone with a rechambered version of this gun, but it's just a rumour.\n
+		Due to the rarity of .50 AE ammo, models chambered in .357 are more common in the Zone.\n
+		</text>
+	</string>
+	
+    <string id="st_wpn_desert_eagle_50ae">
+        <text>Desert Eagle .50</text>
+    </string>
+	<string id="st_wpn_desert_eagle_custom_50ae">
+		<text>Desert Eagle .50 (Chrome)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_modern_50ae">
+		<text>Desert Eagle .50 (Black)</text>
+	</string>
+    <string id="st_wpn_desert_eagle_50ae_descr">
+        <text>The IMI Desert Eagle is a semi-automatic handgun notable for chambering the largest centrefire cartridge of any magazine fed, self-loading pistol and also being the heaviest and blockiest gun of its type. No one knows why IMI thought shooting a calibre of this size out of a handgun was a good idea, even though there are plenty of rounds out there that can do the job without breaking your wrist; this one assumes because of a pissing contest between the .44 and .50 AE. Not only is it heavy and harsh in recoil, you can also use it to bludgeon your enemies to death because of its blockiness and weight. Although militaries and law enforcement around the world, in their moment of sanity, never adopted this brick; Hollywood did, mostly because of its "cool factor" and now is the poster child for gangsters and pimps and a status symbol for those who reached a certain rank in a certain console shooter. \n
+		Rumour is that there's a stalker with a crowbar wandering around the Zone with a rechambered version of this gun, but it's just a rumour.\n
+		This is a true model chambered for .50 AE Magnum round.\n
+		</text>
+    </string>
+
+	<string id="st_wpn_desert_eagle_nimble_50ae">
+		<text>Desert Eagle .50 "Vampire"</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble_50ae_descr">
+		<text>A more modernized version of the Desert Eagle, with a build-in compensator and picatinny rails, on frame and slide. Knowing that so, it still has quite a recoil but much lower than any other Desert Eagle, let alone magnum, the slight barrel improvements also improve the accuracy by a bit, and it's possible to insert some scopes. It loads .50 AE rounds like the slide claims, quite the rare powerhouse in the Zone, and you caught Nimble grumbling something about "insecure clients" when he showed this gun to you.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical</text>
+	</string>
+</string_table>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-
     <string id="st_ammo-50ae_fmj">
         <text>.50 AE FMJ</text>
     </string>
@@ -22,15 +21,35 @@
         <text>Armor piercing .50 Action Express (12.7x33mm) rounds. Big mean plate eatin' beans.</text>
     </string>
 
-
+	<string id="st_wpn_desert_eagle_descr">
+		<text>The IMI Desert Eagle is a semi-automatic handgun notable for chambering the largest centrefire cartridge of any magazine fed, self-loading pistol and also being the heaviest and blockiest gun of its type. No one knows why IMI thought shooting a calibre of this size out of a handgun was a good idea, even though there are plenty of rounds out there that can do the job without breaking your wrist; this one assumes because of a pissing contest between the .44 and .50 AE. Not only is it heavy and harsh in recoil, you can also use it to bludgeon your enemies to death because of its blockiness and weight. Although militaries and law enforcement around the world, in their moment of sanity, never adopted this brick; Hollywood did, mostly because of its "cool factor" and now is the poster child for gangsters and pimps and a status symbol for those who reached a certain rank in a certain console shooter. Rumour is that there's a stalker with a crowbar wandering around the Zone with a rechambered version of this gun, but it's just a rumour.\n
+		Due to the rarity of .50 AE ammo, models chambered in .357 are more common in the Zone.\n
+		</text>
+	</string>
+	
     <string id="st_wpn_desert_eagle_50ae">
         <text>Desert Eagle .50</text>
     </string>
+	<string id="st_wpn_desert_eagle_custom_50ae">
+		<text>Desert Eagle .50 (custom)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_modern_50ae">
+		<text>Desert Eagle .50 (modern)</text>
+	</string>
     <string id="st_wpn_desert_eagle_50ae_descr">
-        <text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols. This particular model is chambered for the hefty .50 AE Magnum round.
-		<!-- \n%c[ui_gray_2]ATTACHMENTS: \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
+        <text>The IMI Desert Eagle is a semi-automatic handgun notable for chambering the largest centrefire cartridge of any magazine fed, self-loading pistol and also being the heaviest and blockiest gun of its type. No one knows why IMI thought shooting a calibre of this size out of a handgun was a good idea, even though there are plenty of rounds out there that can do the job without breaking your wrist; this one assumes because of a pissing contest between the .44 and .50 AE. Not only is it heavy and harsh in recoil, you can also use it to bludgeon your enemies to death because of its blockiness and weight. Although militaries and law enforcement around the world, in their moment of sanity, never adopted this brick; Hollywood did, mostly because of its "cool factor" and now is the poster child for gangsters and pimps and a status symbol for those who reached a certain rank in a certain console shooter. \n
+		Rumour is that there's a stalker with a crowbar wandering around the Zone with a rechambered version of this gun, but it's just a rumour.\n
+		This is a true model chambered for .50 AE Magnum round.\n
 		</text>
     </string>
 
+	<string id="st_wpn_desert_eagle_nimble_50ae">
+		<text>Desert Eagle .50 "Mountain Eagle"</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble_50ae_descr">
+		<text>The IMI Desert Eagle is a semi-automatic handgun notable for chambering the largest centrefire cartridge of any magazine fed, self-loading pistol and also being the heaviest and blockiest gun of its type. No one knows why IMI thought shooting a calibre of this size out of a handgun was a good idea, even though there are plenty of rounds out there that can do the job without breaking your wrist; this one assumes because of a pissing contest between the .44 and .50 AE.\n
+		Someone seemed to have heard about Logan Williams' customized Steppe Eagle and wanted to do one better using a proper model chambered in .50 AE. Very few stalkers are willing to even entertain the idea when there are plenty of handguns and calibers that can be localy sourced and are easier to stock and maintain.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] DOCTER sight (integrated)</text>
+	</string>
 </string_table>

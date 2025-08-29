@@ -3,7 +3,7 @@
 ;------------------------------------------------------------------------------------------------
 [ammo_50ae_fmj]:ammo_base
 GroupControlSection	= spawn_group
-discovery_dependency =
+discovery_dependency=
 $spawn			= "weapons\ammo\ammo_11.43x23_fmj"
 class			= AMMO
 cform			= skeleton
@@ -78,27 +78,113 @@ tier			= 3
 ;--------------------------------------Desert Eagle .50 AE---------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_desert_eagle_50ae]:wpn_desert_eagle
-$spawn                      = "weapons\wpn_desert_eagle_50ae"
-inv_name                    = st_wpn_desert_eagle_50ae
-inv_name_short              = st_wpn_desert_eagle_50ae
-description                 = st_wpn_desert_eagle_50ae_descr
+$spawn			= "weapons\desert_eagle_50ae"
+inv_name		= st_wpn_desert_eagle_50ae
+inv_name_short	= st_wpn_desert_eagle_50ae
+description		= st_wpn_desert_eagle_50ae_descr
 
-inv_weight                  = 2.1
-cost                        = 20680
+inv_weight		= 2.1
+cost			= 24680
 
-shell_particles             = weapons\45acp
+hud				= wpn_desert_eagle_50ae_hud
 
-ammo_class                  = ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
-ammo_elapsed                = 7
-ammo_mag_size               = 7
+shell_particles	= weapons\45acp
 
-hit_impulse                 = 50
-hit_power                   = 0.65, 0.65, 0.65, 0.65
-fire_distance               = 200
-bullet_speed                = 470
-rpm                         = 145
-rpm_empty_click             = 120
+ammo_class		= ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
+ammo_elapsed	= 7
+ammo_mag_size	= 7
 
-cam_dispersion              = 8.0
+hit_impulse		= 50
+hit_power		= 0.65, 0.65, 0.65, 0.65
+fire_distance	= 200
+bullet_speed	= 470
+rpm				= 145
+rpm_empty_click	= 120
+
+cam_dispersion	= 8.0
 
 [wpn_desert_eagle_50ae_hud]:wpn_desert_eagle_hud
+
+[wpn_desert_eagle_custom_50ae]:wpn_desert_eagle_custom
+$spawn			= "weapons\desert_eagle_custom_50ae"
+inv_name		= st_wpn_desert_eagle_custom_50ae
+inv_name_short	= st_wpn_desert_eagle_custom_50ae
+description		= st_wpn_desert_eagle_50ae_descr
+
+inv_weight		= 2.1
+cost			= 28580
+
+hud				= wpn_desert_eagle_sk1_50ae_hud
+
+shell_particles	= weapons\45acp
+
+ammo_class		= ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
+ammo_elapsed	= 7
+ammo_mag_size	= 7
+
+hit_impulse		= 50
+hit_power		= 0.65, 0.65, 0.65, 0.65
+fire_distance	= 200
+bullet_speed	= 470
+rpm				= 143
+rpm_empty_click	= 120
+
+cam_dispersion	= 8.0
+
+[wpn_desert_eagle_sk1_50ae_hud]:wpn_desert_eagle_sk1_hud
+
+[wpn_desert_eagle_modern_50ae]:wpn_desert_eagle_modern
+$spawn			= "weapons\desert_eagle_modern_50ae"
+inv_name		= st_wpn_desert_eagle_modern_50ae
+inv_name_short	= st_wpn_desert_eagle_modern_50ae
+description		= st_wpn_desert_eagle_50ae_descr
+
+inv_weight		= 2.1
+cost			= 27250
+
+hud				= wpn_desert_eagle_sk2_50ae_hud
+
+shell_particles	= weapons\45acp
+
+ammo_class		= ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
+ammo_elapsed	= 7
+ammo_mag_size	= 7
+
+hit_impulse		= 50
+hit_power		= 0.65, 0.65, 0.65, 0.65
+fire_distance	= 200
+bullet_speed	= 470
+rpm				= 157
+rpm_empty_click	= 120
+
+cam_dispersion	= 8.0
+
+[wpn_desert_eagle_sk2_50ae_hud]:wpn_desert_eagle_sk2_hud
+
+[wpn_desert_eagle_nimble_50ae]:wpn_desert_eagle_nimble
+$spawn			= "weapons\desert_eagle_nimble_50ae"
+inv_name		= st_wpn_desert_eagle_nimble_50ae
+inv_name_short	= st_wpn_desert_eagle_nimble_50ae
+description		= st_wpn_desert_eagle_nimble_50ae_descr
+
+inv_weight		= 2.128
+cost			= 30880
+
+hud				= wpn_desert_eagle_nimble_50ae_hud
+
+shell_particles	= weapons\45acp
+
+ammo_class		= ammo_50ae_fmj, ammo_50ae_hp, ammo_50ae_ap
+ammo_elapsed	= 7
+ammo_mag_size	= 7
+
+hit_impulse		= 50
+hit_power		= 0.65, 0.65, 0.65, 0.65
+fire_distance	= 200
+bullet_speed	= 470
+rpm				= 168
+rpm_empty_click	= 120
+
+cam_dispersion	= 8.0
+
+[wpn_desert_eagle_nimble_50ae_hud]:wpn_desert_eagle_hud

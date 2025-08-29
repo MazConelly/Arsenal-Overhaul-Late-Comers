@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_ammo-50_beowulf_jfp">
+		<text>.50 Beowulf JFP</text>
+	</string>
+	<string id="st_ammo-50_beowulf_jfp_descr">
+		<text>Jacketed flat point  .50 Beowulf (12.7x42) rounds. The bullet expands on impact, crushing through body armor and causing tremendous tissue damage.</text>
+	</string>
+
+	<string id="st_ammo-50_beowulf_hp">
+		<text>.50 Beowulf HP</text>
+	</string>
+	<string id="st_ammo-50_beowulf_hp_descr">
+		<text>Hollow point .50 Beowulf (12.7x42) rounds. The bullet framents on impact causing tremendous damage to soft tissue.</text>
+	</string>
+
+	<string id="st_ammo-50_beowulf_ap">
+		<text>.50 Beowulf AP</text>
+	</string>
+	<string id="st_ammo-50_beowulf_ap_descr">
+		<text>Armor piercing .50 Beowulf (12.7x42) rounds. Designed to kick through the plating of armored light vehicles.</text>
+	</string>
+
+
+    <string id="st_sil_50">
+        <text>.50 Suppressor</text>
+    </string>
+    <string id="st_sil_50_descr">
+        <text>Suppressor for .50 caliber rifles</text>
+    </string>
+
+
+	<string id="st_wpn_m4_beowulf">
+		<text>Beowulf M4</text>
+	</string>
+	<string id="st_wpn_m4_beowulf_descr">
+		<text>The Beowulf M4 is a fully automatic variant of the M4 carbine chambered in .50 Beowulf. The round is intended to improve stopping power greatly at short- to medium-range as compared to the standard 5.56x45mm NATO round. One of its advertised uses is at vehicle checkpoints, since the heavy bullet's flight path is not easily deflected by auto glass or standard vehicle body panels. Although much has been written about its tactical uses, the .50 Beowulf is gaining recognition as a sporting cartridge. It is becoming more widely recognized as being usable by stalkers for hunting against the Zone's creatures. \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)
+		</text>
+	</string>
+
+
+<!-- Armor Modkits Conversions -->
+    <string id="st_wpn_ar15_50">
+        <text>AR-15 - .50 Beowulf</text>
+    </string>
+    <string id="st_wpn_ar15_50_descr">
+        <text>The AR-15 is a 5.56x45 semi-automatic version of the M4 assault rifle marketed to civilians. Can mount a suppressor and optics, but not a grenade launcher.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
+    </string>
+
+	<string id="st_wpn_hk416_50">
+		<text>HK416 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_hk416_50_descr">
+		<text>The HK416 is a rifle designed and manufactured by Heckler &amp; Koch to improve the M4. It is available as a complete firearm, or as an upper receiver that fits on any AR-15 type lower receiver. The US Army's Delta Force collaborated with the German arms makers to develop the new rifle. Testing the H&amp;K 416 in 2004 revealed that the piston operating system significantly reduces malfunctions while increasing the life of parts. The project was originally called the H&amp;K M4, but was changed in response to a trademark infringement suit filed by Colt Defence. Currently, it is only available to government and military organisations, hence why this assault rifle is usually carried by Mercenaries.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_lr300_50">
+		<text>LR-300ML - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_lr300_camo_50">
+		<text>LR-300ML - .50 Beowulf (camouflaged)</text>
+	</string>
+	<string id="st_wpn_lr300_custom_50">
+		<text>LR-300ML - .50 Beowulf (custom)</text>
+	</string>
+	<string id="st_wpn_lr300_50_descr">
+		<text>Based on the AR-15, the LR-300 is an excellent weapon system suitable for military use in close quarters battle. Its folding skeletal stock makes it ideal for aggressive and rapid building entries requiring a compact yet powerful selective fire weapon. With excellent ergonomics and lightweight, this weapon is highly accurate but it is sensitive to dirt and is not ideal for difficult field conditions.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)</text>
+	</string>
+
+	<string id="st_wpn_m16_50">
+		<text>M16A4 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16_50_descr">
+		<text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in the 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its calibre. The M16 is a lightweight, 5.56x45mm calibre, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminium, and composite plastics.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m16a2_50">
+		<text>M16A2 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a2_50_descr">
+		<text>The M16A2 rifle entered service in the 1980s, chambered to fire the standard NATO round, the Belgian designed M855/M856 cartridge. The M16A2 is a select fire rifle, incorporating design elements requested by the Marine Corps: an adjustable, windage rear sight, longer stock, heavier barrel, case deflector for left-hand shooters and cylindrical hand guards. The M16A2 is manufactured by Colt and the Fabrique Nationale de Herstal arms company, with the variant rifles made elsewhere in the world.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m4_50">
+		<text>M4A1 RAS - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4_50_descr">
+		<text>The M4 Carbine descends from a family of firearms tracing its lineage back to earlier carbine versions of the M16, all based on the original AR-15 made by ArmaLite. It is a shorter and lighter version of the M16 assault rifle, sharing 80% of its parts. The M4 fires 5.56x45mm NATO ammunition and are gas operated, air cooled, magazine fed, selective fire firearms with a 4 position telescoping stock. As with many carbines, the M4 is handy and more convenient to carry than a full length rifle. It has been adopted by United States Special Operations Command (USSOCOM) and is the preferred weapon of the U.S. Army Special Forces and Navy SEALs.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m4a1_50">
+		<text>M4A1 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4a1_50_descr">
+		<text>Ideal for CQC (Close Quarters Combat), the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. In military use, it has largely replaced the submachine guns firing pistol cartridges that are inadequate against modern body armour. The M4A1 is a modified variant of the M4 carbine able to fire automatic or semi-automatic.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE
+		</text>
+	</string>
+
+	<string id="st_wpn_m4a1_camo_50">
+		<text>M4A1 Aeroknox AX-15 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4a1_camo_50_descr">
+		<text>The M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This particular variant comes with a longer barrel, offering more accuracy than other options available, but has less recoil control.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE
+		</text>
+	</string>
+
+	<string id="st_wpn_m4a1_custom_50">
+		<text>M4A1 KAC URX - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4a1_custom_50_descr">
+		<text>Ideal for CQC (Close Quarters Combat), the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This particular variant offers better recoil control but offers worse accuracy due to it's smaller barrel, however it excels in handling due to it's grip and and hanguard being more comfortable to handle.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE
+		</text>
+	</string>
+
+	<string id="st_wpn_m4a1_freedom_50">
+		<text>M4A1 SAI QD - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4a1_freedom_descr">
+		<text>the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This varint of the M4A1 carbine is packed with customized parts to offer better combat capabilities in combat. Comes with a 60 rounder quad-stack magazine to rain more fire on the enemy, as well as a heavier muzzle break to offer better recoil control. Only higher ranking freedom members have access to this piece of equipment.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] Muzzle break INTEGRATED\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE\n
+		</text>
+	</string>
+
+<!-- Mods patched -->
+<!-- AR Pack -->
+	<string id="st_wpn_ddm4v7">
+		<text>DDM4 V7 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_ddm4v7_descr">
+		<text>The DDM4 V7 AR15 style firearm features M-LOK attachment technology with the Daniel Defense MFR 15.0 rail. Built around a Cold Hammer Forged, 16 inch barrel, the V7 has a DD improved Flash Suppressor to reduce flash signature.\n \n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor
+		</text>
+	</string>
+
+	<string id="st_wpn_m16_m203">
+		<text>M16A4 Long M203 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16_m203_descr">
+		<text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in the 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its calibre. The M16 is a lightweight, 5.56x45mm calibre, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminium, and composite plastics.\n \n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+<!-- M16A2 Commando -->
+	<string id="st_wpn_m16a2_r_commando_50">
+		<text>M16A2 "Commando" - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a2_r_commando_50_descr">
+		<text>The "Commando" variant of the M16A2 assault rifle is a specialized iteration renowned for its enhanced versatility and firepower. Building upon the M16A2's foundation, the Commando model integrates a 20-inch barrel with an M203 underbarrel grenade launcher, allowing operators to engage both individual targets and fortified positions with precision. This select-fire firearm retains the ergonomic advancements of the M16A2, including its adjustable rear sight for diverse engagement ranges, while the integrated M203 grenade launcher extends its combat capabilities. A detachable magazine, with a capacity of 30 rounds, further emphasizes its adaptability on the battlefield. The Commando variant stands as a testament to innovative design, catering to the multifaceted demands of modern warfare. \n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor</text>
+	</string>	
+
+
+</string_table>
