@@ -100,6 +100,7 @@
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
 
+<!-- BaS -->
 	<string id="st_wpn_m4_ru55668">
 		<text>Ruger SR-556/6.8 (BaS)</text>
 	</string>
@@ -110,6 +111,65 @@
 		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
 		%c[d_purple] • %c[ui_gray_2] Scopes:  All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: 6.8 suppressor</text>
+	</string>
+
+
+<!-- Mags -->
+	<string id="st_mag_68_default">
+		<text>Standard 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_default_descr">
+		<text>28-round magazine used by 6.8 SPC rifles during their infancy. Very similar to the standard 30 round AR-15/M16 magazines in 5.56x45, it is relatively cheap and light.</text>
+	</string>
+
+	<string id="st_mag_68_heavy">
+		<text>Heavy 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_heavy_descr">
+		<text>30-round magazine compatible with 6.8 SPC rifles. Heavier than the more common magazine model, due to the need for more space to fit the magic 30 number.</text>
+	</string>
+
+	<string id="st_mag_68_fast">
+		<text>Fast-loading 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_fast_descr">
+		<text>30-round magazine compatible with 6.8 SPC rifles. Designed with less steel than the standard magazine, and more thought on facilitating the quick loading of rounds.</text>
+	</string>
+
+	<string id="st_mag_68_short">
+		<text>Short 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_short_descr">
+		<text>25-round magazine compatible with 6.8 SPC rifles. It provides a relatively decent load capability in a small size. It's also quick to load.</text>
+	</string>
+
+	<string id="st_mag_68_extended">
+		<text>Extended 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_extended_descr">
+		<text>Extended 40-round polymer magazine compatible with 6.8 SPC rifles. Bigger and heavier than other extended mags, but not so much to matter a lot.</text>
+	</string>
+
+	<string id="st_mag_68_casket">
+		<text>60-round 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_casket_descr">
+		<text>60-round quad-stack magazine compatible with 6.8 SPC rifles. Offers a lot of firepower, but is extremely heavy and the quad-stack nature makes it difficult to load in rounds quickly.</text>
+	</string>
+
+	<string id="st_mag_68_cmag">
+		<text>100-round 6.8 SPC Beta C-Mag</text>
+	</string>
+	<string id="st_mag_68_cmag_descr">
+		<text>100-round dual drum magazine compatible with 6.8 SPC rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.\n
+		Strangely, you can't see the sign of any manufacturer, but the production seems well made.</text>
+	</string>
+
+	<string id="st_mag_m249_68">
+		<text>6.8 SPC M249 Box</text>
+	</string>
+	<string id="st_mag_m249_68_descr">
+		<text>A standard 5.56x45 M249 Box converted for 100 6.8 SPC rounds. Not much of a reason to do this, unless you are somehow aware of a M249 variant chambered for 6.8.</text>
 	</string>
 
 </string_table>
