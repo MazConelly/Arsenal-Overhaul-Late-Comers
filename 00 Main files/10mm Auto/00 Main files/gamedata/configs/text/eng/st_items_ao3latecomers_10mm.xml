@@ -1,24 +1,57 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-    <string id="st_ammo-10x25_fmj">
-        <text>10mm Auto FMJ</text>
+	<string id="st_prt_w_barrel_10mm">
+		<text>10mm Auto long barrel</text>
+	</string>
+	<string id="st_prt_w_barrel_10mm_descr">
+		<text>Barrel from an automatic special purpose 10mm rifle.\n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_10mm">
+		<text>10mm Auto pistol barrel</text>
+	</string>
+	<string id="st_prt_w_p_barrel_10mm_descr">
+		<text>Barrel from a 10mm Auto pistol.\n</text>
+	</string>
+
+
+    <string id="ammo-10x25_fmj">
+        <text>10mm Auto FMJ rounds</text>
     </string>
-    <string id="st_ammo-10x25_fmj_descr">
+    <string id="ammo-10x25_fmj_bad">
+        <text>10mm Auto FMJ (old)</text>
+	</string>
+    <string id="ammo-10x25_fmj_verybad">
+        <text>10mm Auto FMJ (damaged)</text>
+	</string>
+    <string id="ammo-10x25_fmj_descr">
         <text>Full metal jacket 10mm Auto rounds. Provides greater stopping power than the .45 ACP round without a loss in muzzle velocity.</text>
     </string>
 
-    <string id="st_ammo-10x25_hp">
-        <text>10mm Auto JHP</text>
+    <string id="ammo-10x25_hp">
+        <text>10mm Auto HP rounds</text>
     </string>
-    <string id="st_ammo-10x25_hp_descr">
+    <string id="ammo-10x25_hp_bad">
+        <text>10mm Auto HP (old)</text>
+	</string>
+    <string id="ammo-10x25_hp_verybad">
+        <text>10mm Auto HP (damaged)</text>
+	</string>
+    <string id="ammo-10x25_hp_descr">
         <text>Jacketed hollow point 10mm Auto rounds. Provides greater stopping power than the .45 ACP round without a loss in muzzle velocity. The bullet expands on impact with soft tissue maximizing tissue damage, blood loss and shock.</text>
     </string>
 
-    <string id="st_ammo-10x25_ap">
-        <text>10mm Auto JHP</text>
+    <string id="ammo-10x25_ap">
+        <text>10mm Auto AP rounds</text>
     </string>
-    <string id="st_ammo-10x25_ap_descr">
+    <string id="ammo-10x25_ap_bad">
+        <text>10mm Auto AP (old)</text>
+	</string>
+    <string id="ammo-10x25_ap_verybad">
+        <text>10mm Auto AP (damaged)</text>
+	</string>
+    <string id="ammo-10x25_ap_descr">
         <text>Armor piercing 10mm Auto rounds. It is faded, but you'd swear there's a 'FBI Property' mark on the box.</text>
     </string>
 
@@ -27,7 +60,7 @@
         <text>10mm Suppressor</text>
     </string>
     <string id="st_sil_10_descr">
-        <text>Suppressor for 10mm Auto and .40 S&amp;W pistols and sub-machine guns</text>
+        <text>Suppressor for 10mm Auto pistols and sub-machine guns.\n</text>
     </string>
 
 
@@ -37,11 +70,10 @@
     <string id="st_wpn_deltaelite_descr">
         <text>The M1911 was the standard-issue side arm for the US military from 1911 to 1985. An extremely reliable and robust weapon, it's been adopted for military, police and civilian use around the world and remains a very popular firearm to this day.\n
 		The Colt Delta Elite is a modified M1911 pistol, chambered for 10mm Auto and considered to be the first firearm to be chambered in 10mm Auto by a well-known manufacturer. It performs similar to the popular M1911 in terms of design and operation but feeds from eight-round magazines.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
-		</text>
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
     </string>
 
     <string id="st_wpn_glock20">
@@ -49,11 +81,10 @@
     </string>
     <string id="st_wpn_glock20_descr">
         <text>Introduced in 1991, the Glock 20 pistol is a variant chambered in 10mm Auto. With its longer cartridge, it is stronger and slighty larger compared to the standard Glock 17.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
-		</text>
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
     </string>
 
     <string id="st_wpn_mp510">
@@ -62,11 +93,10 @@
     <string id="st_wpn_mp510_descr">
         <text>The MP5 is one of the most famous and wide spread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favourite of numerous military, law enforcement, intelligence and security organisations the world over. The MP5A3 is fitted with a retractable metal stock. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.\n
 		The MP5/10 us a variant chambered in 10mm Auto. It was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
-		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes
-		</text>
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
 	
     <string id="st_wpn_mp5sd_nimble">
@@ -74,11 +104,10 @@
     </string>
     <string id="st_wpn_mp5sd_nimble_descr">
         <text>Rare variant of the MP5SD chambered in 10mm Auto.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
-		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes
-		</text>
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
 
     <string id="st_wpn_usp10">
@@ -87,11 +116,10 @@
     <string id="st_wpn_usp10_descr">
         <text>Originally designed for the American market, the USP, Universal Self loading Pistol, is known as an accurate and reliable handgun. U.S. law enforcement and military provided much of the design criteria for the USP. The controls are uniquely American, influenced by famous designs like the Government Model 1911 pistol. All USPs use a fibre-reinforced polymer frame stiffened by stainless steel inserts at areas subject to stress and friction. Incorporating several successful handgun design elements, the USP Compact .45 is a part of the USP family of handguns designed by H&amp;K. Able to withstand extreme punishment and adverse conditions, it is used by several countries' police and special forces units.\n
 		A variant of the popular USP pistol series, this particular model is chambered in 10mm Auto. Similar to its .45 ACP variant, reliability and durability combined with excellent accuracy are the main features of this weapon.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
-		</text>
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
     </string>
 
 </string_table>

@@ -9,8 +9,7 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
-		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher
-		</text>
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher</text>
 	</string>
 
     <string id="st_wpn_ar15">
@@ -30,8 +29,7 @@
         <text>The Glock 21 is the .45 ACP variant of the Glock pistol series, featuring the same magazine capacity as the Glock 19 but higher damage output.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor
-		</text>
+		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
     </string>
 
 </string_table>

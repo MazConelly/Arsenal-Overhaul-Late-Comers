@@ -1,4 +1,25 @@
 ;------------------------------------------------------------------------------------------------
+;------------------------------------10mm Auto PARTS --------------------------------------------
+;------------------------------------------------------------------------------------------------
+[prt_w_barrel_10mm]:prt_w_barrel_11
+description		= st_prt_w_barrel_10mm_descr
+inv_name		= st_prt_w_barrel_10mm
+inv_name_short	= st_prt_w_barrel_10mm
+inv_weight		= 0.4
+cost			= 950
+tier			= 5
+
+[prt_w_p_barrel_10mm]:prt_w_p_barrel_3
+description		= st_prt_w_p_barrel_10mm_descr
+inv_name		= st_prt_w_p_barrel_10mm
+inv_name_short	= st_prt_w_p_barrel_10mm
+inv_weight		= 0.35
+cost			= 900
+tier			= 4
+
+; [prt_w_barrel_10mmsd] silenced long barrel, for when I can get the MP510SD to work
+
+;------------------------------------------------------------------------------------------------
 ;------------------------------------10mm Auto AMMO --------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [ammo_10x25_fmj]:ammo_base
@@ -8,15 +29,15 @@ $spawn			= "weapons\ammo\ammo_10x25_fmj"
 class			= AMMO_S
 cform			= skeleton
 visual			= dynamics\weapons\wpn_ammo\ammo_10_auto.ogf
-description		= st_ammo-10x25_fmj_descr
+description		= ammo-10x25_fmj_descr
 $prefetch		= 64
 
 cost			= 1050
 tier            = 2
 box_size		= 15
 
-inv_name		= st_ammo-10x25_fmj
-inv_name_short	= st_ammo-10x25_fmj
+inv_name		= ammo-10x25_fmj
+inv_name_short	= ammo-10x25_fmj
 inv_weight		= .285
 
 icons_texture	= ui\ui_icon_a03latecomers
@@ -26,60 +47,128 @@ inv_grid_x		= 2
 inv_grid_y		= 0
 
 impair          = 1
-k_disp			= 0.55 ;
-k_impulse		= 0.6 ;
-k_ap			= 0.15 ;
-tracer_color_ID	= 2 ; seems to be default in vanilla Anomaly
-wm_size         = 0.069 
-k_air_resistance = 0.8 ;leave as standard
+k_disp			= 0.55
+k_impulse		= 0.6
+k_ap			= 0.15
+tracer_color_ID	= 2
+wm_size         = 0.069
+k_air_resistance = 0.8
 k_bullet_speed	= 1
+
+[ammo_10x25_fmj_bad]:ammo_10x25_fmj
+inv_name		= ammo-10x25_fmj_bad
+inv_name_short	= ammo-10x25_fmj_bad
+
+cost			= 525	; -1/2
+k_disp			= 0.58	; +3
+k_impulse		= 0.56	; -0.4
+k_ap			= 0.14	; -0.01
+impair			= 1.1	; +0.1
+k_bullet_speed	= 0.95	; -0.05
+
+[ammo_10x25_fmj_verybad]:ammo_10x25_fmj
+inv_name		= ammo-10x25_fmj_verybad
+inv_name_short	= ammo-10x25_fmj_verybad
+
+cost			= 210	; -1/2
+k_disp			= 0.62	; +5
+k_impulse		= 0.54	; -0.4
+k_ap			= 0.13	; -0.01
+impair			= 1.3	; +0.2
+k_bullet_speed	= 0.9	; -0.05
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [ammo_10x25_hydrashok]:ammo_10x25_fmj
-description		= st_ammo-10x25_hp_descr
+description		= ammo-10x25_hp_descr
 
 cost			= 1420
 
-inv_name		= st_ammo-10x25_hp
-inv_name_short	= st_ammo-10x25_hp
+inv_name		= ammo-10x25_hp
+inv_name_short	= ammo-10x25_hp
 inv_weight		= .315
 
 inv_grid_x		= 2
 inv_grid_y		= 1
 
 impair          = 1.1
-k_disp			= 0.55 ; 
-k_impulse		= 0.45 ; 
-k_ap			= 0.3 ; 
-tracer_color_ID	= 2 ; 
-wm_size         = 0.081 ;
-k_air_resistance = 0.8 ;leave as standard
+k_disp			= 0.55
+k_impulse		= 0.45
+k_ap			= 0.3
+tracer_color_ID	= 2
+wm_size         = 0.081
+k_air_resistance = 0.8
 k_bullet_speed	= 0.9
+
+[ammo_10x25_hydrashok_bad]:ammo_10x25_hydrashok
+inv_name		= ammo-10x25_hp_bad
+inv_name_short	= ammo-10x25_hp_bad
+
+cost			= 705	; -1/2
+k_disp			= 0.58	; +3
+k_impulse		= 0.41	; -0.4
+k_ap			= 0.29	; -0.01
+impair			= 1.2	; +0.1
+k_bullet_speed	= 0.85	; -0.05
+
+[ammo_10x25_hydrashok_verybad]:ammo_10x25_hydrashok
+inv_name		= ammo-10x25_hp_verybad
+inv_name_short	= ammo-10x25_hp_verybad
+
+cost			= 350	; -1/2
+k_disp			= 0.62	; +5
+k_impulse		= 0.37	; -0.4
+k_ap			= 0.28	; -0.01
+impair			= 1.4	; +0.2
+k_bullet_speed	= 0.8	; -0.05
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [ammo_10x25_ap]:ammo_10x25_fmj
-description		= st_ammo-10x25_ap_descr
+description		= ammo-10x25_ap_descr
 
 cost			= 1650
 
-inv_name		= st_ammo-10x25_ap
-inv_name_short	= st_ammo-10x25_ap
+inv_name		= ammo-10x25_ap
+inv_name_short	= ammo-10x25_ap
 inv_weight		= .270
 
 inv_grid_x		= 2
 inv_grid_y		= 2
 
 impair          = 1.1
-k_disp			= 0.55 ; 
-k_impulse		= 0.73 ; 
-k_ap			= 0.2 ; 
-tracer_color_ID	= 2 ; 
-wm_size         = 0.081 ; 
-k_air_resistance = 0.8 ;
+k_disp			= 0.55
+k_impulse		= 0.73
+k_ap			= 0.2
+tracer_color_ID	= 2
+wm_size         = 0.081
+k_air_resistance = 0.8
 k_bullet_speed	= 1.1
 
+[ammo_10x25_ap_bad]:ammo_10x25_ap
+inv_name		= ammo-10x25_ap_bad
+inv_name_short	= ammo-10x25_ap_bad
+
+cost			= 825	; -1/2
+k_disp			= 0.58	; +3
+k_impulse		= 0.69	; -0.4
+k_ap			= 0.19	; -0.01
+impair			= 1.1	; +0.1
+k_bullet_speed	= 1.05	; -0.05
+
+[ammo_10x25_ap_verybad]:ammo_10x25_ap
+inv_name		= ammo-10x25_ap_verybad
+inv_name_short	= ammo-10x25_ap_verybad
+
+cost			= 420	; -1/2
+k_disp			= 0.62	; +5
+k_impulse		= 0.65	; -0.4
+k_ap			= 0.18	; -0.01
+impair			= 1.3	; +0.2
+k_bullet_speed	= 1.0	; -0.05
+
 ;------------------------------------------------------------------------------------------------
-;------------------------------------.40 & 10mm silencer-----------------------------------------
+;------------------------------------ 10mm silencer-----------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_sil_10mm]:wpn_addon_silencer
 description				= st_sil_10_descr
@@ -125,7 +214,8 @@ hud				= wpn_deltaelite_hud
 ; visual		= dynamics\weapons\wpn_colt1911\wpn_colt1912.ogf
 visual			= dynamics\weapons\wpn_colt1911\wpn_colt1911_sk4.ogf
 
-ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
+
 ammo_elapsed	= 8
 ammo_mag_size	= 8
 
@@ -167,7 +257,7 @@ silencer_name	= wpn_sil_10mm
 
 upgrades		= up_gr_firstab_fnp45, up_gr_seconab_fnp45, up_gr_thirdab_fnp45, up_gr_fourtab_fnp45, up_gr_fifthab_fnp45
 
-ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
 ammo_mag_size	= 15
 
 hit_impulse		= 42
@@ -204,7 +294,7 @@ silencer_name	= wpn_sil_10mm
 
 upgrades		= up_gr_firstab_mp5_nimble, up_gr_seconab_mp5_nimble, up_gr_thirdab_mp5_nimble, up_gr_fourtab_mp5_nimble, up_gr_fifthab_mp5_nimble, up_gr_fifthcd_mp5_nimble
 
-ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
 
 hit_impulse		= 44
 hit_power		= 0.63, 0.63, 0.63, 0.63
@@ -272,7 +362,7 @@ visual			= dynamics\weapons\wpn_mp5\wpn_mp5_eot.ogf
 
 ; upgrades			= up_gr_firstab_mp5_nimble, up_gr_seconab_mp5_nimble, up_gr_thirdab_mp5_nimble, up_gr_fourtab_mp5_nimble, up_gr_fifthab_mp5_nimble, up_gr_fifthcd_mp5_nimble
 
-; ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+; ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
 ; ammo_elapsed		= 30
 ; ammo_mag_size		= 30
 
@@ -343,7 +433,7 @@ description		= st_wpn_usp10_descr
 
 cost			= 10960
 
-ammo_class		= ammo_10x25_fmj, ammo_10x25_hydrashok, ammo_10x25_ap
+ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
 ammo_mag_size	= 12
 
 silencer_name	= wpn_sil_10mm
