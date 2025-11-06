@@ -62,10 +62,10 @@
     </string>
 
 
-    <string id="st_wpn_beretta96">
+    <string id="st_wpn_beretta_96">
         <text>Beretta 96</text>
     </string>
-    <string id="st_wpn_beretta96_descr">
+    <string id="st_wpn_beretta_96_descr">
         <text>The Beretta 96 pistol is a variant of the popular 9x19mm Beretta 92 pistol, chambered in .40 S&amp;W. It features the same large magazine capacity and performs similar to its 9mm cousin, making it a popular sidearm among stalkers.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W suppressor</text>
@@ -126,10 +126,10 @@
 		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W suppressor</text>
     </string>
 
-    <string id="st_wpn_walther40">
+    <string id="st_wpn_walther_40">
         <text>Walther P99 .40 S&amp;W</text>
     </string>
-    <string id="st_wpn_walther40_descr">
+    <string id="st_wpn_walther_40_descr">
         <text>Ergonomics being a key focus in its design, the Walther P99 is a recoil-operated pistol with a fibreglass polymer frame. Developed for law enforcement and the civilian shooting market, it's employed by police units in a number of countries.\n 
 		This is a variant chambered for the .40S&amp;W round, featuring lower recoil and slighty lower weight.\n
 		%c[ui_gray_2]ATTACHMENTS:\n

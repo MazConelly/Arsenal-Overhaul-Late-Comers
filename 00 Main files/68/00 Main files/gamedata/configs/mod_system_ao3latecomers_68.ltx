@@ -413,6 +413,78 @@ visual			= dynamics\weapons\wpn_lr300\wpn_lr300_eot.ogf
 [wpn_lr680_eot_hud]:wpn_lr300_eot_hud
 
 ;------------------------------------------------------------------------------------------------
+;------------------------------------------------M68---------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_m249_nimble_snd_shoot]
+snd_1_layer		= weapons\m249\m249_nimble_fire
+[wpn_m249_nimble_snd_silncer_shot]
+snd_1_layer		= weapons\m249\m249_nimble_suppressed
+
+[wpn_m249_nimble]:wpn_m249
+$spawn			= "weapons\m249_nimble"
+parent_section	= wpn_m249_nimble
+
+inv_name		= st_wpn_m249_nimble
+inv_name_short	= st_wpn_m249_nimble
+description		= st_wpn_m249_nimble_descr
+
+cost			= 61580
+
+silencer_name	= wpn_sil_68
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_fmj_bad, ammo_6.8x43_fmj_verybad, ammo_6.8x43_sst, ammo_6.8x43_sst_bad, ammo_6.8x43_sst_verybad, ammo_6.8x43_ap, ammo_6.8x43_ap_bad, ammo_6.8x43_ap_verybad
+ammo_elapsed	= 80
+ammo_mag_size	= 80
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+
+snd_shoot		= wpn_m249_nimble_snd_shoot
+snd_silncer_shot= wpn_m249_nimble_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_hud]:wpn_m249_hud
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_ac10632]:wpn_m249_nimble
+1icon_layer		= ac10632
+1icon_layer_x	= 84
+1icon_layer_y	= -3
+
+inv_weight		= 7.795
+
+hud				= wpn_m249_nimble_ac10632_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_ac10632.ogf
+
+[wpn_m249_nimble_ac10632_hud]:wpn_m249_ac10632_hud
+
+;--------------------------------------------------------------------------------------
+[wpn_m249_nimble_acog]:wpn_m249_nimble
+1icon_layer		= acog
+1icon_layer_x	= 81
+1icon_layer_y	= 0
+
+inv_weight		= 8.08
+
+hud				= wpn_m249_nimble_acog_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_acog.ogf
+
+[wpn_m249_nimble_acog_hud]:wpn_m249_acog_hud
+;------------------------------------------------------------------------------------------------
+[wpn_m249_nimble_eot]:wpn_m249_nimble
+1icon_layer		= eot
+1icon_layer_x	= 85
+1icon_layer_y	= 2
+
+inv_weight		= 7.99
+
+hud				= wpn_m249_nimble_eot_hud
+visual			= dynamics\weapons\wpn_m249\wpn_m249_eot.ogf
+
+[wpn_m249_nimble_eot_hud]:wpn_m249_eot_hud
+
+;------------------------------------------------------------------------------------------------
 ;--------------------------------------Barrett REC7----------------------------------------------
 ;------------------------------------------------------------------------------------------------
 
@@ -571,76 +643,3 @@ hud				= wpn_m4bm_eot_hud
 visual			= anomaly_weapons\wpn_m4\wpn_m4_eot_hud.ogf
 
 [wpn_m4bm_eot_hud]:wpn_m4_eot_hud
-
-;------------------------------------------------------------------------------------------------
-;------------------------------------------------M68---------------------------------------------
-;------------------------------------------------------------------------------------------------
-
-[wpn_m249_nimble_snd_shoot]
-snd_1_layer		= weapons\m249\m249_nimble_fire
-[wpn_m249_nimble_snd_silncer_shot]
-snd_1_layer		= weapons\m249\m249_nimble_suppressed
-
-[wpn_m249_nimble]:wpn_m249
-$spawn			= "weapons\m249_nimble"
-parent_section	= wpn_m249_nimble
-
-inv_name		= st_wpn_m249_nimble
-inv_name_short	= st_wpn_m249_nimble
-description		= st_wpn_m249_nimble_descr
-
-cost			= 61580
-
-silencer_name	= wpn_sil_68
-
-ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_fmj_bad, ammo_6.8x43_fmj_verybad, ammo_6.8x43_sst, ammo_6.8x43_sst_bad, ammo_6.8x43_sst_verybad, ammo_6.8x43_ap, ammo_6.8x43_ap_bad, ammo_6.8x43_ap_verybad
-ammo_elapsed	= 80
-ammo_mag_size	= 80
-
-hit_impulse		= 30
-hit_power		= 0.55, 0.55, 0.55, 0.55
-
-snd_shoot		= wpn_m249_nimble_snd_shoot
-snd_silncer_shot= wpn_m249_nimble_snd_silncer_shot
-
-;------------------------------------------------------------------------------------------------
-[wpn_m249_nimble_hud]:wpn_m249_hud
-;------------------------------------------------------------------------------------------------
-;------------------------------------------------------------------------------------------------
-[wpn_m249_nimble_ac10632]:wpn_m249_nimble
-1icon_layer		= ac10632
-1icon_layer_x	= 84
-1icon_layer_y	= -3
-
-inv_weight		= 7.795
-
-hud				= wpn_m249_nimble_ac10632_hud
-visual			= dynamics\weapons\wpn_m249\wpn_m249_ac10632.ogf
-
-[wpn_m249_nimble_ac10632_hud]:wpn_m249_ac10632_hud
-
-;--------------------------------------------------------------------------------------
-[wpn_m249_nimble_acog]:wpn_m249_nimble
-1icon_layer		= acog
-1icon_layer_x	= 81
-1icon_layer_y	= 0
-
-inv_weight		= 8.08
-
-hud				= wpn_m249_nimble_acog_hud
-visual			= dynamics\weapons\wpn_m249\wpn_m249_acog.ogf
-
-[wpn_m249_nimble_acog_hud]:wpn_m249_acog_hud
-;------------------------------------------------------------------------------------------------
-[wpn_m249_nimble_eot]:wpn_m249_nimble
-1icon_layer		= eot
-1icon_layer_x	= 85
-1icon_layer_y	= 2
-
-inv_weight		= 7.99
-
-hud				= wpn_m249_nimble_eot_hud
-visual			= dynamics\weapons\wpn_m249\wpn_m249_eot.ogf
-
-[wpn_m249_nimble_eot_hud]:wpn_m249_eot_hud
-

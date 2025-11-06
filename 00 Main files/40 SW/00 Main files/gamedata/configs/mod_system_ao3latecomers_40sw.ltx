@@ -187,16 +187,17 @@ cam_dispersion_inc_k	= 0.9
 ;------------------------------------------------------------------------------------------------
 ;--------------------------------------Beretta 96-----------------------------------------------
 ;------------------------------------------------------------------------------------------------
-[wpn_beretta96]:wpn_beretta
-$spawn			= "weapons\wpn_beretta96"
-inv_name		= st_wpn_beretta96
-inv_name_short	= st_wpn_beretta96
-description		= st_wpn_beretta96_descr
+[wpn_beretta_96]:wpn_beretta
+parent_section	= wpn_beretta_96
+$spawn			= "weapons\beretta_96"
+inv_name		= st_wpn_beretta_96
+inv_name_short	= st_wpn_beretta_96
+description		= st_wpn_beretta_96_descr
 
 cost			= 7820
 
-hud				= wpn_beretta96_hud
-visual			= dynamics\weapons\wpn_beretta92fs\wpn_beretta96.ogf
+hud				= wpn_beretta_96_hud
+visual			= dynamics\weapons\wpn_beretta92fs\wpn_beretta_96.ogf
 
 shell_particles	= weapons\45acp
 
@@ -212,8 +213,8 @@ bullet_speed	= 475
 
 cam_dispersion	= 2.2
 
-[wpn_beretta96_hud]:wpn_beretta_hud
-item_visual		= dynamics\weapons\wpn_beretta92fs\wpn_beretta96_hud.ogf
+[wpn_beretta_96_hud]:wpn_beretta_hud
+item_visual		= dynamics\weapons\wpn_beretta92fs\wpn_beretta_96_hud.ogf
 
 ;------------------------------------------------------------------------------------------------
 ;--------------------------------------CZ 75 .40---------------------------------------------
@@ -224,7 +225,7 @@ snd_1_layer		= weapons\cz75\cz40_fire
 snd_1_layer		= weapons\usp\usp40_suppressed
 
 [wpn_cz75_40]:wpn_cz75
-$spawn			= "weapons\wpn_cz75_40"
+$spawn			= "weapons\cz75_40"
 parent_section	= wpn_cz75_40
 
 inv_name		= st_wpn_cz75_40
@@ -292,7 +293,7 @@ snd_silncer_shot= wpn_fnp40_snd_silncer_shot
 
 [wpn_glock35]:wpn_glock
 parent_section	= wpn_glock35
-$spawn			= "weapons\wpn_glock35"
+$spawn			= "weapons\glock35"
 
 inv_name		= st_wpn_glock35
 inv_name_short	= st_wpn_glock35
@@ -324,7 +325,7 @@ snd_1_layer		= weapons\ump\ump40_fire
 snd_1_layer		= weapons\ump\ump40_suppressed
 
 [wpn_ump40]:wpn_ump45
-$spawn			= "weapons\wpn_ump40"
+$spawn			= "weapons\ump40"
 parent_section	= wpn_ump40
 
 inv_name		= st_wpn_ump40
@@ -439,18 +440,18 @@ snd_silncer_shot	= wpn_usp40_snd_silncer_shot
 ;------------------------------------------------------------------------------------------------
 ;---------------------------------------------Walther P99 40-------------------------------------
 ;------------------------------------------------------------------------------------------------
-[wpn_walther40_snd_shoot]
+[wpn_walther_40_snd_shoot]
 snd_1_layer		= weapons\walther\walther40_fire
-[wpn_walther40_snd_silncer_shot]
+[wpn_walther_40_snd_silncer_shot]
 snd_1_layer		= weapons\usp\usp40_suppressed
 
-[wpn_walther40]:wpn_walther
-parent_section	= wpn_walther40
-$spawn			= "weapons\walther40"
+[wpn_walther_40]:wpn_walther
+parent_section	= wpn_walther_40
+$spawn			= "weapons\walther_40"
 
-inv_name		= st_wpn_walther40
-inv_name_short	= st_wpn_walther40
-description		= st_wpn_walther40_descr
+inv_name		= st_wpn_walther_40
+inv_name_short	= st_wpn_walther_40
+description		= st_wpn_walther_40_descr
 
 cost			= 5890
 inv_weight		= 0.655
@@ -471,5 +472,5 @@ rpm				= 220
 
 cam_dispersion	= 2.2
 
-snd_shoot		= wpn_walther40_snd_shoot
-snd_silncer_shot= wpn_walther40_snd_silncer_shot
+snd_shoot		= wpn_walther_40_snd_shoot
+snd_silncer_shot= wpn_walther_40_snd_silncer_shot
