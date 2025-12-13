@@ -31,5 +31,26 @@
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
 		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
     </string>
+<!-- 
+    <string id="st_mag_glock45_compact">
+        <text>Compact Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_compact_descr">
+        <text>Compact Glock 21 magazine holding 10 .45 ACP rounds.</text>
+    </string>
+ -->
+    <string id="st_mag_glock45_default">
+        <text>Standard .45 ACP Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_default_descr">
+        <text>Standard Glock 21 magazine holding 13 .45 ACP rounds.</text>
+    </string>
+
+    <string id="st_mag_glock45_extended">
+        <text>Extended .45 ACP Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_extended_descr">
+        <text>Extended Glock 21 magazine holding 26 .45 ACP rounds.</text>
+    </string>
 
 </string_table>
