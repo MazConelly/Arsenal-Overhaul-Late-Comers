@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_prt_w_barrel_40sw">
+		<text>.40 S&W винтовка</text>
+	</string>
+	<string id="st_prt_w_barrel_40sw_descr">
+		<text>Баррель для более крупного оружия, собранного для .40 S&W.\n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_40sw">
+		<text>.40 S&W пистолет ствол</text>
+	</string>
+	<string id="st_prt_w_p_barrel_40sw_descr">
+		<text>Баррель для пистолетов в камере .40 S&W.\n</text>
+	</string>
+
+	<string id="st_sil_40sw">
+		<text>.40 S&W подавитель</text>
+	</string>
+	<string id="st_sil_40sw_descr">
+        <text>.40 S& Пистолет W и автоматы.\n</text>
+	</string>
+	
+    <string id="ammo-10x22_fmj">
+        <text>.40 S&amp;W FMJ раунды</text>
+    </string>
+    <string id="ammo-10x22_fmj_bad">
+        <text>.40 S&amp;W FMJ раунды (старый)</text>
+	</string>
+    <string id="ammo-10x22_fmj_verybad">
+        <text>.40 S&amp;W FMJ раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-10x22_fmj_descr">
+        <text>Полная металлическая куртка .40 S&W (10x22mm) раундов. .40 S&W тур был популярен среди правоохранительных органов в США, Канаде и Австралии. Обладая почти идентичной точностью, дрейф и падение его намного мощнее, чем раунд 9x19 и с более управляемой отдачей, чем 10-мм авто.</text>
+    </string>
+
+    <string id="ammo-10x22_hp">
+        <text>.40 S&amp;W JHP раунды</text>
+    </string>
+    <string id="ammo-10x22_hp_bad">
+        <text>.40 S&amp;W JHP раунды (старый)</text>
+	</string>
+    <string id="ammo-10x22_hp_verybad">
+        <text>.40 S&amp;W JHP раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-10x22_hp_descr">
+        <text>40 раундов S&W (10x22mm) Осколки пули на ударе с мягкой тканью максимизируют повреждение ткани, потерю крови и шок. .40 S&W тур был популярен среди правоохранительных органов в США, Канаде и Австралии. Обладая почти идентичной точностью, дрейф и падение его намного мощнее, чем раунд 9x19 и с более управляемой отдачей, чем 10-мм авто.</text>
+    </string>
+
+    <string id="ammo-10x22_ap">
+        <text>.40 S&amp;W AP раунды</text>
+    </string>
+    <string id="ammo-10x22_ap_bad">
+        <text>.40 S&amp;W AP раунды (старый)</text>
+	</string>
+    <string id="ammo-10x22_ap_verybad">
+        <text>.40 S&amp;W AP раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-10x22_ap_descr">
+        <text>Пирсинг .40 S&amp;W раунды.</text>
+    </string>
+
+
+    <string id="st_wpn_beretta_96">
+        <text>Beretta 96</text>
+    </string>
+    <string id="st_wpn_beretta_96_descr">
+        <text>Пистолет Beretta 96 - это вариант популярного пистолета 9x19mm Beretta 92, размещенного в .40 S&W. Он имеет одну и ту же большую емкость журнала и исполняет, как и его двоюродный брат 9 мм, что делает его популярным боковым оружием среди сталкеров.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_cz75_40">
+        <text>CZ-75 B - .40 S&amp;W</text>
+    </string>
+    <string id="st_wpn_cz75_40_descr">
+        <text>CZ-75 был разработан в Чехии братьями Кукки. Этот полуавтоматический пистолет впервые появился в 1975 году, поступил в производство в 1976 году и предназначался для экспортного рынка. CZ-75 аккумулировал лучшие черты из многих предыдущих конструкций, и полученный пистолет был эстетически привлекательным, удобным для обработки, стрельбы, точным и надежным в эксплуатации. Сделанный CZ в различных версиях и модификациях, CZ-75 также был широко скопирован и клонирован.\n
+		Модель B - это обновление в середине 1990-х годов, с добавлением огневого блока.\n
+		Этот вариант заключен в .40S&W, и имеет увеличение останавливающей мощности и более легкий вес, но его основными недостатками являются увеличение отката, а также более низкая вместимость журнала.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_fnp40">
+        <text>FNP-40</text>
+    </string>
+    <string id="st_wpn_fnp40_descr">
+        <text>Пистолет FN FNP представляет собой серию полуавтоматических, полимерных рамных пистолетов, изготовленных в Колумбии, Южная Каролина FNH США, подразделение Fabrique Nationale de Herstal. Обнаруженное в начале 2006 года, оружие серии FNP - это оружие, выпущенное молотком с использованием камеры Browning с внешним экстрактором. Спусковой модуль размещен внутри полимерной рамы как отдельная единица, подключенная к молотку. Кнопка релиза журнала удерживается на месте с помощью удерживающего значка, который может быть удален, чтобы кнопка была обращена вспять.\NationaleПистолет FN FNP-40 - это вариант FNP-45, размещенный в .40 S&W. Он не более точен, но имеет более низкий показатель повреждения по сравнению с его вариантом .45.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_glock35">
+        <text>Glock 35</text>
+    </string>
+    <string id="st_wpn_glock35_descr">
+        <text>Glock 35 - модель .40 S&W серии пистолетов Glock, впервые представленная в 1990 году, начиная с Glock 22. Он имеет немного более низкую емкость по сравнению с Glock 19, но улучшает точность и скорость огня.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_ump40">
+        <text>UMP40</text>
+    </string>
+    <string id="st_wpn_ump40_descr">
+        <text>UMP был разработан H&K в 1990-х годах, впервые появившись на рынке в 1999 году. Идея, стоящая за UMP, заключалась в создании легкого и мощного пистолета-пулемета, который также был дешевле, чем MP5. UMP, предназначенный в первую очередь для правоохранительных органов США, появился в камерах .45ACP и .40SW, а затем в 9 мм. Обеспечивая большую мощность остановки, чем MP5, UMP45 также производит больше откатов. Это затрудняет контроль полного автоматического огня. Велосипедный уровень пожара UMP45 был значительно снижен для борьбы с этой проблемой.\n
+		UMP-40 - это вариант, помещенный в .40 S&W, с меньшим весом и большей емкостью журнала, но с меньшим ущербом, чем его предшественник, из-за его меньшего раунда.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель\n -->
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_usp40">
+        <text>USP-40</text>
+    </string>
+    <string id="st_wpn_usp40_descr">
+        <text>Первоначально разработанный для американского рынка, USP, Universal Self Load Pistol, известен как точный и надежный пистолет. Американские правоохранительные и военные предоставили большую часть критериев проектирования для USP. Управление уникально американское, под влиянием известных конструкций, таких как пистолет правительственной модели 1911. Все УСП используют волокнистую полимерную раму, усиленную вставками из нержавеющей стали в зонах, подверженных стрессу и трению. Включая несколько успешных элементов конструкции пистолета, USP Compact .45 является частью семейства пистолетов USP, разработанных H&K. Способный противостоять экстремальным наказаниям и неблагоприятным условиям, он используется полицейскими и спецназами нескольких стран.\n
+		Разработанный примерно в то же время, что и его вариант .45, USP-40 находится в камере .40 S&W раундов. По сравнению с его .45 ACP и 10-мм автокузи, он имеет значительно более низкую рецессию и более легкий вес. Его недостатки включают в себя его все еще значительный размер, а также более низкий показатель повреждения.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+    <string id="st_wpn_walther_40">
+        <text>Walther P99 .40 S&amp;W</text>
+    </string>
+    <string id="st_wpn_walther_40_descr">
+        <text>Эргономика является ключевым в своем дизайне, Walther P99 - пистолет, управляемый рекой, с полимерной рамой из стекловолокна. Разработанный для правоохранительных органов и гражданского рынка стрельбы, он используется полицейскими подразделениями в ряде стран.\n
+		Этот вариант замещается для .40S&W-круга, с нижним откатом и небольшим меньшим весом.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W подавитель</text>
+    </string>
+
+
+    <string id="st_mag_beretta_40sw_default">
+        <text>Standard .40S&amp;W Beretta 96 Magazine</text>
+    </string>
+    <string id="st_mag_beretta_40sw_default_descr">
+        <text>Standard Beretta 96 magazine hстарыйing 12 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_beretta_40sw_extended">
+        <text>Extended .40S&amp;W Beretta 96 Magazine</text>
+    </string>
+    <string id="st_mag_beretta_40sw_extended_descr">
+        <text>Extended Beretta 96 magazine hстарыйing 20 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_cz75_40sw_default">
+        <text>Standard .40S&amp;W CZ-75 B Magazine</text>
+    </string>
+    <string id="st_mag_cz75_40sw_default_descr">
+        <text>Standard CZ-75 B magazine hстарыйing 12 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_cz75_40sw_extended">
+        <text>Extended .40S&amp;W CZ-75 B Magazine</text>
+    </string>
+    <string id="st_mag_cz75_40sw_extended_descr">
+        <text>Extended CZ-75 B magazine hстарыйing 19 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_fnp_40sw_default">
+        <text>Standard .40S&amp;W FNP-40 Magazine</text>
+    </string>
+    <string id="st_mag_fnp_40sw_default_descr">
+        <text>Standard FNP-40 magazine hстарыйing 14 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_glock_40sw_default">
+        <text>Standard .40S&amp;W Glock 35 Magazine</text>
+    </string>
+    <string id="st_mag_glock_40sw_default_descr">
+        <text>Standard Glock 35 magazine hстарыйing 15 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_glock_40sw_extended">
+        <text>Extended .40S&amp;W Glock 35 Magazine</text>
+    </string>
+    <string id="st_mag_glock_40sw_extended_descr">
+        <text>Extended Glock 35 magazine hстарыйing 22 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_glock_40sw_long">
+        <text>Extended .40S&amp;W Glock 35 Magazine</text>
+    </string>
+    <string id="st_mag_glock_40sw_long_descr">
+        <text>Extended Glock 35 magazine hстарыйing 28 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_ump_40sw_default">
+        <text>Standard .40S&amp;W UMP-40 Magazine</text>
+    </string>
+    <string id="st_mag_ump_40sw_default_descr">
+        <text>Standard UMP-40 magazine hстарыйing 30 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_usp_40sw_default">
+        <text>Standard .40S&amp;W USP-40 Magazine</text>
+    </string>
+    <string id="st_mag_usp_40sw_default_descr">
+        <text>Standard USP-40 magazine hстарыйing 13 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_usp_40sw_extended">
+        <text>Extended .40S&amp;W USP-40 Magazine</text>
+    </string>
+    <string id="st_mag_usp_40sw_extended_descr">
+        <text>Extended USP-40 magazine hстарыйing 18 .40S&amp;W раунды.</text>
+    </string>
+
+    <string id="st_mag_walther_40sw_extended">
+        <text>Standard .40S&amp;W Walther P99 Magazine</text>
+    </string>
+    <string id="st_mag_walther_40sw_extended_descr">
+        <text>Standard Walther P99 magazine hстарыйing 12 .40S&amp;W раунды.</text>
+    </string>
+
+</string_table>

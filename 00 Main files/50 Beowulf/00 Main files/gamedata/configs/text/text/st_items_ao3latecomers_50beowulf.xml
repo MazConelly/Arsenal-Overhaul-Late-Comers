@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_prt_w_barrel_50bw">
+		<text>.50 Beowulf винтовка</text>
+	</string>
+	<string id="st_prt_w_barrel_50bw_descr">
+		<text>Barrel for .50 Beowulf rifles.\n</text>
+	</string>
+
+	<string id="ammo-50bw_jfp">
+		<text>.50 Beowulf JFP раунды</text>
+	</string>
+	<string id="ammo-50bw_jfp_bad">
+		<text>.50 Beowulf JFP раунды (старый)</text>
+	</string>
+	<string id="ammo-50bw_jfp_verybad">
+		<text>.50 Beowulf JFP раунды (поврежденный)</text>
+	</string>
+	<string id="ammo-50bw_jfp_descr">
+		<text>12.7x42) патроны с плоской точкой .50. Пуля расширяется на удар, сокрушаясь через броню тела и причиняя огромные повреждения ткани.</text>
+	</string>
+
+	<string id="ammo-50bw_hp">
+		<text>.50 Beowulf HP раунды</text>
+	</string>
+	<string id="ammo-50bw_hp_bad">
+		<text>.50 Beowulf HP раунды (старый)</text>
+	</string>
+	<string id="ammo-50bw_hp_verybad">
+		<text>.50 Beowulf HP раунды (поврежденный)</text>
+	</string>
+	<string id="ammo-50bw_hp_descr">
+		<text>Точка .50 Беовульф (12.7х42) раунды. пуляные фреймы на удар, причиняющий огромный ущерб мягкой ткани.</text>
+	</string>
+
+	<string id="ammo-50bw_ap">
+		<text>.50 Beowulf AP раунды</text>
+	</string>
+	<string id="ammo-50bw_ap_bad">
+		<text>.50 Beowulf AP раунды (старый)</text>
+	</string>
+	<string id="ammo-50bw_ap_verybad">
+		<text>.50 Beowulf AP раунды (поврежденный)</text>
+	</string>
+	<string id="ammo-50bw_ap_descr">
+		<text>Armor piercing .50 Beowulf (12.7x42) rounds. Designed to kick through the plating of armored light vehicles.</text>
+	</string>
+
+
+    <string id="st_sil_50">
+        <text>.50 Suppressor</text>
+    </string>
+    <string id="st_sil_50_descr">
+        <text>Suppressor for .50 caliber rifles.\n</text>
+    </string>
+
+<!-- Mags -->
+	<string id="st_mag_50beo_default">
+		<text>Standard .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_default_descr">
+		<text>10-round HK STANAG styled magazine used by .50 Beowulf rifles. Technically, one could use a default 5.56 magazine, but that requires some easy but specialized and destructive modification of the casing. Using a magazine purposely designed for the caliber is just simpler.</text>
+	</string>
+
+	<string id="st_mag_50beo_fast">
+		<text>Fast-loading .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_fastault_descr">
+		<text>10-round HK STANAG styled magazine used by .50 Beowulf rifles. Seems custom made with the purpose of facilitating the quick loading of rounds.</text>
+	</string>
+
+	<string id="st_mag_50beo_short">
+		<text>Compact 6-round .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_short_descr">
+		<text>6-round small and compact magazine used by .50 Beowulf rifles. Small, but holds big kicks. Fit for controlled firing, target practice, and traveling light.</text>
+	</string>
+
+	<string id="st_mag_50beo_extended">
+		<text>Extended .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_extended_descr">
+		<text>Extended 20-round polymer magazine compatible with most .50 Beowulf rifles. For those who feel that 10 rounds aren't enough.</text>
+	</string>
+
+	<string id="st_mag_50beo_casket">
+		<text>Casket 30-round .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_casket_descr">
+		<text>30-round bi-stack magazine compatible with NATO rifles. Offers a lot of firepower, but is extremely heavy and the bi-stack nature makes it difficult to load in rounds quickly.\n
+		While 30 doesn't sound as impressive as 60 like the casket magazines for other calibers, one must remember the immense firepower of the .50 Beowulf.</text>
+	</string>
+
+	<string id="st_mag_50beo_drum">
+		<text>Drum 65-round .50 Beowulf magazine</text>
+	</string>
+	<string id="st_mag_50beo_drum_descr">
+		<text>65-round drum magazine for .50 Beowulf rifles. It looks improvised and custom made, and given the rarity and impracticality of the caliber you can't be sure if it even is Zone made. All the same, this makes any such chambered weapon something no one would want to deal with at the wrong side of the barrel.</text>
+	</string>
+
+
+	<string id="st_wpn_m4_beowulf">
+		<text>Beowulf M4</text>
+	</string>
+	<string id="st_wpn_m4_beowulf_descr">
+		<text>Beowulf M4 - полностью автоматический вариант карбина M4, помещенного в .50 Beowulf. Цель раунда состоит в том, чтобы значительно улучшить останавливающую мощность на коротком и среднем уровнях по сравнению со стандартным раундом НАТО 5.56x45mm. Одно из его рекламируемых применений находится на контрольно-пропускных пунктах, так как путь полета тяжелой пули не легко отклоняется автоматическим стеклом или стандартными корпусными панелями. Хотя многое было написано о его тактическом использовании, .50 Beowulf получает признание как спортивный картридж. Он становится все более и более узнаваемым, как быть пригодным для использования преследователями для охоты против существ Зоны.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)</text>
+	</string>
+
+
+<!-- Armor Modkits Conversions -->
+    <string id="st_wpn_ar15_50">
+        <text>AR-15 - .50 Beowulf</text>
+    </string>
+    <string id="st_wpn_ar15_50_descr">
+        <text>AR-15 - полуавтоматическая версия 5.56x45 штурмовой винтовки M4, продаваемой гражданским лицам. Может установить подавитель и оптику, но не гранатомет.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
+    </string>
+
+	<string id="st_wpn_hk416_50">
+		<text>HK416 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_hk416_50_descr">
+		<text>HK416 - это винтовка, разработанная и изготовленная компанией " Хеклер " Кох " для совершенствования М4. Он доступен как полное огнестрельное оружие, или как верхний приемник, который подходит для любого нижнего приемника типа AR-15. Дельта-сила армии США сотрудничала с немецкими производителями оружия для разработки новой винтовки. Тестирование H&K 416 в 2004 году показало, что поршневая операционная система значительно снижает неисправности при увеличении срока службы деталей. Проект был первоначально назван H&K M4, но был изменен в ответ на иск о нарушении товарных знаков, поданный Colt Defence. В настоящее время он доступен только для правительственных и военных организаций, следовательно, почему эта штурмовая винтовка обычно перевозится наемниками.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_lr300_50">
+		<text>LR-300ML - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_lr300_camo_50">
+		<text>LR-300ML - .50 Beowulf (camouflaged)</text>
+	</string>
+	<string id="st_wpn_lr300_custom_50">
+		<text>LR-300ML - .50 Beowulf (custom)</text>
+	</string>
+	<string id="st_wpn_lr300_50_descr">
+		<text>Основываясь на AR-15, LR-300 является отличной оружейной системой, подходящей для военного использования в ближнем бою. Его складный скелет делает его идеальным для агрессивных и быстрых элементов здания, требующих компактного, но мощного избирательного огневого оружия. При превосходной эргономике и легком весе это оружие очень точно, но оно чувствительно к грязи и не идеально подходит для сложных полевых условий.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)</text>
+	</string>
+
+	<string id="st_wpn_m16_50">
+		<text>M16A4 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16_50_descr">
+		<text>M16 является военным обозначением США для семейства винтовок, полученных от ArmaLite AR-15 и далее разработанных Colt, начиная с 1960-х годов. Винтовка M16, включая M16/A1/A2/A3/A4, является основной пехотной винтовкой американских военных с 1960-х годов. С его вариантами он использовался 15 странами НАТО и является самым произведенным огнестрельным оружием в его калибре. M16 - легкий, 5.56x45mm calibre, охлажденный воздухом, управляемый газом, журналируемая штурмовая винтовка, с вращающимся болтом, активируемым путем прямой подачи газа. Винтовка изготовлена из стали, алюминия и композитных пластмасс.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m16a2_50">
+		<text>M16A2 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a2_50_descr">
+		<text>Винтовка M16A2 поступила на вооружение в 1980-х годах, прикованная к стрельбе из стандартного раунда НАТО, бельгийский снаряд M855/M856. M16A2 - это подобранная огневая винтовка, включающая в себя элементы конструкции, запрошенные Корпусом морской пехоты: регулируемый задний вид, более длинный запас, более тяжелый баррель, дефлектор корпуса для левых стрелков и цилиндрических ручных охранников. M16A2 производится Colt и оружейной компанией Fabrique Nationale de Herstal, с вариантными винтовками, изготовленными в других частях мира.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m4_50">
+		<text>M4A1 RAS - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4_50_descr">
+		<text>M4 Carbine происходит от семейства огнестрельного оружия, отслеживающего его линию обратно к более ранним карбинным версиям M16, все основано на оригинальном AR-15, сделанном ArmaLite. Это более короткая и легкая версия штурмовой винтовки M16, общая 80% ее частей. M4 возгорает 5,56x45мм боеприпасов НАТО и управляется газом, охлаждается воздух, журналируется, избирательное огнестрельное оружие с 4 позициями телекопирования. Как и во многих карбинах, M4 удобен и удобен для ношения, чем полноразмерная винтовка. Он был принят Командованием специальных операций США (USSOCOM) и является предпочтительным оружием спецназа армии США и военно-морских сил.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m4a1_50">
+		<text>M4A1 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m4a1_camo_50">
+		<text>M4A1 - .50 Beowulf (camouflaged)</text>
+	</string>
+	<string id="st_wpn_m4a1_custom_50">
+		<text>M4A1 - .50 Beowulf (custom)</text>
+	</string>
+	<string id="st_wpn_m4a1_freedom_50">
+		<text>M4A1 - .50 Beowulf (Freedom camouflage)</text>
+	</string>
+	<string id="st_wpn_m4a1_50_descr">
+		<text>Идеально подходит для CQC (Close Quarters Combat), карбин M4A1 является полностью автоматическим вариантом штурмовой винтовки M16A2. В военном использовании он в значительной степени заменил пистолеты-пулеметы, которые не соответствуют современным броне. M4A1 - модифицированный вариант карбина M4, способный стрелять автоматическим или полуавтоматическим.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)</text>
+	</string>
+
+<!-- Mods patched -->
+<!-- AR Pack -->
+	<string id="st_wpn_ddm4v7">
+		<text>DDM4 V7 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_ddm4v7_descr">
+		<text>DDM4 V7 AR15 имеет технологию M-LOK привязанности с рельсом Daniel Defense MFR 15.0. Построенный вокруг холодного молотка, 16-дюймовый баррель, V7 имеет улучшенный DD-репрессор для уменьшения флэш-марки.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor</text>
+	</string>
+
+	<string id="st_wpn_m16_m203">
+		<text>M16A4 Long M203 - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16_m203_descr">
+		<text>M16 является военным обозначением США для семейства винтовок, полученных от ArmaLite AR-15 и далее разработанных Colt, начиная с 1960-х годов. Винтовка M16, включая M16/A1/A2/A3/A4, является основной пехотной винтовкой американских военных с 1960-х годов. С его вариантами он использовался 15 странами НАТО и является самым произведенным огнестрельным оружием в его калибре. M16 - легкий, 5.56x45mm calibre, охлажденный воздухом, управляемый газом, журналируемая штурмовая винтовка, с вращающимся болтом, активируемым путем прямой подачи газа. Винтовка изготовлена из стали, алюминия и композитных пластмасс.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+<!-- M16A2 Commando -->
+	<string id="st_wpn_m16a2_r_commando_50">
+		<text>M16A2 "Commando" - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a2_r_commando_50_descr">
+		<text>Вариант «Commando» штурмовой винтовки M16A2 является специализированной итерацией, известной своей повышенной универсальностью и огневой мощью. Опираясь на основание M16A2, модель Commando интегрирует 20-дюймовый баррель с подствольной гранатометом M203, что позволяет операторам с точностью задействовать обе отдельные цели и укрепленные позиции. Это огнестрельное оружие сохраняет эргономические достижения M16A2, включая его регулируемое заднее зрение для различных диапазонов боевых действий, в то время как интегрированный гранатомет M203 расширяет свои боевые возможности. Отличный журнал, вместимостью 30 раундов, дополнительно подчеркивает его адаптивность на поле боя. Вариант Commando является свидетельством инновационного дизайна, удовлетворяющего многогранным требованиям современной войны.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor</text>
+	</string>
+
+<!-- MWP -->
+
+	<string id="st_wpn_lr300_sniper">
+		<text>Sniper LR-300ML</text>
+	</string>
+	<string id="st_wpn_lr300_sniper_descr">
+		<text>В то время как обычный LR-300 лучше всего подходит для закрытия боевых действий, этот конкретный пистолет был модифицирован для более длительного огня, повышая точность, но уменьшая скорость огня. Этот пистолет также был прикреплен с интегральным подавителем, гранатометом и телескопической оптикой. Можно предположить, что этот пистолет будет использоваться как дешевый аналог снайперской винтовки.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Trijicon TARS Scope (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (integrated)</text>
+	</string>
+
+	<string id="st_wpn_m16a4_sniper">
+		<text>SAM-R</text>
+	</string>
+	<string id="st_wpn_m16a4_sniper_descr">
+		<text>US Squad Advanced Marksman Rifle (SAM-R) - сильно модифицированная винтовка серии M16, предназначенная для обеспечения повышенной точности на более длинных дистанциях, что дает пехотным отрядам большую огневую мощь. Это, в основном, M16A4, оснащенный более тяжелой, аккуратной, нержавеющей бочкой, двухступенчатым триггером матча и высокомощным диапазоном Леопольда. Баррель свободно плавает со специальным типом ручной охраны, который не вступает в контакт с бочкой.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Leupold 3-9x36 scope (integrated)</text>
+	</string>
+
+	<string id="st_wpn_m4a1_desert">
+		<text>MK18 CQBR (camouflaged)</text>
+	</string>
+	<string id="st_wpn_m4a1_desert_descr">
+		<text>Mk18 - это специальный укороченный карбин с кандос-длиной бочки для улучшенной обработки и более низкого веса. Mk18, по сути, представляет собой карбин M4A1, оснащенный Close Quarter Battle Receiver (CQBR) - замещающий верхний приемник с бочкой 10.3 (262 мм). Короткая бочка делает оружие значительно более компактным и легким в использовании в и вокруг транспортных средств и плотных замкнутых пространств. Mk18 хвалят за его легкий вес и короткие размеры, что делает его очень простым в обращении. Однако он имеет свои недостатки. Короткая бочка обеспечивает недостаточную скорость для пули, чтобы показать идеальные ранящие характеристики. Тем не менее, Mk18 является очень хорошим оружием в своей нише и, хотя ему не хватает универсальности 14-20-барренных винтовок, он остается очень эффективным при использовании в подходящих ситуациях.\n
+		Этот конкретный пистолет был дополнительно специализирован для операций CQC, с участием 60 круглого квада стека журнал, увеличение скорости огня и голографическое зрение. Эти функции увеличили его вес и уменьшили обработку, хотя увеличение огневой мощи больше, чем компенсирует стоимость.\n
+		Афер заменяет некоторые части, эта винтовка теперь использует боеприпасы .50 Beowulf. Это увеличивает ущерб, но сильно снижает его диапазон, и его откат становится очень трудно контролировать. Вместимость его журнала также сократилась с 60 до 30 раундов.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] EOTech sight (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor</text>
+	</string>
+
+</string_table>

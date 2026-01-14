@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_wpn_ak15">
+		<text>AK-15</text>
+	</string>
+	<string id="st_wpn_ak15_descr">
+		<text>AK-15 - это вариант AK-12, помещенный в 7.62x39, позволяющий использовать стандартные журналы AK-47 и AKM. Как и базовая АК-12, винтовка стандартна с рельсами Picatinny, регулируемый телекопировальный запас и заднее зрение было перенесено на заднюю часть приемника. Винтовка имеет новый тормоз и улучшенный рифлинг, что делает ее более точной, чем другие варианты АК-47. Его основными недостатками являются более высокий откат и более тяжелый вес по сравнению с его кузеном 5.45x39.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] TGP-A подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 гранатомет</text>
+	</string>
+
+    <string id="st_wpn_ar15">
+        <text>AR-15</text>
+    </string>
+    <string id="st_wpn_ar15_descr">
+        <text>AR-15 - полуавтоматическая версия 5.56x45 штурмовой винтовки M4, продаваемой гражданским лицам. Может установить подавитель и оптику, но не гранатомет.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] NATO подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[ui_gray_2]КОЛЕСНЫЕ МОДЫ:\n
+		Помады и палочки: Комплект специализированного оружия</text>
+    </string>
+
+    <string id="st_wpn_glock21">
+        <text>Glock 21</text>
+    </string>
+    <string id="st_wpn_glock21_descr">
+        <text>Glock 21 - это .45 ACP-версия серии пистолетов Glock, с той же емкостью журнала, что и Glock 19, но более высокой мощностью повреждения.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
+		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель</text>
+    </string>
+<!-- 
+    <string id="st_mag_glock45_compact">
+        <text>Compact Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_compact_descr">
+        <text>Compact Glock 21 magazine holding 10 .45 ACP rounds.</text>
+    </string>
+ -->
+    <string id="st_mag_glock45_default">
+        <text>Standard .45 ACP Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_default_descr">
+        <text>Standard Glock 21 magazine holding 13 .45 ACP rounds.</text>
+    </string>
+
+    <string id="st_mag_glock45_extended">
+        <text>Extended .45 ACP Glock 21 Magazine</text>
+    </string>
+    <string id="st_mag_glock45_extended_descr">
+        <text>Extended Glock 21 magazine holding 26 .45 ACP rounds.</text>
+    </string>
+
+</string_table>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_prt_w_barrel_6.8x43">
+		<text>6.8x43 винтовка</text>
+	</string>
+	<string id="st_prt_w_barrel_6.8x43_descr">
+		<text>Barrel for 6.8x43 weapons.</text>
+	</string>
+
+    <string id="ammo-6.8x43_fmj">
+        <text>6.8x43 FMJ раунды</text>
+    </string>
+    <string id="ammo-6.8x43_fmj_bad">
+		<text>6.8x43 FMJ раунды (старый)</text>
+	</string>
+    <string id="ammo-6.8x43_fmj_verybad">
+		<text>6.8x43 FMJ раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-6.8x43_fmj_descr">
+        <text>6.8 Remington Special purpose round - это винтовочный раунд, который был разработан Remington Arms в сотрудничестве с военнослужащими армии США, чтобы, возможно, заменить раунд НАТО 5.56. Он находится на середине между 5.56x45mm НАТО и 7.62x51mm НАТО в диаметре и глухой энергии, немного более мощной, чем 7.62x39 круглый.</text>
+    </string>
+
+    <string id="ammo-6.8x43_sst">
+        <text>6.8x43 SST раунды</text>
+    </string>
+    <string id="ammo-6.8x43_sst_bad">
+		<text>6.8x43 SST раунды (старый)</text>
+	</string>
+    <string id="ammo-6.8x43_sst_verybad">
+		<text>6.8x43 SST раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-6.8x43_sst_descr">
+        <text>Короткий для «Super Shock Tip» раунд SST предназначен для достижения огромного шока при быстром и надежном расширении.</text>
+    </string>
+
+    <string id="ammo-6.8x43_ap">
+        <text>6.8x43 AP раунды</text>
+    </string>
+    <string id="ammo-6.8x43_ap_bad">
+		<text>6.8x43 AP раунды (старый)</text>
+	</string>
+    <string id="ammo-6.8x43_ap_verybad">
+		<text>6.8x43 AP раунды (поврежденный)</text>
+	</string>
+    <string id="ammo-6.8x43_ap_descr">
+        <text>6.8x43 бронебойный круглый предназначен для оптимального проникновения бронетехники.</text>
+    </string>
+
+
+    <string id="st_sil_68">
+        <text>6.8 подавитель</text>
+    </string>
+    <string id="st_sil_68_descr">
+        <text>Suppressor for 6.8x43 assault rifles</text>
+    </string>
+
+<!-- Mags -->
+	<string id="st_mag_68_default">
+		<text>Standard 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_default_descr">
+		<text>28-round magazine used by 6.8 SPC rifles during their infancy. Very similar to the standard 30 round AR-15/M16 magazines in 5.56x45, it is relatively cheap and light.</text>
+	</string>
+
+	<string id="st_mag_68_heavy">
+		<text>Heavy 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_heavy_descr">
+		<text>30-round magazine compatible with 6.8 SPC rifles. Heavier than the more common magazine model, due to the need for more space to fit the magic 30 number.</text>
+	</string>
+
+	<string id="st_mag_68_fast">
+		<text>Fast-loading 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_fast_descr">
+		<text>30-round magazine compatible with 6.8 SPC rifles. Designed with less steel than the standard magazine, and more thought on facilitating the quick loading of rounds.</text>
+	</string>
+
+	<string id="st_mag_68_short">
+		<text>Short 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_short_descr">
+		<text>25-round magazine compatible with 6.8 SPC rifles. It provides a relatively decent load capability in a small size. It's also quick to load.</text>
+	</string>
+
+	<string id="st_mag_68_extended">
+		<text>Extended 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_extended_descr">
+		<text>Extended 40-round polymer magazine compatible with 6.8 SPC rifles. Bigger and heavier than other extended mags, but not so much to matter a lot.</text>
+	</string>
+
+	<string id="st_mag_68_casket">
+		<text>60-round 6.8 SPC magazine</text>
+	</string>
+	<string id="st_mag_68_casket_descr">
+		<text>60-round quad-stack magazine compatible with 6.8 SPC rifles. Offers a lot of firepower, but is extremely heavy and the quad-stack nature makes it difficult to load in rounds quickly.</text>
+	</string>
+
+	<string id="st_mag_68_cmag">
+		<text>100-round 6.8 SPC Beta C-Mag</text>
+	</string>
+	<string id="st_mag_68_cmag_descr">
+		<text>100-round dual drum magazine compatible with 6.8 SPC rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.\n
+		Strangely, you can't see the sign of any manufacturer, but the production seems well made.</text>
+	</string>
+
+	<string id="st_mag_m249_68">
+		<text>6.8 SPC M249 Box</text>
+	</string>
+	<string id="st_mag_m249_68_descr">
+		<text>A standard 5.56x45 M249 Box converted for 100 6.8 SPC rounds. Not much of a reason to do this, unless you are somehow aware of a M249 variant chambered for 6.8.</text>
+	</string>
+
+
+	<string id="st_wpn_hk416d">
+		<text>HK416D</text>
+	</string>
+	<string id="st_wpn_hk416d_descr">
+		<text>HK416 - это винтовка, разработанная и изготовленная компанией " Хеклер " Кох " для совершенствования М4. Он доступен как полное огнестрельное оружие, или как верхний приемник, который подходит для любого нижнего приемника типа AR-15. Дельта-сила армии США сотрудничала с немецкими производителями оружия для разработки новой винтовки. Тестирование H&K 416 в 2004 году показало, что поршневая операционная система значительно снижает неисправности при увеличении срока службы деталей. Проект был первоначально назван H&K M4, но был изменен в ответ на иск о нарушении товарных знаков, поданный Colt Defence. В настоящее время он доступен только для правительственных и военных организаций, следовательно, почему эта штурмовая винтовка обычно перевозится наемниками.\n
+		В то время как эта модель HK416D выглядит точно так же, как HK416D, замещается на 6,8 SPC и только сфабрикована H&K по частному контракту; вы можете только догадываться, как этот пистолет попал в зону.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] M203 гранатомет
+		</text>
+	</string>
+
+    <string id="st_wpn_lr680">
+        <text>LR-680</text>
+    </string>
+    <string id="st_wpn_lr680_descr">
+        <text>Вариант 5.56x45mm LR-300 штурмовой винтовки, прикованной к более крупному 6.8mm SPC раунду. Из-за его более крупного раунда, его скорость пожара заметно ниже по сравнению со стандартом LR-300, но имеет более высокий уровень повреждения.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] M203 гранатомет
+		</text>
+    </string>
+
+    <string id="st_wpn_m4bm">
+        <text>Bushmaster M4</text>
+    </string>
+    <string id="st_wpn_m4bm_descr">
+        <text>Bushmaster M4 - это копия популярного карбина M4, изготовленного Bushmaster Firearms International, смоделированного на платформе AR-15 и размещенного в 6.8 SPC.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] M203 гранатомет
+		</text>
+    </string>
+
+    <string id="st_wpn_m4_brec7">
+        <text>Barrett REC7</text>
+    </string>
+    <string id="st_wpn_m4_brec7_descr">
+        <text>Основываясь на винтовке M16, это оружие огонь более мощный 6.8x43 SPC раунд и пожары в полуавтоматических и полных автоматических огнях, повышая более высокую огневую мощь, затем его вариант 5.56x45mm, но более высокий откат из-за его большего раунда.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области\n
+		%c[d_purple] • %c[ui_gray_2] M203 гранатомет (после модификации)
+		</text>
+    </string>
+
+    <string id="st_wpn_m249_nimble">
+        <text>M68</text>
+    </string>
+    <string id="st_wpn_m249_nimble_descr">
+        <text>M68 - это подгонянный пулемет M249, отобранный в 6,8 SPC.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области
+		</text>
+    </string>
+
+    <string id="st_wpn_ar15_68">
+        <text>AR-15 - 6.8x43</text>
+    </string>
+    <string id="st_wpn_ar15_68_descr">
+        <text>AR-15 - полуавтоматическая версия 5.56x45 штурмовой винтовки M4, продаваемой гражданским лицам. Может установить подавитель и оптику, но не гранатомет.\n
+		Эта конкретная версия закладывается в 6,8 SPC, увеличивая ее ударную мощность в обмен на диапазон.
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] 6.8 подавитель\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области</text>
+    </string>
+
+<!-- BaS -->
+	<string id="st_wpn_m4_ru55668">
+		<text>Ruger SR-556/6.8 (BaS)</text>
+	</string>
+	<string id="st_wpn_m4_ru55668_descr">
+		<text>Несколько из этих винтовок вошли в зону через ученых. По легенде, профессор Сахаров получил 6 небольших контейнеров с этими пушками от иностранных спонсоров, но 5 из них были потеряны во время перевозки. Ruger SR-556 - американский самозарядный карбин, изготовленный оружейной компанией Sturm, Ruger & Company, Inc. стал первым Ruger семейства AR-10. Ruger SR-762 отведен на 0.308. Принадлежит к нескольким образцам винтовок AR-15 с использованием удаления порошковых газов. Производство прекратилось в январе 2016 года после введения варианта Keymod Lightweight.\n
+		Эта версия SR-556/6.8 была более поздней в 6.8.\n
+		%c[ui_gray_2]ДОСТИЖЕНИЯ: \n
+		%c[d_purple] • %c[ui_gray_2] Универсальная гора от NcStar с Trijicon RMR красный точка зрения установлен на нем.\n
+		%c[d_purple] • %c[ui_gray_2] области: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+		%c[d_purple] • %c[ui_gray_2] подавитель: 6.8 подавитель</text>
+	</string>
+
+</string_table>
