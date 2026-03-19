@@ -17,8 +17,6 @@ inv_weight		= 0.35
 cost			= 900
 tier			= 4
 
-; [prt_w_barrel_10mmsd] silenced long barrel, for when I can get the MP510SD to work
-
 ;------------------------------------------------------------------------------------------------
 ;------------------------------------10mm Auto AMMO --------------------------------------------
 ;------------------------------------------------------------------------------------------------
@@ -171,13 +169,13 @@ k_bullet_speed	= 1.0	; -0.05
 ;------------------------------------ 10mm silencer-----------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_sil_10mm]:wpn_addon_silencer
-description				= st_sil_10_descr
 visual					= dynamics\weapons\wpn_upgrade\wpn_silencer.ogf
 $prefetch				= 32
 slot					= -1
 cost					= 3000
-inv_name				= st_sil_10
-inv_name_short			= st_sil_10
+inv_name				= st_wpn_sil_10mm
+inv_name_short			= st_wpn_sil_10mm
+description				= st_wpn_sil_10mm_descr
 inv_weight				= 0.24
 
 icons_texture			= ui\ui_icon_a03latecomers
@@ -347,73 +345,75 @@ visual			= dynamics\weapons\wpn_mp5\wpn_mp5_eot.ogf
 ;------------------------------------------------------------------------------------------------
 ;------------------------------------------------------------------------------------------------
 
-; [wpn_mp5sd_nimble]:wpn_mp5sd
-; parent_section	= wpn_mp5sd_nimble
-; $spawn			= "weapons\mp5sd_nimble"
+[wpn_mp5sd_nimble]:wpn_mp5sd
+parent_section	= wpn_mp5sd_nimble
+$spawn			= "weapons\mp5sd_nimble"
 
-; inv_name			= st_wpn_mp5sd_nimble
-; inv_name_short	= st_wpn_mp5sd_nimble
-; description		= st_wpn_mp5sd_nimble_descr
+inv_name		= st_wpn_mp5sd_nimble
+inv_name_short	= st_wpn_mp5sd_nimble
+description		= st_wpn_mp5sd_nimble_descr
 
-; inv_weight		= 2.86
-; cost				= 26880
+inv_weight		= 2.86
+cost			= 26880
 
-; hud				= wpn_mp5sd_nimble_hud
+hud				= wpn_mp5sd_nimble_hud
 
-; upgrades			= up_gr_firstab_mp5_nimble, up_gr_seconab_mp5_nimble, up_gr_thirdab_mp5_nimble, up_gr_fourtab_mp5_nimble, up_gr_fifthab_mp5_nimble, up_gr_fifthcd_mp5_nimble
+upgrades		= up_gr_firstab_mp5_nimble, up_gr_seconab_mp5_nimble, up_gr_thirdab_mp5_nimble, up_gr_fourtab_mp5_nimble, up_gr_fifthab_mp5_nimble, up_gr_fifthcd_mp5_nimble
 
-; ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
-; ammo_elapsed		= 30
-; ammo_mag_size		= 30
+ammo_class		= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
+ammo_elapsed	= 30
+ammo_mag_size	= 30
 
-; hit_impulse		= 42
-; hit_power			= 0.58, 0.58, 0.58, 0.58
-; fire_distance		= 350
-; bullet_speed		= 365
+silencer_name	= wpn_sil_10mm
 
-; ; snd_silncer_shot= wpn_mp510_snd_silncer_shot
+hit_impulse		= 42
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 350
+bullet_speed	= 365
+
+snd_silncer_shot= wpn_mp510_snd_silncer_shot
 
 
-; [wpn_mp5sd_nimble_hud]:wpn_mp5sd_hud
+[wpn_mp5sd_nimble_hud]:wpn_mp5sd_hud
 
-; ;------------------------------------------------------------------------------------------------
-; [wpn_mp5sd_nimble_ac10632]:wpn_mp5sd_nimble
-; 1icon_layer		= ac10632
-; 1icon_layer_x	= 74
-; 1icon_layer_y	= -5
+;------------------------------------------------------------------------------------------------
+[wpn_mp5sd_nimble_ac10632]:wpn_mp5sd_nimble
+1icon_layer		= ac10632
+1icon_layer_x	= 74
+1icon_layer_y	= -5
 
-; inv_weight		= 3.11
+inv_weight		= 3.11
 
-; hud				= wpn_mp5sd_nimble_ac10632_hud
-; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_ac10632.ogf
+hud				= wpn_mp5sd_nimble_ac10632_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_ac10632.ogf
 
-; [wpn_mp5sd_nimble_ac10632_hud]:wpn_mp5sd_ac10632_hud
+[wpn_mp5sd_nimble_ac10632_hud]:wpn_mp5sd_ac10632_hud
 
-; ;------------------------------------------------------------------------------------------------
-; [wpn_mp5sd_nimble_acog]:wpn_mp5sd_nimble
-; 1icon_layer		= acog
-; 1icon_layer_x	= 74
-; 1icon_layer_y	= -2
+;------------------------------------------------------------------------------------------------
+[wpn_mp5sd_nimble_acog]:wpn_mp5sd_nimble
+1icon_layer		= acog
+1icon_layer_x	= 74
+1icon_layer_y	= -2
 
-; inv_weight		= 3.21
+inv_weight		= 3.21
 
-; hud				= wpn_mp5sd_nimble_acog_hud
-; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_acog.ogf
+hud				= wpn_mp5sd_nimble_acog_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_acog.ogf
 
-; [wpn_mp5sd_nimble_acog_hud]:wpn_mp5sd_acog_hud
+[wpn_mp5sd_nimble_acog_hud]:wpn_mp5sd_acog_hud
 
-; ;------------------------------------------------------------------------------------------------
-; [wpn_mp5sd_nimble_eot]:wpn_mp5sd_nimble
-; 1icon_layer		= eot
-; 1icon_layer_x	= 81
-; 1icon_layer_y	= 1
+;------------------------------------------------------------------------------------------------
+[wpn_mp5sd_nimble_eot]:wpn_mp5sd_nimble
+1icon_layer		= eot
+1icon_layer_x	= 81
+1icon_layer_y	= 1
 
-; inv_weight		= 3.16
+inv_weight		= 3.16
 
-; hud				= wpn_mp5sd_nimble_eot_hud
-; visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_eot.ogf
+hud				= wpn_mp5sd_nimble_eot_hud
+visual			= dynamics\weapons\wpn_mp5\wpn_mp5sd_eot.ogf
 
-; [wpn_mp5sd_nimble_eot_hud]:wpn_mp5sd_eot_hud
+[wpn_mp5sd_nimble_eot_hud]:wpn_mp5sd_eot_hud
 
 ;------------------------------------------------------------------------------------------------
 ;------------------------------------------------USP 10------------------------------------------
@@ -449,3 +449,10 @@ cam_dispersion	= 2.6
 
 snd_shoot		= wpn_usp10_snd_shoot
 snd_silncer_shot= wpn_usp10_snd_silncer_shot
+
+
+; ![mag_frasier_11.43x23_default]
+; retool_group	= mp5_frasier_default
+
+![mag_usp_11.43x23_default]
+retool_group	= usp_default

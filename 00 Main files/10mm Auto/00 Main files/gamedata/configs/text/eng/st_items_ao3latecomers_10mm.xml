@@ -56,10 +56,10 @@
     </string>
 
 
-    <string id="st_sil_10">
+    <string id="st_wpn_sil_10mm">
         <text>10mm Suppressor</text>
     </string>
-    <string id="st_sil_10_descr">
+    <string id="st_wpn_sil_10mm_descr">
         <text>Suppressor for 10mm Auto pistols and sub-machine guns.\n</text>
     </string>
 
@@ -72,8 +72,7 @@
 		The Colt Delta Elite is a modified M1911 pistol, chambered for 10mm Auto and considered to be the first firearm to be chambered in 10mm Auto by a well-known manufacturer. It performs similar to the popular M1911 in terms of design and operation but feeds from eight-round magazines.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm suppressor</text>
     </string>
 
     <string id="st_wpn_glock20">
@@ -83,8 +82,7 @@
         <text>Introduced in 1991, the Glock 20 pistol is a variant chambered in 10mm Auto. With its longer cartridge, it is stronger and slighty larger compared to the standard Glock 17.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm suppressor</text>
     </string>
 
     <string id="st_wpn_mp510">
@@ -94,8 +92,7 @@
         <text>The MP5 is one of the most famous and wide spread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favourite of numerous military, law enforcement, intelligence and security organisations the world over. The MP5A3 is fitted with a retractable metal stock. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.\n
 		The MP5/10 us a variant chambered in 10mm Auto. It was discontinued in 2000, but HK still offers support and spare parts, so the production of copycat variants is a possible explanation as to why this gun arrived to the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
+		%c[d_purple] • %c[ui_gray_2] 10mm suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
 	
@@ -105,8 +102,7 @@
     <string id="st_wpn_mp5sd_nimble_descr">
         <text>Rare variant of the MP5SD chambered in 10mm Auto.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor\n
+		%c[d_purple] • %c[ui_gray_2] 10mm suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>
     </string>
 
@@ -118,8 +114,82 @@
 		A variant of the popular USP pistol series, this particular model is chambered in 10mm Auto. Similar to its .45 ACP variant, reliability and durability combined with excellent accuracy are the main features of this weapon.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint Sight \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm suppressor</text>
     </string>
+
+
+
+	<string id="st_mag_glock_10x25_default">
+		<text>Standard 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Glock pistols with capacity for 15 rounds.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_extended">
+		<text>Extended 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto Glock pistols with capacity for 30 rounds.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_drum">
+		<text>Drum 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_drum_descr">
+		<text>Drum magazine for 10mm Auto Glock pistols with capacity for 50 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_colt1911_10x25_default">
+		<text>Standard 10mm Auto Colt Delta Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Colt Delta pistols with capacity for 8 rounds.</text>
+	</string>
+
+	<string id="st_mag_colt1911_10x25_extended">
+		<text>Extended 10mm Auto Colt Delta Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto Colt Delta pistols with capacity for 12 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_10x25_default">
+		<text>Standard 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto MP5/10 sub-machinegun with capacity for 30 rounds.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_extended">
+		<text>Extended 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_extended_descr">
+		<text>Extended magazine for 10mm AutoMP5/10 sub-machinegun with capacity for 40 rounds.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_drum">
+		<text>Drum 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_drum_descr">
+		<text>Drum magazine for 10mm Auto MP5/10 sub-machinegun with capacity for 50 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_usp_10x25_default">
+		<text>Standard 10mm Auto USP10 Magazine</text>
+	</string>
+	<string id="st_mag_usp_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Colt Delta pistols with capacity for 12 rounds.</text>
+	</string>
+
+	<string id="st_mag_usp_10x25_extended">
+		<text>Extended 10mm Auto USP10 Magazine</text>
+	</string>
+	<string id="st_mag_usp_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto USP10 pistols with capacity for 25 rounds.</text>
+	</string>
 
 </string_table>

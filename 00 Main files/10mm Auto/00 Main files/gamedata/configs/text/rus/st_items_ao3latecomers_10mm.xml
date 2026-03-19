@@ -72,8 +72,7 @@
 		Colt Delta Elite это модифицированный пистолет M1911, построенный на 10 серийных автомобилях и считающийся первым огнестрельным оружием, которое должно быть помещено в 10 серийных автомобилей известным производителем. Он работает так же, как и популярный M1911 с точки зрения дизайна и эксплуатации, но питается из восьми раундов журналов.\n
 		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm подавитель</text>
     </string>
 
     <string id="st_wpn_glock20">
@@ -83,8 +82,7 @@
         <text>Введенный в 1991 году, пистолет Glock 20 является вариантом, помещенным в 10 автоматов. С его более длинным патроном, он сильнее и немного больше по сравнению со стандартным Glock 17.\n
 		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области \n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm подавитель</text>
     </string>
 
     <string id="st_wpn_mp510">
@@ -94,8 +92,7 @@
         <text>MP5 является одним из самых известных и широко распространенных огнестрельного оружия своего класса. компактность, точность и надежность MP5 сделали его фаворитом многочисленных военных, правоохранительных, разведывательных и охранных организаций во всем мире. MP5A3 оснащен втягивающимся металлическим запасом. Неудивительно, что, затопив глобальные черные рынки, он в конечном итоге пробрался в Зону.\n
 		MP5/10 - это вариант, помещенный в автомагистрали 10мм. Он был прекращен в 2000 году, но HK по-прежнему предлагает поддержку и запасные части, поэтому производство вариантов копирайта является возможным объяснением того, почему этот пистолет прибыл в Зону.\n
 		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель\n -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель\n
+		%c[d_purple] • %c[ui_gray_2] 10mm подавитель\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области</text>
     </string>
 	
@@ -105,8 +102,7 @@
     <string id="st_wpn_mp5sd_nimble_descr">
         <text>Редкий вариант MP5SD в камере 10мм авто.\n
 		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель\n -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель\n
+		%c[d_purple] • %c[ui_gray_2] 10mm подавитель\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech области</text>
     </string>
 
@@ -118,8 +114,82 @@
 		Вариант популярной серии пистолетов USP, эта конкретная модель заперта в авто 10мм. Подобно своему варианту .45 ACP, надежность и долговечность в сочетании с отличной точностью являются основными особенностями этого оружия.\n
 		%c[ui_gray_2]ДОСТИЖЕНИЯ:\n
 		<!-- %c[d_purple] • %c[ui_gray_2] DeltaPoint области\n -->
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm подавитель -->
-		%c[d_purple] • %c[ui_gray_2] Gemtech подавитель</text>
+		%c[d_purple] • %c[ui_gray_2] 10mm подавитель</text>
     </string>
+
+
+
+	<string id="st_mag_glock_10x25_default">
+		<text>Standard 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Glock pistols with capacity for 15 rounds.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_extended">
+		<text>Extended 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto Glock pistols with capacity for 30 rounds.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_drum">
+		<text>Drum 10mm Auto Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_drum_descr">
+		<text>Drum magazine for 10mm Auto Glock pistols with capacity for 50 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_colt1911_10x25_default">
+		<text>Standard 10mm Auto Colt Delta Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Colt Delta pistols with capacity for 8 rounds.</text>
+	</string>
+
+	<string id="st_mag_colt1911_10x25_extended">
+		<text>Extended 10mm Auto Colt Delta Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto Colt Delta pistols with capacity for 12 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_10x25_default">
+		<text>Standard 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto MP5/10 sub-machinegun with capacity for 30 rounds.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_extended">
+		<text>Extended 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_extended_descr">
+		<text>Extended magazine for 10mm AutoMP5/10 sub-machinegun with capacity for 40 rounds.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_drum">
+		<text>Drum 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_drum_descr">
+		<text>Drum magazine for 10mm Auto MP5/10 sub-machinegun with capacity for 50 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_usp_10x25_default">
+		<text>Standard 10mm Auto USP10 Magazine</text>
+	</string>
+	<string id="st_mag_usp_10x25_default_descr">
+		<text>Standard magazine for 10mm Auto Colt Delta pistols with capacity for 12 rounds.</text>
+	</string>
+
+	<string id="st_mag_usp_10x25_extended">
+		<text>Extended 10mm Auto USP10 Magazine</text>
+	</string>
+	<string id="st_mag_usp_10x25_extended_descr">
+		<text>Extended magazine for 10mm Auto USP10 pistols with capacity for 25 rounds.</text>
+	</string>
 
 </string_table>
