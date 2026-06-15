@@ -1,0 +1,85 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------UMP 40------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ump40]:wpn_ump45
+$spawn				= "weapons\ump40"
+parent_section		= wpn_ump40
+
+inv_name			= st_wpn_ump40
+inv_name_short		= st_wpn_ump40
+description			= st_wpn_ump40_descr
+
+inv_weight			= 2.3
+cost				= 20980
+
+hud					= wpn_ump40_hud
+
+ammo_class			= ammo_10x22_fmj, ammo_10x22_fmj_bad, ammo_10x22_fmj_verybad, ammo_10x22_hp, ammo_10x22_hp_bad, ammo_10x22_hp_verybad, ammo_10x22_ap, ammo_10x22_ap_bad, ammo_10x22_ap_verybad
+ammo_elapsed		= 30
+ammo_mag_size		= 30
+
+silencer_name		= wpn_sil_40sw
+
+hit_impulse			= 41
+hit_power			= 0.56, 0.56, 0.56, 0.56
+; fire_distance		= 150
+bullet_speed		= 350
+rpm					= 650
+
+cam_dispersion		= 0.95
+cam_dispersion_inc	= 0.069
+cam_max_angle		= 50.0
+cam_max_angle_horz	= 50.0
+cam_step_angle_horz	= 1.25
+
+zoom_cam_dispersion	= 0.40
+
+snd_shoot			= wpn_ump40_snd_shoot
+snd_silncer_shot	= wpn_ump40_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_hud]:wpn_ump45_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_ac10632]:wpn_ump40
+1icon_layer		= ac10632
+1icon_layer_x	= 83
+1icon_layer_y	= -13
+
+inv_weight		= 2.55
+
+hud				= wpn_ump40_ac10632_hud
+visual			= dynamics\weapons\wpn_ump45\wpn_ump45_ac10632.ogf
+
+[wpn_ump40_ac10632_hud]:wpn_ump45_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_acog]:wpn_ump40
+1icon_layer		= acog
+1icon_layer_x	= 80
+1icon_layer_y	= -10
+
+inv_weight		= 2.65
+
+hud				= wpn_ump40_acog_hud
+; visual		= anomaly_weapons\wpn_ump45\wpn_ump45_acog.ogf
+
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.25
+
+[wpn_ump40_acog_hud]:wpn_ump45_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_ump40_eot]:wpn_ump40
+1icon_layer		= eot
+1icon_layer_x	= 83
+1icon_layer_y	= -8
+
+inv_weight		= 2.6
+
+hud				= wpn_ump40_eot_hud
+visual			= dynamics\weapons\wpn_ump45\wpn_ump45_eot.ogf
+
+[wpn_ump40_eot_hud]:wpn_ump45_eot_hud

@@ -1,0 +1,32 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------USP 10------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_usp10]:wpn_usp
+$spawn				= "weapons\usp10"
+parent_section		= wpn_usp10
+
+inv_name			= st_wpn_usp10
+inv_name_short		= st_wpn_usp10
+description			= st_wpn_usp10_descr
+
+cost				= 10960
+
+ammo_class			= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
+ammo_mag_size		= 12
+
+silencer_name		= wpn_sil_10mm
+
+hit_impulse			= 43
+hit_power			= 0.58, 0.58, 0.58, 0.58
+; fire_distance		= 200
+bullet_speed		= 110
+rpm					= 250
+rpm_empty_click		= 280
+
+cam_dispersion		= 3.5
+cam_dispersion_frac	= 1.1
+cam_step_angle_horz	= 1.02
+zoom_cam_dispersion	= 3.0
+
+snd_shoot			= wpn_usp10_snd_shoot
+snd_silncer_shot	= wpn_usp10_snd_silncer_shot

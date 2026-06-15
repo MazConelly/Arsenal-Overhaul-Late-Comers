@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-	<string id="st_prt_w_barrel_10mm">
+	<string id="st_prt_w_barrel_tenlong">
 		<text>10mm Auto long barrel</text>
 	</string>
-	<string id="st_prt_w_barrel_10mm_descr">
+	<string id="st_prt_w_barrel_tenlong_descr">
 		<text>Barrel from an automatic special purpose 10mm rifle.\n</text>
 	</string>
 
-	<string id="st_prt_w_p_barrel_10mm">
-		<text>10mm Auto pistol barrel</text>
+	<string id="st_prt_w_barrel_tenlong_sd">
+		<text>10mm Auto barrel-silencer</text>
 	</string>
-	<string id="st_prt_w_p_barrel_10mm_descr">
-		<text>Barrel from a 10mm Auto pistol.\n</text>
+	<string id="st_prt_w_barrel_tenlong_sd_descr">
+		<text>Barrel with an integrated silencer from an automatic special purpose 10mm rifle.\n</text>
 	</string>
 
+	<string id="st_prt_w_p_barrel_tenshort">
+		<text>10mm Auto pistol barrel</text>
+	</string>
+	<string id="st_prt_w_p_barrel_tenshort_descr">
+		<text>Barrel from a 10mm Auto pistol.\n</text>
+	</string>
 
     <string id="ammo-10x25_fmj">
         <text>10mm Auto FMJ rounds</text>
@@ -100,7 +106,8 @@
         <text>Whisperer</text>
     </string>
     <string id="st_wpn_mp5sd_nimble_descr">
-        <text>Rare variant of the MP5SD chambered in 10mm Auto.\n
+        <text>Rare variant of the MP5SD chambered in 10mm Auto, manufactured in collaboration between some ecologists and veteran loners that keep watch for Monolith movements North of the Zone.\n
+		Technically, there are no advantages to an MP5SD chambered in 10mm Auto over .40 S&W or even 9x19mm, as the supressed barrel takes away too much energy from the fired round. But with creative use of a Gravi artefact, enough energy is conserved to nullify this issue.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] 10mm suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes</text>

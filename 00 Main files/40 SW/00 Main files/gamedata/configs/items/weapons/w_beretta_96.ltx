@@ -1,0 +1,35 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Beretta 96-----------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_beretta_96]:wpn_beretta
+parent_section		= wpn_beretta_96
+$spawn				= "weapons\beretta_96"
+inv_name			= st_wpn_beretta_96
+inv_name_short		= st_wpn_beretta_96
+description			= st_wpn_beretta_96_descr
+
+cost				= 7820
+
+hud					= wpn_beretta_96_hud
+visual				= dynamics\weapons\wpn_beretta92fs\wpn_beretta_96.ogf
+
+shell_particles		= weapons\45acp
+
+ammo_class			= ammo_10x22_fmj, ammo_10x22_fmj_bad, ammo_10x22_fmj_verybad, ammo_10x22_hp, ammo_10x22_hp_bad, ammo_10x22_hp_verybad, ammo_10x22_ap, ammo_10x22_ap_bad, ammo_10x22_ap_verybad
+ammo_mag_size		= 12
+
+silencer_name		= wpn_sil_40sw
+
+hit_impulse     	= 41
+hit_power       	= 0.55, 0.55, 0.55, 0.55
+; fire_distance		= 125
+rpm					= 350
+bullet_speed		= 475
+
+cam_dispersion		= 3.0
+cam_dispersion_frac	= 1.1
+cam_step_angle_horz	= 0.89
+zoom_cam_dispersion	= 2.5
+
+[wpn_beretta_96_hud]:wpn_beretta_hud
+item_visual			= dynamics\weapons\wpn_beretta92fs\wpn_beretta_96_hud.ogf

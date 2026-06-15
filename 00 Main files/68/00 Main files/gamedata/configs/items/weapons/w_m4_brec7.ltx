@@ -1,0 +1,74 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------Barrett REC7----------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_snd_shoot]
+snd_1_layer		= weapons\m4a1\m4brec7_fire
+[wpn_m4_brec7_snd_silncer_shot]
+snd_1_layer		= weapons\m4a1\m4bm_suppressed
+
+[wpn_m4_brec7]:wpn_m4
+$spawn			= "weapons\m4_brec7"
+parent_section	= wpn_m4_brec7
+
+inv_name		= st_wpn_m4_brec7
+inv_name_short	= st_wpn_m4_brec7
+description		= st_wpn_m4_brec7_descr
+
+inv_weight		= 3.5
+cost			= 40560
+
+silencer_name	= wpn_sil_68
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_fmj_bad, ammo_6.8x43_fmj_verybad, ammo_6.8x43_sst, ammo_6.8x43_sst_bad, ammo_6.8x43_sst_verybad, ammo_6.8x43_ap, ammo_6.8x43_ap_bad, ammo_6.8x43_ap_verybad
+ammo_mag_size	= 26
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+; fire_distance	= 800
+bullet_speed	= 810
+rpm				= 750
+
+cam_dispersion	= 0.6
+
+snd_shoot		= wpn_m4_brec7_snd_shoot
+snd_silncer_shot= wpn_m4_brec7_snd_silncer_shot
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_ac10632]:wpn_m4_brec7
+1icon_layer		= ac10632
+1icon_layer_x	= 90
+1icon_layer_y	= -7
+
+inv_weight		= 3.71
+
+hud				= wpn_m4_brec7_ac10632_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_ac10632.ogf
+
+[wpn_m4_brec7_ac10632_hud]:wpn_m4_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_acog]:wpn_m4_brec7
+1icon_layer		= acog
+1icon_layer_x	= 87
+1icon_layer_y	= -6
+
+inv_weight		= 3.81
+
+hud				= wpn_m4_brec7_acog_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_acog.ogf
+
+
+[wpn_m4_brec7_acog_hud]:wpn_m4_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_m4_brec7_eot]:wpn_m4_brec7
+1icon_layer		= eot
+1icon_layer_x	= 86
+1icon_layer_y	= -3
+
+inv_weight		= 3.76
+
+hud				= wpn_m4_brec7_eot_hud
+visual			= dynamics\weapons\wpn_m4\wpn_m4_eot.ogf
+
+[wpn_m4_brec7_eot_hud]:wpn_m4_eot_hud

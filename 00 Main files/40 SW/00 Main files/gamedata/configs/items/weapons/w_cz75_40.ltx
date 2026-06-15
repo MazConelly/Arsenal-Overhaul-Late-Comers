@@ -1,0 +1,33 @@
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------CZ 75 .40---------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_cz75_40]:wpn_cz75
+$spawn				= "weapons\cz75_40"
+parent_section		= wpn_cz75_40
+
+inv_name			= st_wpn_cz75_40
+inv_name_short		= st_wpn_cz75_40
+description			= st_wpn_cz75_40_descr
+
+shell_particles		= weapons\45acp
+
+ammo_class			= ammo_10x22_fmj, ammo_10x22_fmj_bad, ammo_10x22_fmj_verybad, ammo_10x22_hp, ammo_10x22_hp_bad, ammo_10x22_hp_verybad, ammo_10x22_ap, ammo_10x22_ap_bad, ammo_10x22_ap_verybad
+ammo_elapsed		= 12
+ammo_mag_size		= 12
+
+silencer_name		= wpn_sil_40sw
+
+hit_impulse     	= 41
+hit_power       	= 0.55, 0.55, 0.55, 0.55
+; fire_distance		= 125
+bullet_speed		= 359
+rpm					= 248
+
+cam_dispersion		= 3.0
+cam_dispersion_frac	= 1.1
+cam_step_angle_horz	= 0.89
+zoom_cam_dispersion	= 2.5
+
+snd_shoot			= wpn_cz75_40_snd_shoot
+snd_silncer_shot	= wpn_cz75_40_snd_silncer_shot

@@ -1,0 +1,41 @@
+;------------------------------------------------------------------------------------------------
+;-----------------------------------Colt Delta Elite---------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_deltaelite]:wpn_colt1911
+$spawn				= "weapons\deltaelite"
+parent_section		= wpn_deltaelite
+
+inv_name			= st_wpn_deltaelite
+inv_name_short		= st_wpn_deltaelite
+description			= st_wpn_deltaelite_descr
+
+cost				= 5500
+
+hud					= wpn_deltaelite_hud
+; visual			= dynamics\weapons\wpn_colt1911\wpn_colt1912.ogf
+visual				= dynamics\weapons\wpn_colt1911\wpn_colt1911_sk4.ogf
+
+ammo_class			= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_bad_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad
+ammo_elapsed		= 8
+ammo_mag_size		= 8
+
+silencer_name		= wpn_addon_silencer10
+
+hit_impulse			= 43
+hit_power			= 0.58, 0.58, 0.58, 0.58
+; fire_distance		= 200
+bullet_speed		= 405
+rpm					= 270
+rpm_empty_click		= 240
+
+cam_dispersion		= 3.5
+cam_dispersion_frac	= 1.1
+cam_step_angle_horz	= 1.02
+zoom_cam_dispersion	= 3.0
+
+snd_shoot			= wpn_deltaelite_snd_shoot
+snd_silncer_shot	= wpn_deltaelite_snd_silncer_shot
+
+[wpn_deltaelite_hud]:wpn_colt1911_hud
+; item_visual	= dynamics\weapons\wpn_colt1911\wpn_colt1912_hud.ogf
+item_visual		= anomaly_weapons\wpn_colt1911\wpn_colt1911_sk4_hud.ogf

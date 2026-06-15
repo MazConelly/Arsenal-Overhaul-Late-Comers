@@ -1,0 +1,74 @@
+;------------------------------------------------------------------------------------------------
+;--------------------------------------LR680---------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_snd_shoot]
+snd_1_layer		= weapons\lr300\lr680_fire
+[wpn_lr680_snd_silncer_shot]
+snd_1_layer		= weapons\lr300\lr680_suppressed
+
+[wpn_lr680]:wpn_lr300
+$spawn			= "weapons\lr680"
+parent_section	= wpn_lr680
+
+inv_name		= st_wpn_lr680
+inv_name_short	= st_wpn_lr680
+description		= st_wpn_lr680_descr
+
+cost			= 35235
+hud				= wpn_lr680_hud
+
+silencer_name	= wpn_sil_68
+
+ammo_class		= ammo_6.8x43_fmj, ammo_6.8x43_fmj_bad, ammo_6.8x43_fmj_verybad, ammo_6.8x43_sst, ammo_6.8x43_sst_bad, ammo_6.8x43_sst_verybad, ammo_6.8x43_ap, ammo_6.8x43_ap_bad, ammo_6.8x43_ap_verybad
+ammo_mag_size	= 26
+
+hit_impulse		= 30
+hit_power		= 0.55, 0.55, 0.55, 0.55
+; fire_distance	= 750
+bullet_speed	= 810
+rpm				= 750
+
+cam_dispersion	= 0.6
+
+snd_shoot		= wpn_lr680_snd_shoot
+snd_silncer_shot= wpn_lr680_snd_silncer_shot
+
+[wpn_lr680_hud]:wpn_lr300_hud
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_ac10632]:wpn_lr680
+1icon_layer		= ac10632
+1icon_layer_x	= 88
+1icon_layer_y	= -10
+
+inv_weight		= 2.75
+
+hud				= wpn_lr680_ac10632_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_ac10632.ogf
+
+[wpn_lr680_ac10632_hud]:wpn_lr300_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_acog]:wpn_lr680
+1icon_layer		= acog
+1icon_layer_x	= 74
+1icon_layer_y	= -7
+
+inv_weight		= 2.85
+
+hud				= wpn_lr680_acog_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_acog.ogf
+
+[wpn_lr680_acog_hud]:wpn_lr300_acog_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_lr680_eot]:wpn_lr680
+1icon_layer		= eot
+1icon_layer_x	= 100
+1icon_layer_y	= -3
+
+inv_weight		= 2.8
+
+hud				= wpn_lr680_eot_hud
+visual			= dynamics\weapons\wpn_lr300\wpn_lr300_eot.ogf
+
+[wpn_lr680_eot_hud]:wpn_lr300_eot_hud

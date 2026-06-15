@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 
-	<string id="st_prt_w_barrel_10mm">
+	<string id="st_prt_w_barrel_tenlong">
 		<text>10мм авто длинная бочка</text>
 	</string>
-	<string id="st_prt_w_barrel_10mm_descr">
+	<string id="st_prt_w_barrel_tenlong_descr">
 		<text>Баррел из автомата специального назначения 10мм авто.\n</text>
 	</string>
 
-	<string id="st_prt_w_p_barrel_10mm">
+	<string id="st_prt_w_p_barrel_tenshort">
 		<text>Пистолет 10мм авто</text>
 	</string>
-	<string id="st_prt_w_p_barrel_10mm_descr">
+	<string id="st_prt_w_p_barrel_tenshort_descr">
 		<text>Баррел из 10мм авто.\n</text>
 	</string>
 

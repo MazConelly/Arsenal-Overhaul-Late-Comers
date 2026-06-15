@@ -1,0 +1,34 @@
+
+;------------------------------------------------------------------------------------------------
+;--------------------------------------FNP 40---------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_fnp40]:wpn_fnp45
+$spawn				= "weapons\fnp40"
+parent_section		= wpn_fnp40
+
+inv_name			= st_wpn_fnp40
+inv_name_short		= st_wpn_fnp40
+description			= st_wpn_fnp40_descr
+
+inv_weight			= 0.757
+cost				= 14460
+
+ammo_class			= ammo_10x22_fmj, ammo_10x22_fmj_bad, ammo_10x22_fmj_verybad, ammo_10x22_hp, ammo_10x22_hp_bad, ammo_10x22_hp_verybad, ammo_10x22_ap, ammo_10x22_ap_bad, ammo_10x22_ap_verybad
+ammo_elapsed		= 14
+ammo_mag_size		= 14
+
+silencer_name		= wpn_sil_40sw
+
+hit_impulse     	= 41
+hit_power       	= 0.55, 0.55, 0.55, 0.55
+; fire_distance		= 125
+bullet_speed		= 360
+rpm					= 328
+
+cam_dispersion		= 3.0
+cam_dispersion_frac	= 1.1
+cam_step_angle_horz	= 0.89
+zoom_cam_dispersion	= 2.5
+
+snd_shoot			= wpn_fnp40_snd_shoot
+snd_silncer_shot	= wpn_fnp40_snd_silncer_shot

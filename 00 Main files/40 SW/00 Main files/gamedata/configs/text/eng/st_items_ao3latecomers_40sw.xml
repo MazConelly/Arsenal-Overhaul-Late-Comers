@@ -103,6 +103,17 @@
 		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W suppressor</text>
     </string>
 
+    <string id="st_wpn_mp540">
+        <text>MP5/40</text>
+    </string>
+    <string id="st_wpn_mp540_descr">
+		<text>The MP5 is one of the most famous and wide spread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favourite of numerous military, law enforcement, intelligence and security organisations the world over. The MP5A3 is fitted with a retractable metal stock. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.\n
+		The MP5/40 is an uncommon variant no longer available from Heckler & Koch, as .40 S&W is not widely used outside of North America. Some vendors are known to offer fully functional recreations using their own custom parts kits, which this might be one of.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W suppressor</text>
+    </string>
+
     <string id="st_wpn_ump40">
         <text>UMP40</text>
     </string>
@@ -110,10 +121,8 @@
         <text>The UMP was developed by H&amp;K in the 1990s, first appearing on the market in 1999. The idea behind the UMP was to create lightweight and powerful submachine gun, that was also cheaper than the MP5. The UMP, being targeted primarily for US law enforcement, appeared in .45ACP and .40SW chamberings, and later in 9mm. Providing greater stopping power than the MP5, the UMP45 also produces more recoil. This makes controlling full automatic fire more difficult. The UMP45's cyclic rate of fire was lowered significantly to combat this problem.\n
 		The UMP-40 is a variant chambered in .40 S&amp;W, with less weight and higher magazine capacity but doing less damage than its predecessor due to its smaller round.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		<!-- %c[d_purple] • %c[ui_gray_2] 10mm suppressor\n -->
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
 		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W suppressor</text>
-
     </string>
 
     <string id="st_wpn_usp40">

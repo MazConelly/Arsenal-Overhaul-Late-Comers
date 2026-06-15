@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	
+    <string id="st_wpn_desert_eagle_50ae">
+        <text>Desert Eagle .50</text>
+    </string>
+	<string id="st_wpn_desert_eagle_custom_50ae">
+		<text>Desert Eagle .50 (Chrome)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_modern_50ae">
+		<text>Desert Eagle .50 (Black)</text>
+	</string>
+
+	<string id="st_wpn_desert_eagle_nimble_50ae">
+		<text>Desert Eagle .50 "Vampire"</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble_50ae_descr">
+		<text>A more modernized version of the Desert Eagle, with a build-in compensator and picatinny rails, on frame and slide. Knowing that so, it still has quite a recoil but much lower than any other Desert Eagle, let alone magnum, the slight barrel improvements also improve the accuracy by a bit, and it's possible to insert some scopes. It loads .50 AE rounds like the slide claims, quite the rare powerhouse in the Zone, and you caught Nimble grumbling something about "insecure clients" when he showed this gun to you.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical</text>
+	</string>
+</string_table>
